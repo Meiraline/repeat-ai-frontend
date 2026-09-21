@@ -21,6 +21,8 @@ import styles from './SettingsPage.module.css';
 import { DeviceSettings } from './DeviceSettings';
 import { AppearanceSection } from './AppearanceSection';
 import { MentorSection } from './MentorSection';
+import { SecuritySection } from './SecuritySection';
+import { PrivacySection } from './PrivacySection';
 
 export function meta() {
   return [{ title: 'Настройки аккаунта — repeat.ai' }, { name: 'robots', content: 'noindex' }];
@@ -129,6 +131,8 @@ export default function SettingsPage() {
           <a href="#accessibility">Доступность</a>
           <a href="#appearance">Оформление</a>
           <a href="#mentor">ИИ-наставник</a>
+          <a href="#security">Безопасность и сессии</a>
+          <a href="#privacy">Приватность и данные</a>
           <p>Сохраняйте изменения перед уходом со страницы.</p>
         </nav>
         <div className={styles.content}>
@@ -173,6 +177,8 @@ export default function SettingsPage() {
           <DeviceSettings />
           <AppearanceSection />
           <MentorSection />
+          <SecuritySection />
+          <PrivacySection />
         </div>
       </div>
     </Workspace>

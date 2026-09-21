@@ -11,6 +11,23 @@ afterEach(() => {
   vi.restoreAllMocks();
   clearAuthMemory();
 });
+it('distinguishes current logout from all sessions and does not claim global success on 401', async () => {
+  const fetch = vi
+    .spyOn(globalThis, 'fetch')
+    .mockResolvedValue(new Response(null, { status: 204 }));
+  await logout();
+  expect(JSON.parse(fetch.mock.calls[0]?.[1]?.body as string)).toEqual({ allSessions: false });
+  await logout(true);
+  expect(JSON.parse(fetch.mock.calls[1]?.[1]?.body as string)).toEqual({ allSessions: true });
+  fetch.mockResolvedValue(
+    new Response(JSON.stringify({ error: { message: 'Expired' } }), { status: 401 }),
+  );
+  await expect(logout(true)).rejects.toMatchObject({ status: 401 });
+  fetch.mockResolvedValueOnce(
+    new Response(JSON.stringify({ error: { message: 'Expired' } }), { status: 401 }),
+  );
+  await expect(logout()).resolves.toBeUndefined();
+});
 function respond(payload: unknown, status = 200) {
   return vi.spyOn(globalThis, 'fetch').mockResolvedValue(
     new Response(JSON.stringify(payload), {

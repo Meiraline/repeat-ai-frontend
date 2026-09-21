@@ -145,9 +145,16 @@ export const authHandlers = [
     sessionStorage.removeItem(sessionKey);
     return success({ passwordChanged: true, loginRequired: true });
   }),
-  http.post(`${env.apiBaseUrl}/logout`, async () => {
+  http.post(`${env.apiBaseUrl}/logout`, async ({ request }) => {
     await delay(100);
+    const body = (await request.json()) as { allSessions?: unknown };
+    if (typeof body.allSessions !== 'boolean') return failure('Укажите режим выхода.');
+    if (!mockAuthenticated()) return mockUnauthorized();
+    const mode = sessionStorage.getItem('repeat-preview-logout-response');
+    sessionStorage.removeItem('repeat-preview-logout-response');
+    if (mode === 'error') return failure('Не удалось завершить сессии.', 503);
     sessionStorage.removeItem(sessionKey);
+    if (mode === 'lost') return failure('Ответ потерян после завершения сессии.', 503);
     return new HttpResponse(null, { status: 204 });
   }),
   http.patch(`${env.apiBaseUrl}/me/profile`, async ({ request }) => {

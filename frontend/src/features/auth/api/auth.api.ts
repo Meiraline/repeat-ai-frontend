@@ -77,11 +77,11 @@ export async function verify(token: string) {
     await api('/email/verifications', { method: 'POST', json: { token } }),
   );
 }
-export async function logout() {
+export async function logout(allSessions = false) {
   try {
-    await api('/logout', { method: 'POST', json: { allSessions: false } });
+    await api('/logout', { method: 'POST', json: { allSessions } });
   } catch (error) {
-    if (!(error instanceof ApiError && error.status === 401)) throw error;
+    if (allSessions || !(error instanceof ApiError && error.status === 401)) throw error;
   }
   clearAuthMemory();
 }

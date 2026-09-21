@@ -26,10 +26,13 @@ export function useSessionActions() {
         query.queryKey[1] !== sessionKey[1],
     });
   }, [client]);
-  const signOut = useCallback(async () => {
-    await logout();
-    await forget();
-  }, [forget]);
+  const signOut = useCallback(
+    async (allSessions = false) => {
+      await logout(allSessions);
+      await forget();
+    },
+    [forget],
+  );
   const refresh = useCallback(async () => {
     await client.cancelQueries();
     client.clear();

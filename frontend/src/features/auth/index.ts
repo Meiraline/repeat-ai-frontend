@@ -1,6 +1,6 @@
 export { login, register, restore, reset, verify, saveProfile, getProfile } from './api/auth.api';
 export { sessionKey } from './model/useSession';
-export { profilePatchSchema } from './model/auth.schema';
+export { profilePatchSchema, profileSchema } from './model/auth.schema';
 export type { ProfilePatch } from './model/auth.schema';
 export { useSession, useSessionActions } from './model/useSession';
 export {

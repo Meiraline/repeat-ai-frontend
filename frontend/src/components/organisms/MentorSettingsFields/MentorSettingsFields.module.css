@@ -78,10 +78,16 @@
 }
 .options {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
   gap: 0.5rem;
 }
 .options select {
   width: 100%;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  appearance: none;
   min-width: 0;
   min-height: 3rem;
   padding: 0.75rem;
@@ -89,4 +95,9 @@
   border-radius: var(--radius-control);
   color: var(--color-text);
   background: var(--color-surface);
+  background-image: url('../../../assets/icons/chevron-down.png');
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 16px;
+  padding-right: 2rem;
 }

@@ -1,5 +1,7 @@
 # API: фактический снимок и открытые вопросы
 
+Безопасность: существующий `/logout` теперь используется также с `allSessions: true` после подтверждения. Этот режим включает текущую сессию; 401 не подтверждает завершение остальных. Mock действует только в текущей вкладке. Полный экспорт и чтение статуса заявки удаления не подключены; локальный `repeat-settings.json` не является серверным архивом. [Отчёт](stage9-security-privacy.md).
+
 Параметры обучения: preview `preferences` дополнен `responseLanguage` (`course|ru|en`), `strictness` (`gentle|balanced|strict`), `exampleFrequency` (`less|normal|more`). Defaults: `course`, `balanced`, `normal`. Языка курса в DTO нет; fallback — русский. Применение в деморежиме ограничено отдельными учебными примерами и подсказкой. [Контракт и ограничения](stage9-teaching-preferences.md). Это не согласованный backend API.
 
 Расширенное поведение: `preferences` preview-чата дополнен boolean-полями `quickAnswers`, `useAnalogies`, `guideFirst`, `askClarifying` с default false. Снимок нормализуется перед сравнением повторного ключа; эффективные формат и подробность вычисляются отдельно и не изменяют снимок. [Приоритеты деморежима](stage9-advanced-mentor.md). Это предложение фронтенда, не согласованный контракт реального AI.
