@@ -9,6 +9,7 @@ import {
 } from '@/features/tutor';
 import { mockAuthenticated, mockUnauthorized } from './auth';
 import { findLearning } from '../fixtures/learning-store';
+import { applyMentorDemoStyle } from '../fixtures/mentor-style';
 type RecordData = {
   threads: TutorThread[];
   creates: Record<string, { fingerprint: string; id: string }>;
@@ -220,7 +221,7 @@ export const tutorHandlers = [
       clientMessageId,
       contextVersion,
       status: mode === 'partial' ? ('partial' as const) : ('complete' as const),
-      blocks: mode === 'partial' ? blocks.slice(0, 1) : blocks,
+      blocks: mode === 'partial' ? blocks.slice(0, 1) : applyMentorDemoStyle(blocks, preferences),
       sources: [],
     };
     if (answer) thread.messages[thread.messages.indexOf(answer)] = response;

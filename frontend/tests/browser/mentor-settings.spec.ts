@@ -9,11 +9,16 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   await page.getByRole('radio', { name: 'Вектор', exact: true }).check();
   await page.getByLabel('Предпочитаемый формат помощи', { exact: true }).selectOption('solution');
   await page.getByLabel('Подробность ответа', { exact: true }).selectOption('detailed');
+  await page.getByLabel('Базовый стиль и тон', { exact: true }).selectOption('friendly');
+  for (const name of ['Тёплый', 'Восторженный', 'Заголовки и списки', 'Эмодзи'])
+    await page.getByLabel(name, { exact: true }).selectOption('more');
   for (const name of ['Предлагаемые подсказки', 'Проверять понимание', 'Предлагать практику'])
     await page.getByRole('checkbox', { name, exact: true }).check();
   await page.getByRole('button', { name: 'Сохранить настройки наставника', exact: true }).click();
   await page.reload();
   await expect(page.getByRole('radio', { name: 'Вектор', exact: true })).toBeChecked();
+  await expect(page.getByLabel('Базовый стиль и тон', { exact: true })).toHaveValue('friendly');
+  await expect(page.getByLabel('Тёплый', { exact: true })).toHaveValue('more');
   await expect(
     page.getByRole('checkbox', { name: 'Проверять понимание', exact: true }),
   ).toBeChecked();
@@ -51,6 +56,9 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   await page.getByRole('radio', { name: 'Астра', exact: true }).check();
   await page.getByLabel('Предпочитаемый формат помощи', { exact: true }).selectOption('hint');
   await page.getByLabel('Подробность ответа', { exact: true }).selectOption('short');
+  await page.getByLabel('Базовый стиль и тон', { exact: true }).selectOption('concise');
+  for (const name of ['Тёплый', 'Восторженный', 'Заголовки и списки', 'Эмодзи'])
+    await page.getByLabel(name, { exact: true }).selectOption('less');
   for (const name of ['Предлагаемые подсказки', 'Проверять понимание', 'Предлагать практику'])
     await page.getByRole('checkbox', { name, exact: true }).uncheck();
   await page.getByRole('button', { name: 'Сохранить настройки наставника', exact: true }).click();
@@ -59,6 +67,11 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   const answers = page.getByRole('article', { name: 'Ответ репетитора' });
   await expect(answers.first()).toContainText('Вектор');
   await expect(answers.first()).toContainText('Демонстрация настроек · Подробно. Решение:');
+  await expect(answers.first()).toContainText('Давай разберём тему вместе');
+  await expect(answers.first()).toContainText('💡');
+  await expect(
+    answers.first().getByRole('heading', { name: 'План разбора (демонстрация)' }),
+  ).toBeVisible();
   for (const label of [
     'Следующий вопрос (демонстрация)',
     'Проверка понимания (демонстрация)',
@@ -70,6 +83,9 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   await expect(answers).toHaveCount(2);
   await expect(answers.last()).toContainText('Астра');
   await expect(answers.last()).toContainText('Демонстрация настроек · Кратко. Подсказка:');
+  await expect(answers.last()).toContainText('Суть: понятие, применение, проверка.');
+  await expect(answers.last()).not.toContainText('💡');
+  await expect(answers.last().getByRole('heading')).toHaveCount(0);
   for (const label of [
     'Следующий вопрос (демонстрация)',
     'Проверка понимания (демонстрация)',

@@ -9,6 +9,11 @@ type Values = {
   suggestNext: boolean;
   checkUnderstanding: boolean;
   suggestPractice: boolean;
+  tone: 'professional' | 'friendly' | 'concise';
+  warmth: 'less' | 'default' | 'more';
+  enthusiasm: 'less' | 'default' | 'more';
+  structure: 'less' | 'default' | 'more';
+  emoji: 'less' | 'default' | 'more';
 };
 export function MentorSettingsFields({
   value,
@@ -98,6 +103,52 @@ export function MentorSettingsFields({
             <p id={`${id}-${key}`}>{description}</p>
           </div>
         ))}
+      </fieldset>
+      <fieldset className={styles.initiative}>
+        <legend>Стиль общения</legend>
+        <p>
+          Влияет на форму демонстрационного ответа. Не меняет доступ к материалам и правила проверки
+          заданий.
+        </p>
+        <div className={styles.styleGrid}>
+          <div className={styles.options}>
+            <label htmlFor={`${id}-tone`}>Базовый стиль и тон</label>
+            <select
+              id={`${id}-tone`}
+              value={value.tone}
+              onChange={(event) =>
+                onChange({ ...value, tone: event.target.value as Values['tone'] })
+              }
+            >
+              <option value="professional">Профессиональный</option>
+              <option value="friendly">Дружелюбный</option>
+              <option value="concise">Краткий</option>
+            </select>
+          </div>
+          {(
+            [
+              ['warmth', 'Тёплый'],
+              ['enthusiasm', 'Восторженный'],
+              ['structure', 'Заголовки и списки'],
+              ['emoji', 'Эмодзи'],
+            ] as const
+          ).map(([key, label]) => (
+            <div className={styles.options} key={key}>
+              <label htmlFor={`${id}-${key}`}>{label}</label>
+              <select
+                id={`${id}-${key}`}
+                value={value[key]}
+                onChange={(event) =>
+                  onChange({ ...value, [key]: event.target.value as Values[typeof key] })
+                }
+              >
+                <option value="less">Менее</option>
+                <option value="default">По умолчанию</option>
+                <option value="more">Более</option>
+              </select>
+            </div>
+          ))}
+        </div>
       </fieldset>
     </div>
   );

@@ -6,6 +6,16 @@ import {
 } from './preferences.schema';
 import { tutorMessageSchema, tutorSendSchema } from './tutor.schema';
 describe('mentor preferences', () => {
+  it('migrates communication style and rejects unknown levels', () => {
+    const legacy = { persona: 'lira', help: 'hint', detail: 'balanced' };
+    expect(mentorPreferencesSchema.parse(legacy)).toEqual(defaultMentorPreferences);
+    expect(mentorPreferencesSchema.safeParse({ ...legacy, warmth: 'very warm' }).success).toBe(
+      false,
+    );
+    expect(mentorPreferencesSchema.parse({ ...legacy, tone: 'friendly', emoji: 'more' }).tone).toBe(
+      'friendly',
+    );
+  });
   it('migrates previous snapshots without enabling unsolicited additions', () => {
     const previous = { persona: 'vector', help: 'hint', detail: 'short' };
     expect(mentorPreferencesSchema.parse(previous)).toEqual({
