@@ -1,10 +1,14 @@
 import { useId } from 'react';
+import { Checkbox } from '@/components/atoms/Checkbox';
 import { mentorCatalog } from '@/assets/mentors/catalog';
 import styles from './MentorSettingsFields.module.css';
 type Values = {
   persona: keyof typeof mentorCatalog;
   help: 'hint' | 'explanation' | 'solution';
   detail: 'short' | 'balanced' | 'detailed';
+  suggestNext: boolean;
+  checkUnderstanding: boolean;
+  suggestPractice: boolean;
 };
 export function MentorSettingsFields({
   value,
@@ -57,6 +61,44 @@ export function MentorSettingsFields({
           <option value="detailed">Подробно</option>
         </select>
       </div>
+      <fieldset className={styles.initiative}>
+        <legend>Инициативность</legend>
+        <p>
+          Дополнительные предложения после ответа. В демонстрации используются примеры без оценки
+          ваших знаний.
+        </p>
+        {(
+          [
+            [
+              'suggestNext',
+              'Предлагаемые подсказки',
+              'Предлагать следующий вопрос для разбора темы.',
+            ],
+            [
+              'checkUnderstanding',
+              'Проверять понимание',
+              'Добавлять короткий вопрос для самостоятельной проверки.',
+            ],
+            [
+              'suggestPractice',
+              'Предлагать практику',
+              'Предлагать небольшое практическое задание.',
+            ],
+          ] as const
+        ).map(([key, label, description]) => (
+          <div key={key}>
+            <label className={styles.toggle}>
+              <Checkbox
+                checked={value[key]}
+                onChange={(event) => onChange({ ...value, [key]: event.target.checked })}
+                aria-describedby={`${id}-${key}`}
+              />
+              {label}
+            </label>
+            <p id={`${id}-${key}`}>{description}</p>
+          </div>
+        ))}
+      </fieldset>
     </div>
   );
 }

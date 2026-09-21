@@ -9,9 +9,14 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   await page.getByRole('radio', { name: 'Вектор', exact: true }).check();
   await page.getByLabel('Предпочитаемый формат помощи', { exact: true }).selectOption('solution');
   await page.getByLabel('Подробность ответа', { exact: true }).selectOption('detailed');
+  for (const name of ['Предлагаемые подсказки', 'Проверять понимание', 'Предлагать практику'])
+    await page.getByRole('checkbox', { name, exact: true }).check();
   await page.getByRole('button', { name: 'Сохранить настройки наставника', exact: true }).click();
   await page.reload();
   await expect(page.getByRole('radio', { name: 'Вектор', exact: true })).toBeChecked();
+  await expect(
+    page.getByRole('checkbox', { name: 'Проверять понимание', exact: true }),
+  ).toBeChecked();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.evaluate(() => {
     document.documentElement.style.fontSize = '200%';
@@ -46,17 +51,31 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   await page.getByRole('radio', { name: 'Астра', exact: true }).check();
   await page.getByLabel('Предпочитаемый формат помощи', { exact: true }).selectOption('hint');
   await page.getByLabel('Подробность ответа', { exact: true }).selectOption('short');
+  for (const name of ['Предлагаемые подсказки', 'Проверять понимание', 'Предлагать практику'])
+    await page.getByRole('checkbox', { name, exact: true }).uncheck();
   await page.getByRole('button', { name: 'Сохранить настройки наставника', exact: true }).click();
   await page.goto(chat);
   await page.getByRole('button', { name: 'Восстановить ответ' }).click();
   const answers = page.getByRole('article', { name: 'Ответ репетитора' });
   await expect(answers.first()).toContainText('Вектор');
   await expect(answers.first()).toContainText('Демонстрация настроек · Подробно. Решение:');
+  for (const label of [
+    'Следующий вопрос (демонстрация)',
+    'Проверка понимания (демонстрация)',
+    'Практика (демонстрация)',
+  ])
+    await expect(answers.first()).toContainText(label);
   await page.getByRole('textbox', { name: 'Ваше сообщение', exact: true }).fill('Следующий вопрос');
   await page.getByRole('button', { name: 'Отправить', exact: true }).click();
   await expect(answers).toHaveCount(2);
   await expect(answers.last()).toContainText('Астра');
   await expect(answers.last()).toContainText('Демонстрация настроек · Кратко. Подсказка:');
+  for (const label of [
+    'Следующий вопрос (демонстрация)',
+    'Проверка понимания (демонстрация)',
+    'Практика (демонстрация)',
+  ])
+    await expect(answers.last()).not.toContainText(label);
 });
 test('cancel, reset and storage failure do not falsely report success', async ({ page }) => {
   await page.goto('/app/settings');

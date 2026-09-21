@@ -1,5 +1,7 @@
 # API: фактический снимок и открытые вопросы
 
+Снимок `preferences` preview-чата дополнен `suggestNext`, `checkUnderstanding`, `suggestPractice` (boolean, по умолчанию false для старых записей). Перед сравнением повторного ключа старый снимок нормализуется. [Миграция и поведение](stage9-initiative.md). Реальный контракт требует согласования с backend.
+
 Этап 9, наставник: временный `POST /__preview/tracks/:id/tutor/threads/:thread/messages` принимает `preferences: { persona, help, detail }`; снимок возвращается в сообщениях. Поле входит в проверку повторного `Idempotency-Key`. Старые записи без поля читаются с историческими значениями. Настройки устройства не отправляются в `PATCH /me/profile`. Production guard сохранён; это не утверждённый backend-контракт. [Подробности](stage9-mentor.md).
 
 Акцентный цвет — локальная настройка устройства (`accent` в существующей модели доступности), без нового API и без изменений `PATCH /me/profile`. [Оформление](stage9-appearance.md).

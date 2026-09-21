@@ -1,7 +1,12 @@
 import { http, HttpResponse, delay } from 'msw';
 import { z } from 'zod';
 import { env } from '@/shared/config/env';
-import { tutorSendSchema, defaultMentorPreferences, type TutorThread } from '@/features/tutor';
+import {
+  tutorSendSchema,
+  defaultMentorPreferences,
+  mentorPreferencesSchema,
+  type TutorThread,
+} from '@/features/tutor';
 import { mockAuthenticated, mockUnauthorized } from './auth';
 import { findLearning } from '../fixtures/learning-store';
 type RecordData = {
@@ -132,8 +137,9 @@ export const tutorHandlers = [
       (existing.blocks[0]?.type !== 'paragraph' ||
         existing.blocks[0].text !== text ||
         existing.contextVersion !== contextVersion ||
-        JSON.stringify(existing.preferences ?? defaultMentorPreferences) !==
-          JSON.stringify(preferences))
+        JSON.stringify(
+          mentorPreferencesSchema.parse(existing.preferences ?? defaultMentorPreferences),
+        ) !== JSON.stringify(preferences))
     )
       return fail('Ключ сообщения уже использован.', 409);
     const answer = thread.messages.find(
@@ -192,6 +198,21 @@ export const tutorHandlers = [
         text: 'Пример структуры разбора: 1. Что дано? 2. Какой шаг нужен? 3. Как проверить ответ? Это шаблон интерфейса, а не решение вашей задачи.',
       });
     if (preferences.detail === 'short') blocks.splice(1, 1);
+    if (preferences.suggestNext)
+      blocks.push({
+        type: 'paragraph',
+        text: 'Следующий вопрос (демонстрация): в какой ситуации можно применить изученное понятие?',
+      });
+    if (preferences.checkUnderstanding)
+      blocks.push({
+        type: 'paragraph',
+        text: 'Проверка понимания (демонстрация): объясните главную идею своими словами. Автоматическая оценка не выполняется.',
+      });
+    if (preferences.suggestPractice)
+      blocks.push({
+        type: 'paragraph',
+        text: 'Практика (демонстрация): придумайте свой пример применения темы и опишите три шага решения.',
+      });
     const response = {
       id: answer?.id ?? crypto.randomUUID(),
       role: 'assistant' as const,
