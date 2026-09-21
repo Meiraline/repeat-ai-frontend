@@ -6,6 +6,10 @@ type Values = {
   persona: keyof typeof mentorCatalog;
   help: 'hint' | 'explanation' | 'solution';
   detail: 'short' | 'balanced' | 'detailed';
+  quickAnswers: boolean;
+  useAnalogies: boolean;
+  guideFirst: boolean;
+  askClarifying: boolean;
   suggestNext: boolean;
   checkUnderstanding: boolean;
   suggestPractice: boolean;
@@ -74,6 +78,11 @@ export function MentorSettingsFields({
         </p>
         {(
           [
+            [
+              'quickAnswers',
+              'Быстрые ответы',
+              'В демонстрации короткие вопросы получают сокращённый ответ при подробности «Баланс».',
+            ],
             [
               'suggestNext',
               'Предлагаемые подсказки',
@@ -149,6 +158,43 @@ export function MentorSettingsFields({
             </div>
           ))}
         </div>
+      </fieldset>
+      <fieldset className={styles.initiative}>
+        <legend>Расширенное поведение</legend>
+        <p>
+          В демонстрации используются шаблонные сравнения и вопросы. Реальный AI пока не подключён.
+        </p>
+        {(
+          [
+            [
+              'useAnalogies',
+              'Использовать аналогии',
+              'Добавлять пример сравнения для объяснения темы.',
+            ],
+            [
+              'guideFirst',
+              'В заданиях — сначала направлять',
+              'Начинать с подсказки. Для примера решения напишите «Покажи решение».',
+            ],
+            [
+              'askClarifying',
+              'Задавать уточняющие вопросы',
+              'Добавлять вопрос о контексте запроса.',
+            ],
+          ] as const
+        ).map(([key, label, description]) => (
+          <div key={key}>
+            <label className={styles.toggle}>
+              <Checkbox
+                checked={value[key]}
+                onChange={(event) => onChange({ ...value, [key]: event.target.checked })}
+                aria-describedby={`${id}-${key}`}
+              />
+              {label}
+            </label>
+            <p id={`${id}-${key}`}>{description}</p>
+          </div>
+        ))}
       </fieldset>
     </div>
   );

@@ -9,6 +9,7 @@ import {
 } from '@/features/tutor';
 import { mockAuthenticated, mockUnauthorized } from './auth';
 import { findLearning } from '../fixtures/learning-store';
+import { resolveMentorDemoBehavior, mentorDemoAdditions } from '../fixtures/mentor-behavior';
 import { applyMentorDemoStyle } from '../fixtures/mentor-style';
 type RecordData = {
   threads: TutorThread[];
@@ -183,6 +184,7 @@ export const tutorHandlers = [
         text: `Контекст: ${learning.track.title} / ${thread.title}. Сформулируйте, что уже понятно и на каком шаге возникает затруднение.`,
       },
     ];
+    const behavior = resolveMentorDemoBehavior(preferences, text);
     const formats = {
       hint: 'Подсказка: начните с определения ключевого понятия.',
       explanation: 'Объяснение: выделите понятие, его применение и связь с темой курса.',
@@ -191,14 +193,14 @@ export const tutorHandlers = [
     const details = { short: 'Кратко', balanced: 'Баланс', detailed: 'Подробно' };
     blocks.push({
       type: 'paragraph',
-      text: `Демонстрация настроек · ${details[preferences.detail]}. ${formats[preferences.help]}`,
+      text: `Демонстрация настроек · ${details[behavior.detail]}. ${formats[behavior.help]}`,
     });
-    if (preferences.detail === 'detailed')
+    if (behavior.detail === 'detailed')
       blocks.push({
         type: 'paragraph',
         text: 'Пример структуры разбора: 1. Что дано? 2. Какой шаг нужен? 3. Как проверить ответ? Это шаблон интерфейса, а не решение вашей задачи.',
       });
-    if (preferences.detail === 'short') blocks.splice(1, 1);
+    if (behavior.detail === 'short') blocks.splice(1, 1);
     if (preferences.suggestNext)
       blocks.push({
         type: 'paragraph',
@@ -214,6 +216,7 @@ export const tutorHandlers = [
         type: 'paragraph',
         text: 'Практика (демонстрация): придумайте свой пример применения темы и опишите три шага решения.',
       });
+    blocks.push(...mentorDemoAdditions(preferences));
     const response = {
       id: answer?.id ?? crypto.randomUUID(),
       role: 'assistant' as const,

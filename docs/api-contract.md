@@ -1,5 +1,7 @@
 # API: фактический снимок и открытые вопросы
 
+Расширенное поведение: `preferences` preview-чата дополнен boolean-полями `quickAnswers`, `useAnalogies`, `guideFirst`, `askClarifying` с default false. Снимок нормализуется перед сравнением повторного ключа; эффективные формат и подробность вычисляются отдельно и не изменяют снимок. [Приоритеты деморежима](stage9-advanced-mentor.md). Это предложение фронтенда, не согласованный контракт реального AI.
+
 Стиль наставника: `preferences` preview-чата дополнен `tone` (`professional|friendly|concise`), `warmth`, `enthusiasm`, `structure`, `emoji` (каждый `less|default|more`). Старые записи нормализуются к `professional` и `default`. Снимок входит в проверку повторного ключа. [Поведение и ограничения](stage9-communication-style.md).
 
 Снимок `preferences` preview-чата дополнен `suggestNext`, `checkUnderstanding`, `suggestPractice` (boolean, по умолчанию false для старых записей). Перед сравнением повторного ключа старый снимок нормализуется. [Миграция и поведение](stage9-initiative.md). Реальный контракт требует согласования с backend.
