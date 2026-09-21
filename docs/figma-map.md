@@ -1,5 +1,7 @@
 # Карта Figma и фронтенда
 
+Этап 9, наставник: `6043:13404` → `pages/settings/MentorSection` + `components/organisms/MentorSettingsFields`. Переиспользованы оригинальные PNG наставников из этапа 3. Карточка настроек вместо отдельного экрана; реализованы персонаж, формат и подробность. [Адаптация и открытые части](stage9-mentor.md).
+
 Этап 9, оформление: `5292:16134` → `pages/settings/AppearanceSection` + `components/organisms/AppearanceSettings`. Три акцентных цвета и предпросмотр; светлая тема. [Цветовые адаптации и ограничения](stage9-appearance.md).
 
 Этап 9, доступность: `5292:16134` → `pages/settings/DeviceSettings` + `components/organisms/AccessibilitySettings`. Подтверждены размер текста и уменьшение движения; отдельная карточка настроек устройства, без имитации темы и контрастности. [Описание адаптации](stage9-accessibility.md).

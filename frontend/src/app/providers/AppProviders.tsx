@@ -2,6 +2,7 @@ import { useState, type ReactNode } from 'react';
 import { QueryCache, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ApiError } from '@/shared/api/errors';
 import { DevicePreferencesProvider } from '@/features/settings';
+import { MentorPreferencesProvider } from '@/features/tutor';
 
 export function AppProviders({ children }: { children: ReactNode }) {
   const [queryClient] = useState(() => {
@@ -28,7 +29,9 @@ export function AppProviders({ children }: { children: ReactNode }) {
   });
   return (
     <QueryClientProvider client={queryClient}>
-      <DevicePreferencesProvider>{children}</DevicePreferencesProvider>
+      <DevicePreferencesProvider>
+        <MentorPreferencesProvider>{children}</MentorPreferencesProvider>
+      </DevicePreferencesProvider>
     </QueryClientProvider>
   );
 }

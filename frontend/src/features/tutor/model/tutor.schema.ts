@@ -1,6 +1,8 @@
 import { z } from 'zod';
 import { contentBlockSchema } from '@/shared/lib/content';
+import { mentorPreferencesSchema, defaultMentorPreferences } from './preferences.schema';
 export const tutorMessageSchema = z.object({
+  preferences: mentorPreferencesSchema.default(defaultMentorPreferences),
   id: z.string(),
   clientMessageId: z.string(),
   role: z.enum(['user', 'assistant']),
@@ -24,6 +26,7 @@ export const tutorSchema = z.object({
   threads: z.array(tutorThreadSchema),
 });
 export const tutorSendSchema = z.object({
+  preferences: mentorPreferencesSchema.default(defaultMentorPreferences),
   text: z.string().trim().min(1).max(8000),
   contextVersion: z.number().int().positive(),
   clientMessageId: z.string().uuid(),

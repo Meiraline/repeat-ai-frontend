@@ -23,9 +23,11 @@ import {
   refreshTutorContext,
   type TutorData,
   type TutorThread,
+  useMentorPreferences,
+  type MentorPreferences,
 } from '@/features/tutor';
 import { ApiError } from '@/shared/api/errors';
-import portrait from '@/assets/screens/plan-mentor.png';
+import { mentorCatalog } from '@/assets/mentors/catalog';
 import { Workspace } from '../workspace/Workspace';
 import styles from './TutorPage.module.css';
 export const meta: MetaFunction = () => [
@@ -57,6 +59,8 @@ export default function TutorPage() {
   );
 }
 function TutorCourse({ id, version }: { id: string; version: number }) {
+  const { preferences } = useMentorPreferences();
+  const mentor = mentorCatalog[preferences.persona];
   const query = useTutor(id, version),
     client = useQueryClient(),
     { forget } = useSessionActions(),
@@ -218,9 +222,10 @@ function TutorCourse({ id, version }: { id: string; version: number }) {
           </section>
         )}
         <aside className={styles.utility} aria-label="О репетиторе">
-          <img src={portrait} alt="Лира — AI-наставник" width={240} height={260} />
-          <h2>Лира</h2>
-          <p>Готова помочь разобраться</p>
+          <img src={mentor.image} alt={`${mentor.name} — AI-наставник`} width={240} height={260} />
+          <h2>{mentor.name}</h2>
+          <p>Выбран для новых сообщений</p>
+          <Link to="/app/settings#mentor">Настроить наставника</Link>
           <details open>
             <summary>Контекст и источники</summary>
             <p>{data.title}</p>
@@ -248,6 +253,7 @@ function Conversation({
   update: (t: TutorThread) => void;
   reload: () => Promise<void>;
 }) {
+  const { preferences } = useMentorPreferences();
   const [text, setText] = useState(''),
     [busy, setBusy] = useState(false),
     [error, setError] = useState(''),
@@ -255,7 +261,12 @@ function Conversation({
     [unread, setUnread] = useState(false);
   const { forget } = useSessionActions(),
     lock = useRef(false),
-    pending = useRef<{ text: string; key: string; version: number } | null>(null),
+    pending = useRef<{
+      text: string;
+      key: string;
+      version: number;
+      preferences: MentorPreferences;
+    } | null>(null),
     viewport = useRef<HTMLDivElement>(null),
     nearBottom = useRef(true);
   const stale = thread.contextVersion !== currentVersion;
@@ -296,7 +307,8 @@ function Conversation({
     if (lock.current || stale || conflict) return;
     let message = text.trim(),
       key: string,
-      version = thread.contextVersion;
+      version = thread.contextVersion,
+      messagePreferences: MentorPreferences;
     if (recover && partial) {
       const user = thread.messages.find(
         (m) => m.role === 'user' && m.clientMessageId === partial.clientMessageId,
@@ -305,17 +317,26 @@ function Conversation({
       message = user.blocks[0].text;
       key = user.clientMessageId;
       version = user.contextVersion;
+      messagePreferences = user.preferences;
     } else {
       if (!message || message.length > 8000) return;
       if (pending.current?.text !== message || pending.current?.version !== version)
-        pending.current = { text: message, key: crypto.randomUUID(), version };
+        pending.current = { text: message, key: crypto.randomUUID(), version, preferences };
       key = pending.current.key;
+      messagePreferences = pending.current.preferences;
     }
     lock.current = true;
     setBusy(true);
     setError('');
     try {
-      const result = await sendTutorMessage(id, thread.id, message, version, key);
+      const result = await sendTutorMessage(
+        id,
+        thread.id,
+        message,
+        version,
+        key,
+        messagePreferences,
+      );
       update(result);
       pending.current = null;
       if (!recover) setText('');
@@ -378,6 +399,8 @@ function Conversation({
             partial={m.status === 'partial'}
             version={m.contextVersion}
             sources={m.sources}
+            mentorName={mentorCatalog[m.preferences.persona].name}
+            mentorImage={mentorCatalog[m.preferences.persona].image}
           >
             <LearningContent blocks={m.blocks} />
           </TutorMessage>

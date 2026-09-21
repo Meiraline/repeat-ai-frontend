@@ -20,6 +20,7 @@ import { Workspace } from '../workspace/Workspace';
 import styles from './SettingsPage.module.css';
 import { DeviceSettings } from './DeviceSettings';
 import { AppearanceSection } from './AppearanceSection';
+import { MentorSection } from './MentorSection';
 
 export function meta() {
   return [{ title: 'Настройки аккаунта — repeat.ai' }, { name: 'robots', content: 'noindex' }];
@@ -127,6 +128,7 @@ export default function SettingsPage() {
           <a href="#learning">Обучение и уведомления</a>
           <a href="#accessibility">Доступность</a>
           <a href="#appearance">Оформление</a>
+          <a href="#mentor">ИИ-наставник</a>
           <p>Сохраняйте изменения перед уходом со страницы.</p>
         </nav>
         <div className={styles.content}>
@@ -170,6 +172,7 @@ export default function SettingsPage() {
           </form>
           <DeviceSettings />
           <AppearanceSection />
+          <MentorSection />
         </div>
       </div>
     </Workspace>

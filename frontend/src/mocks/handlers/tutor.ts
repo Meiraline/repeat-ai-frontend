@@ -1,7 +1,7 @@
 import { http, HttpResponse, delay } from 'msw';
 import { z } from 'zod';
 import { env } from '@/shared/config/env';
-import { tutorSendSchema, type TutorThread } from '@/features/tutor';
+import { tutorSendSchema, defaultMentorPreferences, type TutorThread } from '@/features/tutor';
 import { mockAuthenticated, mockUnauthorized } from './auth';
 import { findLearning } from '../fixtures/learning-store';
 type RecordData = {
@@ -115,7 +115,7 @@ export const tutorHandlers = [
       db = read(),
       thread = db[id]?.threads.find((t) => t.id === params.thread);
     if (!learning || !thread) return fail('Диалог не найден.', 404);
-    const { text, contextVersion, clientMessageId } = parsed.data;
+    const { text, contextVersion, clientMessageId, preferences } = parsed.data;
     if (request.headers.get('Idempotency-Key') !== clientMessageId)
       return fail('Неверный ключ сообщения.', 400);
     if (
@@ -131,7 +131,9 @@ export const tutorHandlers = [
       existing &&
       (existing.blocks[0]?.type !== 'paragraph' ||
         existing.blocks[0].text !== text ||
-        existing.contextVersion !== contextVersion)
+        existing.contextVersion !== contextVersion ||
+        JSON.stringify(existing.preferences ?? defaultMentorPreferences) !==
+          JSON.stringify(preferences))
     )
       return fail('Ключ сообщения уже использован.', 409);
     const answer = thread.messages.find(
@@ -157,6 +159,7 @@ export const tutorHandlers = [
       thread.messages.push({
         id: crypto.randomUUID(),
         role: 'user',
+        preferences,
         clientMessageId,
         contextVersion,
         status: 'complete',
@@ -173,9 +176,26 @@ export const tutorHandlers = [
         text: `Контекст: ${learning.track.title} / ${thread.title}. Сформулируйте, что уже понятно и на каком шаге возникает затруднение.`,
       },
     ];
+    const formats = {
+      hint: 'Подсказка: начните с определения ключевого понятия.',
+      explanation: 'Объяснение: выделите понятие, его применение и связь с темой курса.',
+      solution: 'Решение: сформулируйте условие, выберите метод и проверьте результат.',
+    };
+    const details = { short: 'Кратко', balanced: 'Баланс', detailed: 'Подробно' };
+    blocks.push({
+      type: 'paragraph',
+      text: `Демонстрация настроек · ${details[preferences.detail]}. ${formats[preferences.help]}`,
+    });
+    if (preferences.detail === 'detailed')
+      blocks.push({
+        type: 'paragraph',
+        text: 'Пример структуры разбора: 1. Что дано? 2. Какой шаг нужен? 3. Как проверить ответ? Это шаблон интерфейса, а не решение вашей задачи.',
+      });
+    if (preferences.detail === 'short') blocks.splice(1, 1);
     const response = {
       id: answer?.id ?? crypto.randomUUID(),
       role: 'assistant' as const,
+      preferences,
       clientMessageId,
       contextVersion,
       status: mode === 'partial' ? ('partial' as const) : ('complete' as const),

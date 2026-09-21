@@ -4,6 +4,7 @@ import { ApiError } from '@/shared/api/errors';
 import { env } from '@/shared/config/env';
 import { parseResponse } from '@/shared/api/parse-response';
 import { tutorSchema, tutorThreadSchema, type TutorData } from '../model/tutor.schema';
+import { defaultMentorPreferences, type MentorPreferences } from '../model/preferences.schema';
 function path(id: string) {
   if (!env.enableMocks)
     throw new ApiError('AI-репетитор пока не подключён.', 503, 'TUTOR_UNAVAILABLE');
@@ -39,13 +40,14 @@ export async function sendTutorMessage(
   text: string,
   contextVersion: number,
   clientMessageId: string,
+  preferences: MentorPreferences = defaultMentorPreferences,
 ) {
   return parseResponse(
     tutorThreadSchema,
     await api(`${path(id)}/threads/${encodeURIComponent(threadId)}/messages`, {
       method: 'POST',
       headers: { 'Idempotency-Key': clientMessageId },
-      json: { text, contextVersion, clientMessageId },
+      json: { text, contextVersion, clientMessageId, preferences },
     }),
   );
 }

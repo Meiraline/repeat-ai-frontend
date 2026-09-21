@@ -8,12 +8,16 @@ export function TutorMessage({
   version,
   sources,
   children,
+  mentorName = 'Лира',
+  mentorImage = portrait,
 }: {
   role: 'user' | 'assistant';
   partial: boolean;
   version: number;
   sources: { title: string; url: string }[];
   children: ReactNode;
+  mentorName?: string;
+  mentorImage?: string;
 }) {
   return (
     <article
@@ -21,8 +25,8 @@ export function TutorMessage({
       aria-label={role === 'user' ? 'Ваше сообщение' : 'Ответ репетитора'}
     >
       <header>
-        {role === 'assistant' && <img src={portrait} width={32} height={32} alt="" />}
-        <strong>{role === 'user' ? 'Вы' : 'Лира'}</strong>
+        {role === 'assistant' && <img src={mentorImage} width={32} height={32} alt="" />}
+        <strong>{role === 'user' ? 'Вы' : mentorName}</strong>
         <small>Контекст v{version}</small>
       </header>
       {children}
