@@ -1,0 +1,81 @@
+.panel {
+  overflow-wrap: anywhere;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 20px;
+  min-inline-size: 0;
+}
+.panel h2 {
+  font: 800 1.125rem/1.5rem var(--font-body);
+  margin-top: 0;
+}
+.panel h3 {
+  font: var(--type-strong);
+  border-top: 1px solid var(--color-primary-border);
+  padding-top: 20px;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.controls p {
+  font: var(--type-label);
+  color: var(--color-muted);
+  text-align: center;
+  flex: 1;
+}
+.controls button {
+  padding-inline: 8px;
+}
+.calendar {
+  inline-size: 100%;
+  table-layout: fixed;
+  border-spacing: 0 8px;
+  text-align: center;
+  font: var(--type-caption);
+}
+.calendar th {
+  font-weight: 400;
+  color: var(--color-muted);
+}
+.calendar td {
+  height: 32px;
+}
+.calendar td > span {
+  display: grid;
+  place-items: center;
+  min-block-size: 30px;
+  border-radius: 50%;
+}
+.calendar [aria-current] {
+  background: var(--color-primary);
+  color: white;
+}
+.mark {
+  background: var(--color-primary-soft);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 16px;
+  font: var(--type-body-small);
+  overflow-wrap: anywhere;
+}
+.list time {
+  color: var(--color-muted);
+  max-inline-size: 100px;
+}

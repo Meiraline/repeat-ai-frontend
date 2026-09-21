@@ -1,0 +1,78 @@
+.group {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-inline-size: 0;
+}
+.group legend {
+  font: var(--type-strong);
+  padding: 0;
+  margin-block-end: 10px;
+}
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.option {
+  position: relative;
+  display: flex;
+  flex: 1 1 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  min-block-size: 44px;
+  min-inline-size: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  font: var(--type-label);
+  text-align: center;
+  background: var(--color-background);
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.option input {
+  position: absolute;
+  opacity: 0;
+  inline-size: 1px;
+  block-size: 1px;
+}
+.option:has(:focus-visible) {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+.selected {
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  color: white;
+}
+.option small {
+  font: var(--type-caption);
+}
+.portrait {
+  flex-basis: 42%;
+  padding: 8px;
+}
+.portrait img {
+  inline-size: 100%;
+  block-size: 220px;
+  object-fit: contain;
+  background: white;
+  border-radius: 8px;
+}
+.group:disabled {
+  opacity: 0.6;
+}
+@media (forced-colors: active) {
+  .option input {
+    position: static;
+    opacity: 1;
+    inline-size: 20px;
+    block-size: 20px;
+  }
+  .selected {
+    border: 3px solid Highlight;
+  }
+}

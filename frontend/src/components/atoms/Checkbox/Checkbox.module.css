@@ -1,0 +1,60 @@
+.target {
+  display: inline-grid;
+  place-items: center;
+  position: relative;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  flex: 0 0 2.75rem;
+}
+.input {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.box {
+  inline-size: 1.25rem;
+  block-size: 1.25rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-check);
+  background: var(--color-surface);
+  pointer-events: none;
+}
+.box > span {
+  visibility: hidden;
+}
+.input:checked + .box {
+  background: var(--color-primary-soft);
+  border-color: var(--color-primary-pressed);
+}
+.input:checked + .box > span {
+  visibility: visible;
+}
+.input:focus-visible + .box {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+.input:disabled {
+  cursor: not-allowed;
+}
+.input:disabled + .box {
+  opacity: 0.48;
+  background: var(--color-primary-soft);
+}
+@media (forced-colors: active) {
+  .input {
+    opacity: 1;
+    appearance: auto;
+    inline-size: 1.25rem;
+    block-size: 1.25rem;
+    inset: 0.75rem;
+  }
+  .box {
+    visibility: hidden;
+  }
+}

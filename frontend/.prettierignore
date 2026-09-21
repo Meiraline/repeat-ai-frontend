@@ -1,0 +1,10 @@
+node_modules
+build
+.react-router
+storybook-static
+playwright-report
+test-results
+coverage
+package-lock.json
+src/assets
+public/licenses

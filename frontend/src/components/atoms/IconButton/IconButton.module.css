@@ -1,0 +1,32 @@
+.button {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 2.75rem;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border: 0;
+  border-radius: var(--radius-control);
+  padding: 0;
+  background: transparent;
+  color: var(--color-primary);
+}
+@media (hover: hover) {
+  .button:enabled:hover {
+    background: var(--color-primary-soft);
+  }
+}
+.button[aria-pressed='true'] {
+  background: var(--color-primary-soft);
+}
+.button:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+}
+.outlined {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-control);
+}
+.plain {
+  background: transparent;
+}

@@ -1,0 +1,47 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: clamp(20px, 4vw, 64px);
+  padding-block: clamp(40px, 6vw, 90px);
+  border-bottom: 1px solid var(--color-border);
+}
+.copy {
+  min-width: 0;
+}
+.copy h2 {
+  font-size: clamp(1.75rem, 3vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+.copy h2 span {
+  display: block;
+  color: var(--color-primary);
+}
+.copy p {
+  max-width: 52ch;
+  color: var(--color-muted);
+  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  line-height: 1.6;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.reverse .copy {
+  order: 2;
+}
+.reverse .image {
+  order: 1;
+}
+@media (max-width: 55rem) {
+  .section {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .reverse .copy,
+  .reverse .image {
+    order: initial;
+  }
+}

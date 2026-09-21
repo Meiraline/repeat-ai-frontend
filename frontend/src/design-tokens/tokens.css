@@ -1,0 +1,81 @@
+/* Initial, verified subset from docs/figma/auth-token-snapshot.json. Light mode only. */
+:root {
+  color-scheme: light;
+  --color-text: #0b2558;
+  --color-muted: #60739a;
+  --color-primary: #2563ff;
+  --color-surface: #ffffff;
+  --color-background: #f8faff;
+  --color-border: #dde7fa;
+  --radius-panel: 1rem;
+  --radius-control: 0.5rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --color-primary-hover: #1677ff;
+  --color-primary-pressed: #1761c9;
+  --color-primary-soft: #eef3ff;
+  --color-primary-border: #8eb2ff;
+  --color-secondary: #7540e5;
+  --color-disabled: #c6b3f4;
+  --color-error: #e96882;
+  /* Accessible error copy; Figma rose is retained for the border. */
+  --color-error-text: #a52645;
+  --color-warning: #f2b84b;
+  --color-warning-soft: #fff3d6;
+  --color-warning-text: #805500;
+  --gradient-primary: linear-gradient(91.978deg, #1761c9 11.493%, #3a84eb 45.443%, #169ff4 80.61%);
+  --shadow-control: 0 3px 5px rgb(20 48 94 / 4%);
+  --shadow-panel: 0 6px 22px rgb(33 79 150 / 5%);
+  --shadow-focus: 0 0 2px rgb(37 99 255 / 16%);
+  --radius-check: 0.375rem;
+  --space-1-5: 0.375rem;
+  --space-2-5: 0.625rem;
+  --space-3-5: 0.875rem;
+  --control-small: 2.75rem;
+  --control-medium: 3rem;
+  --control-auth: 3.25rem;
+  --input-medium: 3.25rem;
+  --input-large: 3.75rem;
+  --motion-control: 120ms ease-out;
+  --type-body: 400 0.875rem/1.25rem var(--font-body);
+  --type-body-small: 400 0.8125rem/1.125rem var(--font-body);
+  --type-body-large: 400 1rem/1.5rem var(--font-body);
+  --type-caption: 400 0.75rem/1.125rem var(--font-body);
+  --type-label: 600 0.75rem/1rem var(--font-body);
+  --type-strong: 800 0.875rem/1.25rem var(--font-body);
+  --type-action: 900 1rem/1.25rem var(--font-body);
+  --type-heading: 700 1.875rem/2.375rem var(--font-heading);
+}
+
+/* Accent swatches: Figma 5292:16134. Green action color is darkened for white text.
+   Selectors also scope the draft preview without changing the applied preference. */
+[data-accent='blue'] {
+  --color-primary: #2563ff;
+  --color-primary-hover: #1677ff;
+  --color-primary-pressed: #1761c9;
+  --color-primary-soft: #eef3ff;
+  --color-primary-border: #8eb2ff;
+  --gradient-primary: linear-gradient(91.978deg, #1761c9 11.493%, #3a84eb 45.443%, #169ff4 80.61%);
+}
+[data-accent='purple'] {
+  --color-primary: #7540e5;
+  --color-primary-hover: #6532cc;
+  --color-primary-pressed: #5426b0;
+  --color-primary-soft: #f3eeff;
+  --color-primary-border: #bba0ef;
+  --gradient-primary: linear-gradient(92deg, #5426b0, #7540e5);
+}
+[data-accent='green'] {
+  --color-primary: #0b7b50;
+  --color-primary-hover: #096b46;
+  --color-primary-pressed: #075a3b;
+  --color-primary-soft: #eaf8f1;
+  --color-primary-border: #81c8aa;
+  --gradient-primary: linear-gradient(92deg, #075a3b, #0b7b50);
+}

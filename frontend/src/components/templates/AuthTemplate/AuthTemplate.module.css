@@ -1,0 +1,218 @@
+.layout {
+  min-block-size: 100vh;
+  min-block-size: 100svh;
+  display: grid;
+  grid-template-columns: minmax(0, 602fr) minmax(0, 838fr);
+}
+.hero {
+  min-inline-size: 0;
+  background: linear-gradient(180deg, #e3edff, #f1f7ff 60%, #e3ebfd);
+  display: flex;
+  flex-direction: column;
+  padding: 36px clamp(24px, 5vw, 72px) 64px;
+  position: relative;
+}
+.logo {
+  position: relative;
+  display: block;
+  inline-size: 230px;
+  block-size: 70px;
+  max-inline-size: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo img {
+  position: absolute;
+  inline-size: 113.03%;
+  max-inline-size: none;
+  block-size: 124.54%;
+  left: -6.3%;
+  top: -12.5%;
+}
+.explanation {
+  margin-block-start: 48px;
+  z-index: 1;
+}
+.explanation h2 {
+  font: 800 clamp(2rem, 3.62vw, 3.25rem)/1.08 var(--font-body);
+  margin-block-end: 20px;
+}
+.explanation p {
+  font: 600 1.25rem/1.4 var(--font-body);
+  color: var(--color-muted);
+  margin: 0;
+}
+.illustration {
+  display: block;
+  inline-size: calc(100% + 80px);
+  margin-inline: -40px;
+  margin-block: -8px -32px;
+  flex: 0 1 auto;
+  block-size: clamp(350px, calc(100svh - 430px), 540px);
+}
+.illustration img {
+  inline-size: 100%;
+  block-size: 100%;
+  max-block-size: 540px;
+  object-fit: contain;
+}
+.reassurance {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto 0 0;
+  background: var(--color-surface);
+  border-radius: 18px;
+  padding: 12px 16px;
+  font: var(--type-caption);
+  box-shadow: var(--shadow-panel);
+  z-index: 1;
+}
+.content {
+  position: relative;
+  min-inline-size: 0;
+  padding: 100px clamp(24px, 6.8vw, 98px);
+  display: grid;
+  align-content: center;
+  overflow: clip;
+}
+.card {
+  position: relative;
+  inline-size: 100%;
+  max-inline-size: 660px;
+  margin-inline: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-panel);
+  padding: clamp(20px, 2.78vw, 40px);
+  box-shadow: var(--shadow-panel);
+}
+.tagline {
+  position: absolute;
+  right: 9%;
+  top: 61px;
+  font: var(--type-strong);
+  color: var(--color-muted);
+}
+.decor {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0.4;
+  pointer-events: none;
+}
+.decor img {
+  position: absolute;
+  max-inline-size: none;
+}
+.decor span {
+  position: absolute;
+  overflow: hidden;
+}
+.corner {
+  inline-size: 561px;
+  block-size: 508px;
+  right: -152px;
+  top: -163px;
+}
+.corner img {
+  inline-size: 407.89%;
+  block-size: 337.27%;
+  left: -8.21%;
+  top: -10.82%;
+}
+.leftGlow {
+  inline-size: 508px;
+  block-size: 475px;
+  left: -210px;
+  top: -27px;
+}
+.leftGlow img {
+  inline-size: 548.48%;
+  block-size: 439.68%;
+  left: -328.88%;
+  top: -21.16%;
+}
+.bottomGlow {
+  inline-size: 334px;
+  block-size: 324px;
+  left: 54px;
+  bottom: -201px;
+}
+.bottomGlow img {
+  inline-size: 922.29%;
+  block-size: 714.47%;
+  left: -799.94%;
+  top: -425.94%;
+}
+.onboarding .hero {
+  background: var(--color-primary-soft);
+}
+.onboarding .explanation h2 {
+  font-size: clamp(2rem, 2.92vw, 2.625rem);
+}
+.onboarding .explanation p {
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+.onboarding .content {
+  align-content: start;
+  padding-block: 88px;
+}
+@media (min-width: 100rem) {
+  .layout {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  }
+  .hero {
+    align-items: center;
+  }
+  .explanation,
+  .reassurance {
+    inline-size: 470px;
+    max-inline-size: 100%;
+  }
+  .illustration {
+    max-inline-size: 620px;
+  }
+}
+@media (max-width: 63.99rem) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .hero {
+    padding: 20px 24px;
+    background: var(--color-background);
+  }
+  .logo {
+    inline-size: 184px;
+    block-size: 56px;
+  }
+  .explanation,
+  .illustration,
+  .reassurance,
+  .tagline,
+  .decor {
+    display: none;
+  }
+  .content,
+  .onboarding .content {
+    padding: 16px 24px 40px;
+    align-content: start;
+    overflow: visible;
+  }
+  .card {
+    max-inline-size: 660px;
+  }
+}
+@media (max-width: 25rem) {
+  .hero {
+    padding-inline: 16px;
+  }
+  .content,
+  .onboarding .content {
+    padding-inline: 16px;
+  }
+  .card {
+    padding: 20px 16px;
+  }
+}

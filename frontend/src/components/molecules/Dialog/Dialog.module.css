@@ -1,0 +1,21 @@
+.dialog {
+  inline-size: min(520px, calc(100% - 32px));
+  max-block-size: calc(100svh - 32px);
+  overflow-y: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-panel);
+  padding: 24px;
+  color: var(--color-text);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-panel);
+}
+.dialog::backdrop {
+  background: rgb(11 37 88 / 65%);
+}
+.wide {
+  inline-size: min(760px, calc(100% - 32px));
+  overflow-wrap: anywhere;
+}
+.dialog h2 {
+  font: var(--type-heading);
+}

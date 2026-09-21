@@ -1,0 +1,88 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  max-inline-size: 100%;
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  padding: var(--space-2) var(--space-4);
+  font: var(--type-action);
+  box-shadow: var(--shadow-control);
+  transition:
+    opacity var(--motion-control),
+    border-color var(--motion-control);
+  text-align: center;
+}
+.label {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+}
+.small {
+  min-block-size: var(--control-small);
+  padding-inline: var(--space-3-5);
+}
+.medium {
+  min-block-size: var(--control-medium);
+}
+.auth {
+  min-block-size: var(--control-auth);
+}
+.fullWidth {
+  inline-size: 100%;
+}
+.primary {
+  background: var(--gradient-primary);
+  color: white;
+}
+.outline {
+  background: var(--color-surface);
+  border-color: var(--color-primary-border);
+  color: var(--color-primary);
+}
+.secondary {
+  background: var(--color-surface);
+  border-color: var(--color-disabled);
+  color: var(--color-secondary);
+}
+.neutral {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+.danger {
+  background: var(--color-error);
+  color: var(--color-text);
+}
+@media (hover: hover) {
+  .button:enabled:hover {
+    opacity: 0.92;
+  }
+  .outline:enabled:hover {
+    border-color: var(--color-primary);
+  }
+  .neutral:enabled:hover {
+    background: var(--color-background);
+  }
+}
+.button:enabled:active {
+  opacity: 0.82;
+}
+.button:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+}
+.button[aria-busy='true'] {
+  opacity: 1;
+  cursor: wait;
+}
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  }
+}
+@media (forced-colors: active) {
+  .button {
+    border: 1px solid ButtonText;
+  }
+}

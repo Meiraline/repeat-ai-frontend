@@ -1,0 +1,5016 @@
+{
+  "capturedAt": "2026-09-20",
+  "fileKey": "hvF90E8EGKFYvS1FxAgSvQ",
+  "pageId": "454:23737",
+  "kind": "metadata subset; not design context",
+  "nodes": [
+    {
+      "id": "5257:14991",
+      "name": "PROCESS-AUTH · Доступ к сервису",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 5285
+    },
+    {
+      "id": "5327:18469",
+      "name": "PROCESS-EXAM · Контрольная точка и открытие этапа",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 7793
+    },
+    {
+      "id": "5368:21875",
+      "name": "PROCESS-TUTOR · AI-репетитор в контексте трека",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 7380
+    },
+    {
+      "id": "5355:20405",
+      "name": "PROCESS-PLAN-CREATE · Создание учебного плана",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 6260
+    },
+    {
+      "id": "5292:15436",
+      "name": "PROCESS-COURSES · Кабинет и управление курсами",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 4940
+    },
+    {
+      "id": "5361:21685",
+      "name": "PROCESS-PLAN-EDIT · Согласование учебной программы",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 5800
+    },
+    {
+      "id": "5321:17734",
+      "name": "PROCESS-DIPLOMA · Выпуск и архив PNG-диплома",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 4440
+    },
+    {
+      "id": "5382:22144",
+      "name": "PROCESS-PROJECT · Учебный проект",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 10380
+    },
+    {
+      "id": "5382:23284",
+      "name": "SYSTEM-RESEARCH · Исследование и построение базы знаний",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 7046
+    },
+    {
+      "id": "5407:24161",
+      "name": "PROCESS-KNOWLEDGE · База знаний трека",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 9638,
+      "height": 12680
+    },
+    {
+      "id": "5678:22688",
+      "name": "SYSTEM-STATES · Технические состояния",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 13736
+    },
+    {
+      "id": "5775:29883",
+      "name": "PROCESS-ONBOARDING · Первый запуск и настройка сервиса",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 7723
+    },
+    {
+      "id": "6004:13437",
+      "name": "PROCESS-SETTINGS · Настройки аккаунта и сервиса",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 10828
+    },
+    {
+      "id": "6363:13044",
+      "name": "PROCESS-LEARN · Прохождение учебного трека",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 7520,
+      "height": 12183
+    },
+    {
+      "id": "6304:13859",
+      "name": "SYSTEM-LEGAL · Юридические документы",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 3120,
+      "height": 1220
+    },
+    {
+      "id": "6585:13498",
+      "name": "SYSTEM-FLOW · Сквозной путь пользователя",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 1370
+    },
+    {
+      "id": "6665:14890",
+      "name": "PROCESS-BILLING · Тарифы, оплата и подписка",
+      "type": "section",
+      "parentId": "5216:604807",
+      "width": 5200,
+      "height": 7550
+    },
+    {
+      "id": "5673:6",
+      "name": "SCR-AUTH-005 · Подтверждение email",
+      "type": "frame",
+      "parentId": "5257:14991",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5673:81",
+      "name": "SCR-AUTH-002 · Вход",
+      "type": "frame",
+      "parentId": "5257:14991",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5673:151",
+      "name": "SCR-AUTH-003 · Восстановление",
+      "type": "frame",
+      "parentId": "5257:14991",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5673:224",
+      "name": "SCR-AUTH-004 · Новый пароль",
+      "type": "frame",
+      "parentId": "5257:14991",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5673:297",
+      "name": "SCR-AUTH-006 · Пароль обновлён",
+      "type": "frame",
+      "parentId": "5257:14991",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5673:372",
+      "name": "SCR-AUTH-007 · Email подтверждён",
+      "type": "frame",
+      "parentId": "5257:14991",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5673:447",
+      "name": "SCR-AUTH-008 · Ссылка недействительна",
+      "type": "frame",
+      "parentId": "5257:14991",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7496:18725",
+      "name": "MOD-AUTH-RESTORE-SENT-001",
+      "type": "instance",
+      "parentId": "5257:14991",
+      "width": 520,
+      "height": 210
+    },
+    {
+      "id": "5591:264094",
+      "name": "SCR-AUTH-001 · Регистрация",
+      "type": "frame",
+      "parentId": "5257:14991",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5285:15386",
+      "name": "STATE-AUTH-INVALID",
+      "type": "frame",
+      "parentId": "5285:15382",
+      "width": 976,
+      "height": 132
+    },
+    {
+      "id": "5285:15395",
+      "name": "STATE-AUTH-SUBMITTING",
+      "type": "frame",
+      "parentId": "5285:15382",
+      "width": 976,
+      "height": 131
+    },
+    {
+      "id": "5285:15433",
+      "name": "STATE-AUTH-LOGIN-LOADING",
+      "type": "frame",
+      "parentId": "5285:15382",
+      "width": 976,
+      "height": 130
+    },
+    {
+      "id": "5285:15452",
+      "name": "STATE-AUTH-RESTORE-RETRY",
+      "type": "frame",
+      "parentId": "5285:15382",
+      "width": 976,
+      "height": 129
+    },
+    {
+      "id": "5285:15463",
+      "name": "STATE-AUTH-MISMATCH",
+      "type": "frame",
+      "parentId": "5285:15382",
+      "width": 976,
+      "height": 132
+    },
+    {
+      "id": "5285:15492",
+      "name": "STATE-AUTH-VERIFY-WAITING",
+      "type": "frame",
+      "parentId": "5285:15382",
+      "width": 976,
+      "height": 132
+    },
+    {
+      "id": "5285:15501",
+      "name": "STATE-AUTH-VERIFYING",
+      "type": "frame",
+      "parentId": "5285:15382",
+      "width": 976,
+      "height": 129
+    },
+    {
+      "id": "5328:18469",
+      "name": "SCR-EXAM-001 · Условия и допуск",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5328:18777",
+      "name": "SCR-EXAM-002 · Прохождение",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5329:18989",
+      "name": "SCR-EXAM-003 · Проверка",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5329:19274",
+      "name": "SCR-EXAM-004 · Результат",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5329:19567",
+      "name": "SCR-EXAM-005 · Разбор",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 1440,
+      "height": 920
+    },
+    {
+      "id": "5330:19780",
+      "name": "STATE-EXAM-EVALUATING",
+      "type": "frame",
+      "parentId": "5330:19757",
+      "width": 1200,
+      "height": 260
+    },
+    {
+      "id": "5329:19866",
+      "name": "MOD-EXAM-SUBMIT-001",
+      "type": "frame",
+      "parentId": "5330:19757",
+      "width": 620,
+      "height": 390
+    },
+    {
+      "id": "6268:1003",
+      "name": "OVERLAY-EXAM-VERSION-CONFLICT",
+      "type": "frame",
+      "parentId": "5330:19757",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6498:9921",
+      "name": "STATE-EXAM-ANSWER-SAVING",
+      "type": "frame",
+      "parentId": "5330:19757",
+      "width": 1200,
+      "height": 260
+    },
+    {
+      "id": "6498:9926",
+      "name": "STATE-EXAM-ANSWER-SAVED",
+      "type": "frame",
+      "parentId": "5330:19757",
+      "width": 1200,
+      "height": 260
+    },
+    {
+      "id": "6498:9931",
+      "name": "STATE-EXAM-EVALUATION-UNAVAILABLE",
+      "type": "frame",
+      "parentId": "5330:19757",
+      "width": 1200,
+      "height": 260
+    },
+    {
+      "id": "6494:9463",
+      "name": "STATE-EXAM-QUESTION · Multiple",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6494:9631",
+      "name": "STATE-EXAM-QUESTION · Freeform",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6494:9793",
+      "name": "STATE-EXAM-QUESTION · Short",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6495:10037",
+      "name": "MOD-EXAM-CLARIFY-001",
+      "type": "frame",
+      "parentId": "5327:18469",
+      "width": 760,
+      "height": 390
+    },
+    {
+      "id": "5368:21912",
+      "name": "SCR-TUTOR-001 · Чат с AI-репетитором",
+      "type": "frame",
+      "parentId": "5368:21875",
+      "width": 1440,
+      "height": 1012
+    },
+    {
+      "id": "5369:22108",
+      "name": "MOD-TUTOR-PRACTICE-001 · Настройка тренировки",
+      "type": "frame",
+      "parentId": "5368:21875",
+      "width": 660,
+      "height": 599
+    },
+    {
+      "id": "5369:22139",
+      "name": "STATE-TUTOR-PRACTICE-COMPLETE · Разбор тренировки",
+      "type": "frame",
+      "parentId": "5368:21875",
+      "width": 900,
+      "height": 578
+    },
+    {
+      "id": "5369:22165",
+      "name": "STATE-TUTOR-PLAN-PROPOSAL · Изменение плана",
+      "type": "frame",
+      "parentId": "5368:21875",
+      "width": 980,
+      "height": 620
+    },
+    {
+      "id": "5369:22238",
+      "name": "STATE-TUTOR-EMPTY",
+      "type": "frame",
+      "parentId": "5369:22235",
+      "width": 1600,
+      "height": 220
+    },
+    {
+      "id": "5369:22242",
+      "name": "STATE-TUTOR-STREAMING",
+      "type": "frame",
+      "parentId": "5369:22235",
+      "width": 1600,
+      "height": 220
+    },
+    {
+      "id": "5369:22262",
+      "name": "STATE-TUTOR-PRACTICE",
+      "type": "frame",
+      "parentId": "5369:22235",
+      "width": 1600,
+      "height": 220
+    },
+    {
+      "id": "5369:22270",
+      "name": "STATE-TUTOR-FEEDBACK",
+      "type": "frame",
+      "parentId": "5369:22235",
+      "width": 1600,
+      "height": 220
+    },
+    {
+      "id": "6447:9439",
+      "name": "STATE-TUTOR-ATTACHMENT · message context",
+      "type": "frame",
+      "parentId": "5369:22235",
+      "width": 1600,
+      "height": 142
+    },
+    {
+      "id": "6489:9505",
+      "name": "STATE-TUTOR-DRAWER-V2",
+      "type": "frame",
+      "parentId": "5369:22235",
+      "width": 1600,
+      "height": 220
+    },
+    {
+      "id": "6447:9252",
+      "name": "MOD-TUTOR-CONTEXT-ATTACH-001 · Прикрепить к сообщению",
+      "type": "frame",
+      "parentId": "5368:21875",
+      "width": 360,
+      "height": 398
+    },
+    {
+      "id": "6447:9297",
+      "name": "MOD-TUTOR-REASONING-001 · Глубина ответа",
+      "type": "frame",
+      "parentId": "5368:21875",
+      "width": 340,
+      "height": 392
+    },
+    {
+      "id": "6486:273",
+      "name": "OVR-TUTOR-DRAWER · Chat",
+      "type": "frame",
+      "parentId": "5368:21875",
+      "width": 1440,
+      "height": 980
+    },
+    {
+      "id": "6675:17622",
+      "name": "STATE-TUTOR-AI-LIMITS",
+      "type": "frame",
+      "parentId": "5368:21875",
+      "width": 1520,
+      "height": 620
+    },
+    {
+      "id": "5355:20457",
+      "name": "SCR-PLAN-001 · Введение",
+      "type": "frame",
+      "parentId": "5355:20405",
+      "width": 1440,
+      "height": 907
+    },
+    {
+      "id": "5355:20796",
+      "name": "SCR-PLAN-002 · AI-интервью",
+      "type": "frame",
+      "parentId": "5355:20405",
+      "width": 1440,
+      "height": 1003
+    },
+    {
+      "id": "5355:21151",
+      "name": "SCR-PLAN-003 · Риск и варианты",
+      "type": "frame",
+      "parentId": "5355:20405",
+      "width": 1440,
+      "height": 948
+    },
+    {
+      "id": "5355:21481",
+      "name": "SCR-PLAN-004 · Сводка",
+      "type": "frame",
+      "parentId": "5355:20405",
+      "width": 1440,
+      "height": 940
+    },
+    {
+      "id": "5355:21842",
+      "name": "SCR-PLAN-005 · Генерация",
+      "type": "frame",
+      "parentId": "5355:20405",
+      "width": 1440,
+      "height": 1153
+    },
+    {
+      "id": "5355:22258",
+      "name": "STATE-PLAN-EMPTY",
+      "type": "frame",
+      "parentId": "5355:22255",
+      "width": 1568,
+      "height": 272
+    },
+    {
+      "id": "5355:22268",
+      "name": "STATE-PLAN-ANSWERING",
+      "type": "frame",
+      "parentId": "5355:22255",
+      "width": 1568,
+      "height": 272
+    },
+    {
+      "id": "5355:22278",
+      "name": "STATE-PLAN-AI-TYPING",
+      "type": "frame",
+      "parentId": "5355:22255",
+      "width": 1568,
+      "height": 272
+    },
+    {
+      "id": "5355:22288",
+      "name": "STATE-PLAN-AUTOSAVING",
+      "type": "frame",
+      "parentId": "5355:22255",
+      "width": 1568,
+      "height": 272
+    },
+    {
+      "id": "6268:893",
+      "name": "OVERLAY-PLAN-VERSION-CONFLICT",
+      "type": "frame",
+      "parentId": "5355:22255",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "5292:15469",
+      "name": "SCR-COURSES-001 · Мои курсы",
+      "type": "frame",
+      "parentId": "5292:15436",
+      "width": 1440,
+      "height": 1107
+    },
+    {
+      "id": "5292:15869",
+      "name": "SCR-COURSES-002 · Пустое состояние",
+      "type": "frame",
+      "parentId": "5292:15436",
+      "width": 1440,
+      "height": 910
+    },
+    {
+      "id": "5292:16825",
+      "name": "SCR-COURSES-003 · Архив курсов",
+      "type": "frame",
+      "parentId": "5292:15436",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5292:18054",
+      "name": "STATE-COURSES-LOADING",
+      "type": "frame",
+      "parentId": "5292:18050",
+      "width": 1190,
+      "height": 218
+    },
+    {
+      "id": "5292:18072",
+      "name": "STATE-COURSES-EMPTY",
+      "type": "frame",
+      "parentId": "5292:18050",
+      "width": 1190,
+      "height": 218
+    },
+    {
+      "id": "5361:21732",
+      "name": "SCR-PLAN-REVIEW-001 · Проверка программы",
+      "type": "frame",
+      "parentId": "5361:21685",
+      "width": 1440,
+      "height": 1228
+    },
+    {
+      "id": "5361:21892",
+      "name": "SCR-PLAN-REVIEW-002 · Готово",
+      "type": "frame",
+      "parentId": "5361:21685",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7619:21629",
+      "name": "MOD-PLAN-DIFF-001",
+      "type": "instance",
+      "parentId": "5361:21685",
+      "width": 760,
+      "height": 573
+    },
+    {
+      "id": "7619:21822",
+      "name": "MOD-PLAN-APPROVE-001",
+      "type": "instance",
+      "parentId": "5361:21685",
+      "width": 720,
+      "height": 770
+    },
+    {
+      "id": "5361:242591",
+      "name": "STATE-PLAN-REVIEW-LOADING",
+      "type": "frame",
+      "parentId": "5361:242589",
+      "width": 1608,
+      "height": 220
+    },
+    {
+      "id": "7619:22094",
+      "name": "MOD-MATERIAL-REPORT-001 / PLAN",
+      "type": "instance",
+      "parentId": "5361:242589",
+      "width": 660,
+      "height": 310
+    },
+    {
+      "id": "7619:21882",
+      "name": "MOD-PLAN-APPROVE-READY-001",
+      "type": "instance",
+      "parentId": "5361:21685",
+      "width": 720,
+      "height": 770
+    },
+    {
+      "id": "7619:21990",
+      "name": "MOD-PLAN-SOURCE-REPLACE-001",
+      "type": "instance",
+      "parentId": "5361:21685",
+      "width": 660,
+      "height": 430
+    },
+    {
+      "id": "7619:22024",
+      "name": "MOD-PLAN-PROPOSAL-GENERATING-001",
+      "type": "instance",
+      "parentId": "5361:21685",
+      "width": 560,
+      "height": 193
+    },
+    {
+      "id": "5321:17780",
+      "name": "SCR-DIPLOMA-001 · Подтверждение имени",
+      "type": "frame",
+      "parentId": "5321:17734",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5321:17945",
+      "name": "SCR-DIPLOMA-002 · Генерация",
+      "type": "frame",
+      "parentId": "5321:17734",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5321:18110",
+      "name": "SCR-DIPLOMA-003 · Просмотр и скачивание",
+      "type": "frame",
+      "parentId": "5321:17734",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5321:18419",
+      "name": "STATE-DIPLOMA-NAME-INVALID",
+      "type": "frame",
+      "parentId": "5321:18416",
+      "width": 1188,
+      "height": 278
+    },
+    {
+      "id": "5321:18425",
+      "name": "STATE-DIPLOMA-GENERATING",
+      "type": "frame",
+      "parentId": "5321:18416",
+      "width": 1188,
+      "height": 278
+    },
+    {
+      "id": "5321:18449",
+      "name": "STATE-DIPLOMA-URL-REFRESH",
+      "type": "frame",
+      "parentId": "5321:18416",
+      "width": 649,
+      "height": 157
+    },
+    {
+      "id": "5292:18158",
+      "name": "STATE-DIPLOMA-EMPTY",
+      "type": "frame",
+      "parentId": "5321:18416",
+      "width": 776,
+      "height": 138
+    },
+    {
+      "id": "5292:17177",
+      "name": "SCR-DIPLOMA-004 · Архив",
+      "type": "frame",
+      "parentId": "5321:17734",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6515:126",
+      "name": "OVR-DIPLOMA-PREVIEW",
+      "type": "frame",
+      "parentId": "5321:17734",
+      "width": 1440,
+      "height": 948
+    },
+    {
+      "id": "5382:22248",
+      "name": "SCR-PROJECT-001 · Задание",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5382:22363",
+      "name": "SCR-PROJECT-002 · Отправка результата",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 922
+    },
+    {
+      "id": "5382:22478",
+      "name": "SCR-PROJECT-003 · Проверка",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5382:22593",
+      "name": "SCR-PROJECT-004 · Результат",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 973
+    },
+    {
+      "id": "6304:13760",
+      "name": "STATE-PROJECT-EMPTY · Нет активного проекта",
+      "type": "instance",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6304:13811",
+      "name": "STATE-PROJECT-NOT-FOUND · Проект недоступен",
+      "type": "instance",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6590:13471",
+      "name": "SCR-PROJECT-000 · Условия и допуск",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6590:13564",
+      "name": "MOD-PROJECT-SUBMIT-001",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 760,
+      "height": 430
+    },
+    {
+      "id": "6590:13579",
+      "name": "STATE-PROJECT-SUBMISSION · Ошибка валидации",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6590:13671",
+      "name": "SCR-PROJECT-005 · Разбор",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6590:13758",
+      "name": "STATE-PROJECT-RESULT · На доработку",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 982
+    },
+    {
+      "id": "6590:13848",
+      "name": "MOD-PROJECT-HELP-001",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 760,
+      "height": 410
+    },
+    {
+      "id": "6591:13822",
+      "name": "SCR-PROJECT-006 · История попыток",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 930
+    },
+    {
+      "id": "6600:13921",
+      "name": "STATE-PROJECT-SUBMISSION · Загрузка файлов",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6600:14048",
+      "name": "MOD-PROJECT-FILE-PREVIEW",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 900,
+      "height": 660
+    },
+    {
+      "id": "6601:13994",
+      "name": "STATE-PROJECT-SUBMISSION · Лимит вложений",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 916
+    },
+    {
+      "id": "6601:14091",
+      "name": "STATE-PROJECT-DRAFT · Офлайн",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 916
+    },
+    {
+      "id": "6601:14190",
+      "name": "STATE-PROJECT-ASSIGNMENT · Новая версия задания",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 930
+    },
+    {
+      "id": "6602:14245",
+      "name": "SCR-PROJECT-007 · Версия попытки",
+      "type": "frame",
+      "parentId": "5382:22144",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5407:24186",
+      "name": "SCR-KNOWLEDGE-001 · Обзор",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1016
+    },
+    {
+      "id": "5407:24512",
+      "name": "SCR-KNOWLEDGE-002 · Вопросы",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "5407:24838",
+      "name": "SCR-KNOWLEDGE-003 · Вопрос",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1292
+    },
+    {
+      "id": "5415:925",
+      "name": "SCR-KNOWLEDGE-005 · Источники",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1238
+    },
+    {
+      "id": "5443:27830",
+      "name": "SCR-KNOWLEDGE-006 · Термины",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1142
+    },
+    {
+      "id": "5689:24560",
+      "name": "SCR-KNOWLEDGE-007 · Поиск",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "5689:24633",
+      "name": "SCR-KNOWLEDGE-008 · Источник",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1332
+    },
+    {
+      "id": "5689:24701",
+      "name": "SCR-KNOWLEDGE-009 · Термин",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1332
+    },
+    {
+      "id": "6528:804",
+      "name": "SCR-KNOWLEDGE-003A · Ответ открыт",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1312
+    },
+    {
+      "id": "6529:190",
+      "name": "SCR-KNOWLEDGE-004 · Повторение",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1312
+    },
+    {
+      "id": "6530:2",
+      "name": "OVR-KNOWLEDGE-FILTERS",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 948
+    },
+    {
+      "id": "6530:10207",
+      "name": "OVR-KNOWLEDGE-ADD-SOURCE",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 948
+    },
+    {
+      "id": "6532:2",
+      "name": "SCR-KNOWLEDGE-004C · Повторение · Следующий вопрос",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1312
+    },
+    {
+      "id": "6550:10589",
+      "name": "SCR-KNOWLEDGE-004A · Повторение · Вопрос",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1312
+    },
+    {
+      "id": "6550:10696",
+      "name": "SCR-KNOWLEDGE-004B · Повторение завершено",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1012
+    },
+    {
+      "id": "6551:10385",
+      "name": "STATE-KNOWLEDGE-SOURCES · Verified",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1238
+    },
+    {
+      "id": "6551:10440",
+      "name": "STATE-KNOWLEDGE-SOURCES · Checking",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1238
+    },
+    {
+      "id": "6551:10495",
+      "name": "STATE-KNOWLEDGE-SOURCES · Search",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1238
+    },
+    {
+      "id": "6551:10780",
+      "name": "STATE-KNOWLEDGE-SEARCH · Questions",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6551:10848",
+      "name": "STATE-KNOWLEDGE-SEARCH · Terms",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6551:10916",
+      "name": "STATE-KNOWLEDGE-SEARCH · Sources",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6551:10984",
+      "name": "STATE-KNOWLEDGE-SEARCH · Empty",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6551:11526",
+      "name": "STATE-KNOWLEDGE-QUESTIONS · Module 01",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6551:11630",
+      "name": "STATE-KNOWLEDGE-QUESTIONS · Module 02",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6551:11734",
+      "name": "STATE-KNOWLEDGE-QUESTIONS · Module 03",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6551:11838",
+      "name": "STATE-KNOWLEDGE-QUESTIONS · Module 04",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6552:11304",
+      "name": "SCR-KNOWLEDGE-008A · Источник · Следующий",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1332
+    },
+    {
+      "id": "6553:11374",
+      "name": "STATE-KNOWLEDGE-QUESTIONS · Repeat",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6553:11436",
+      "name": "STATE-KNOWLEDGE-QUESTIONS · Unknown",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6553:11656",
+      "name": "OVR-KNOWLEDGE-ADD-SOURCE-DUPLICATE",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 948
+    },
+    {
+      "id": "6554:11566",
+      "name": "STATE-KNOWLEDGE-SEARCH · Loading",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 1172
+    },
+    {
+      "id": "6565:12234",
+      "name": "SCR-KNOWLEDGE-GLOBAL-001 · Обзор",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6565:12450",
+      "name": "SCR-KNOWLEDGE-GLOBAL-002 · Курсы",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6565:12666",
+      "name": "SCR-KNOWLEDGE-GLOBAL-003 · Термины",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6565:12864",
+      "name": "SCR-KNOWLEDGE-GLOBAL-004 · Вопросы",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 928
+    },
+    {
+      "id": "6565:13066",
+      "name": "SCR-KNOWLEDGE-GLOBAL-005 · Источники",
+      "type": "frame",
+      "parentId": "5407:24161",
+      "width": 1440,
+      "height": 998
+    },
+    {
+      "id": "5678:23263",
+      "name": "SCR-SYSTEM-002 · Загрузка сервиса",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:13448",
+      "name": "SCR-SYSTEM-001 · 404 — Страница не найдена",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:13676",
+      "name": "SCR-SYSTEM-004 · 403 — Нет доступа",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:13784",
+      "name": "SCR-SYSTEM-005 · 500 — Ошибка сервера",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:13892",
+      "name": "SCR-SYSTEM-006 · 503 — Технические работы",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:14000",
+      "name": "SCR-SYSTEM-007 · 401 — Сессия истекла",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:14108",
+      "name": "SCR-SYSTEM-013 · 429 — Слишком много запросов",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6615:14128",
+      "name": "SCR-SYSTEM-003 · Нет подключения к интернету",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6615:14194",
+      "name": "SCR-SYSTEM-008 · Не удалось загрузить данные",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:14216",
+      "name": "SCR-SYSTEM-014 · 409 — Данные изменились",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:14324",
+      "name": "SCR-SYSTEM-015 · 408 — Истекло время ожидания",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:14432",
+      "name": "SCR-SYSTEM-016 · 502 — Ошибка шлюза",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6310:14540",
+      "name": "SCR-SYSTEM-017 · 504 — Время ожидания шлюза",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12518",
+      "name": "SCR-SYSTEM-018 · Соединение восстановлено",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12574",
+      "name": "SCR-SYSTEM-019 · Работа офлайн",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12631",
+      "name": "SCR-SYSTEM-020 · Несинхронизированные изменения",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12688",
+      "name": "SCR-SYSTEM-021 · Конфликт синхронизации",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12745",
+      "name": "SCR-SYSTEM-022 · Частичная загрузка",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12802",
+      "name": "SCR-SYSTEM-023 · Фоновая операция",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12859",
+      "name": "SCR-SYSTEM-024 · Фоновая операция завершилась ошибкой",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12916",
+      "name": "SCR-SYSTEM-025 · Данные устарели",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:12973",
+      "name": "SCR-SYSTEM-026 · Браузер не поддерживается",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:13030",
+      "name": "SCR-SYSTEM-027 · Несохранённые изменения",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:13087",
+      "name": "SCR-SYSTEM-028 · Неизвестная ошибка",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6578:13144",
+      "name": "SCR-SYSTEM-029 · AI временно недоступен",
+      "type": "frame",
+      "parentId": "5678:22688",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5776:29834",
+      "name": "SCR-ONBOARD-002 · Курсы",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5776:29935",
+      "name": "SCR-ONBOARD-003 · Учебный план",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5776:30036",
+      "name": "SCR-ONBOARD-004 · ИИ-наставник",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 1880
+    },
+    {
+      "id": "5776:30139",
+      "name": "SCR-ONBOARD-001 · Знакомство с сервисом",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5776:30183",
+      "name": "SCR-ONBOARD-005 · Аналитика",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5800:30115",
+      "name": "SCR-ONBOARD-009 · Готово",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5810:30069",
+      "name": "SCR-ONBOARD-006 · База знаний",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5810:30119",
+      "name": "SCR-ONBOARD-007 · Экзамены и контрольные точки",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5810:30169",
+      "name": "SCR-ONBOARD-008 · Диплом",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5947:13107",
+      "name": "SCR-ONBOARD-000 · Давайте познакомимся",
+      "type": "frame",
+      "parentId": "5775:29883",
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "id": "6937:14969",
+      "name": "STATE-DROPDOWN / OPEN / Базовый стиль и тон",
+      "type": "instance",
+      "parentId": "6937:14968",
+      "width": 584,
+      "height": 404
+    },
+    {
+      "id": "6937:15000",
+      "name": "STATE-DROPDOWN / OPEN / Тёплый",
+      "type": "instance",
+      "parentId": "6937:14968",
+      "width": 268,
+      "height": 144
+    },
+    {
+      "id": "6937:15015",
+      "name": "STATE-DROPDOWN / OPEN / Восторженный",
+      "type": "instance",
+      "parentId": "6937:14968",
+      "width": 268,
+      "height": 144
+    },
+    {
+      "id": "6937:15030",
+      "name": "STATE-DROPDOWN / OPEN / Заголовки и списки",
+      "type": "instance",
+      "parentId": "6937:14968",
+      "width": 268,
+      "height": 144
+    },
+    {
+      "id": "6937:15045",
+      "name": "STATE-DROPDOWN / OPEN / Эмодзи",
+      "type": "instance",
+      "parentId": "6937:14968",
+      "width": 268,
+      "height": 188
+    },
+    {
+      "id": "5292:16134",
+      "name": "SCR-SETTINGS-001 · Профиль и интерфейс",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 1440,
+      "height": 1392
+    },
+    {
+      "id": "5697:26349",
+      "name": "SCR-SETTINGS-002 · Курсы и обучение",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 1440,
+      "height": 1652
+    },
+    {
+      "id": "5697:26409",
+      "name": "SCR-SETTINGS-005 · Уведомления",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 1440,
+      "height": 1950
+    },
+    {
+      "id": "5697:26469",
+      "name": "SCR-SETTINGS-006 · Безопасность и сессии",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 1440,
+      "height": 1622
+    },
+    {
+      "id": "5292:17520",
+      "name": "SCR-SETTINGS-007 · Приватность и данные",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 1440,
+      "height": 1722
+    },
+    {
+      "id": "5295:17796",
+      "name": "MOD-SETTINGS-DELETE-001",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 620,
+      "height": 308
+    },
+    {
+      "id": "6043:13404",
+      "name": "SCR-SETTINGS-003 · ИИ-наставник",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 1440,
+      "height": 2092
+    },
+    {
+      "id": "6043:13449",
+      "name": "SCR-SETTINGS-004 · Материалы и проверки",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 1440,
+      "height": 1972
+    },
+    {
+      "id": "6077:10974",
+      "name": "OVERLAY-SETTINGS-SAVED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:10992",
+      "name": "OVERLAY-SETTINGS-SAVE-FAILED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11010",
+      "name": "OVERLAY-SETTINGS-UNSAVED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11028",
+      "name": "OVERLAY-SETTINGS-OFFLINE",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11046",
+      "name": "OVERLAY-SETTINGS-CONFLICT",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11064",
+      "name": "OVERLAY-SETTINGS-SESSION-EXPIRED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11082",
+      "name": "OVERLAY-SETTINGS-NOTIFICATIONS-BLOCKED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11100",
+      "name": "OVERLAY-SETTINGS-AVATAR-ERROR",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11118",
+      "name": "OVERLAY-SETTINGS-EXPORT-PREPARING",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11136",
+      "name": "OVERLAY-SETTINGS-EXPORT-READY",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11154",
+      "name": "OVERLAY-SETTINGS-EXPORT-FAILED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11172",
+      "name": "OVERLAY-SETTINGS-2FA-PENDING",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11190",
+      "name": "OVERLAY-SETTINGS-2FA-ENABLED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11208",
+      "name": "OVERLAY-SETTINGS-PASSWORD-CHANGED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11226",
+      "name": "OVERLAY-SETTINGS-SESSION-TERMINATED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11244",
+      "name": "OVERLAY-SETTINGS-ALL-SESSIONS-TERMINATED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11262",
+      "name": "OVERLAY-SETTINGS-LANGUAGE-CHANGED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11280",
+      "name": "OVERLAY-SETTINGS-TEXT-SIZE-RESET",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11298",
+      "name": "OVERLAY-SETTINGS-MENTOR-CHANGED",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6077:11316",
+      "name": "OVERLAY-SETTINGS-RESET-AI",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 760,
+      "height": 208
+    },
+    {
+      "id": "6267:31",
+      "name": "SCR-SETTINGS-008 · Удаление запланировано",
+      "type": "frame",
+      "parentId": "6004:13437",
+      "width": 1440,
+      "height": 1722
+    },
+    {
+      "id": "6939:15031",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-001 · Профиль и интерфейс / Язык интерфейса",
+      "type": "instance",
+      "parentId": "6938:15033",
+      "width": 360,
+      "height": 120
+    },
+    {
+      "id": "6939:15039",
+      "name": "STATE-DROPDOWN / ORPHAN / SCR-SETTINGS-001 · Профиль и интерфейс / Язык материалов",
+      "type": "instance",
+      "parentId": "6938:15033",
+      "width": 400,
+      "height": 208
+    },
+    {
+      "id": "6939:15058",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-001 · Профиль и интерфейс / Формат даты",
+      "type": "instance",
+      "parentId": "6938:15033",
+      "width": 400,
+      "height": 164
+    },
+    {
+      "id": "6939:15073",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-001 · Профиль и интерфейс / Размер текста",
+      "type": "instance",
+      "parentId": "6938:15033",
+      "width": 190,
+      "height": 208
+    },
+    {
+      "id": "6939:15092",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-001 · Профиль и интерфейс / Масштаб",
+      "type": "instance",
+      "parentId": "6938:15033",
+      "width": 190,
+      "height": 208
+    },
+    {
+      "id": "6939:15111",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-001 · Профиль и интерфейс / Контрастность",
+      "type": "instance",
+      "parentId": "6938:15033",
+      "width": 400,
+      "height": 120
+    },
+    {
+      "id": "6940:15094",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-002 · Курсы и обучение / Сессия по умолчанию",
+      "type": "instance",
+      "parentId": "6938:15034",
+      "width": 400,
+      "height": 208
+    },
+    {
+      "id": "6940:15113",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-002 · Курсы и обучение / Минимальный перерыв",
+      "type": "instance",
+      "parentId": "6938:15034",
+      "width": 190,
+      "height": 208
+    },
+    {
+      "id": "6940:15132",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-002 · Курсы и обучение / Максимум в день",
+      "type": "instance",
+      "parentId": "6938:15034",
+      "width": 190,
+      "height": 252
+    },
+    {
+      "id": "6940:15155",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-002 · Курсы и обучение / Буфер до дедлайна",
+      "type": "instance",
+      "parentId": "6938:15034",
+      "width": 400,
+      "height": 252
+    },
+    {
+      "id": "6940:15178",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-006 · Безопасность и сессии / Автовыход после бездействия",
+      "type": "instance",
+      "parentId": "6938:15034",
+      "width": 400,
+      "height": 208
+    },
+    {
+      "id": "6940:15197",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-007 · Приватность и данные / Хранить историю ИИ",
+      "type": "instance",
+      "parentId": "6938:15034",
+      "width": 400,
+      "height": 208
+    },
+    {
+      "id": "6940:15216",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-007 · Приватность и данные / Формат полного экспорта",
+      "type": "instance",
+      "parentId": "6938:15035",
+      "width": 400,
+      "height": 208
+    },
+    {
+      "id": "6940:15235",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-003 · ИИ-наставник / Язык ответов",
+      "type": "instance",
+      "parentId": "6938:15035",
+      "width": 268,
+      "height": 208
+    },
+    {
+      "id": "6940:15254",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-003 · ИИ-наставник / Строгость",
+      "type": "instance",
+      "parentId": "6938:15035",
+      "width": 268,
+      "height": 164
+    },
+    {
+      "id": "6940:15269",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-003 · ИИ-наставник / Частота примеров",
+      "type": "instance",
+      "parentId": "6938:15035",
+      "width": 292,
+      "height": 164
+    },
+    {
+      "id": "6940:15284",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-004 · Материалы и проверки / Язык источников",
+      "type": "instance",
+      "parentId": "6938:15035",
+      "width": 400,
+      "height": 208
+    },
+    {
+      "id": "6940:15303",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-004 · Материалы и проверки / Макс. длительность видео",
+      "type": "instance",
+      "parentId": "6938:15035",
+      "width": 190,
+      "height": 252
+    },
+    {
+      "id": "6940:15326",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-004 · Материалы и проверки / Скорость видео",
+      "type": "instance",
+      "parentId": "6938:15036",
+      "width": 190,
+      "height": 208
+    },
+    {
+      "id": "6940:15345",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-004 · Материалы и проверки / Проходной балл",
+      "type": "instance",
+      "parentId": "6938:15036",
+      "width": 190,
+      "height": 252
+    },
+    {
+      "id": "6940:15368",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-004 · Материалы и проверки / Лимит времени",
+      "type": "instance",
+      "parentId": "6938:15036",
+      "width": 190,
+      "height": 252
+    },
+    {
+      "id": "6940:15391",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-004 · Материалы и проверки / Язык диплома",
+      "type": "instance",
+      "parentId": "6938:15036",
+      "width": 268,
+      "height": 164
+    },
+    {
+      "id": "6940:15406",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-008 · Удаление запланировано / Хранить историю ИИ",
+      "type": "instance",
+      "parentId": "6938:15036",
+      "width": 400,
+      "height": 208
+    },
+    {
+      "id": "6940:15425",
+      "name": "STATE-DROPDOWN / OPEN / SCR-SETTINGS-008 · Удаление запланировано / Формат полного экспорта",
+      "type": "instance",
+      "parentId": "6938:15036",
+      "width": 400,
+      "height": 208
+    },
+    {
+      "id": "6363:13045",
+      "name": "SCR-LEARN-001 · Программа",
+      "type": "frame",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 4990
+    },
+    {
+      "id": "6363:13130",
+      "name": "SCR-LEARN-003 · Карта модуля",
+      "type": "frame",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 1830
+    },
+    {
+      "id": "6363:13188",
+      "name": "SCR-LEARN-002 · Статистика",
+      "type": "frame",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 1272
+    },
+    {
+      "id": "6363:13315",
+      "name": "STATE-LEARN-LOADING",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 380
+    },
+    {
+      "id": "6363:13321",
+      "name": "STATE-LEARN-EMPTY-INVALID",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 380
+    },
+    {
+      "id": "6363:13327",
+      "name": "STATE-LEARN-LOCKED",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 380
+    },
+    {
+      "id": "6363:13333",
+      "name": "STATE-STATS-EMPTY",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 380
+    },
+    {
+      "id": "6363:13347",
+      "name": "STATE-LEARN-RETRY",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 100
+    },
+    {
+      "id": "6363:13350",
+      "name": "STATE-LEARN-COMPLETED",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 100
+    },
+    {
+      "id": "6363:13353",
+      "name": "STATE-LEARN-FAILED",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 100
+    },
+    {
+      "id": "6426:10046",
+      "name": "STATE-LEARN-SECTION-SKELETON",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 100
+    },
+    {
+      "id": "6426:10049",
+      "name": "STATE-LEARN-SECTION-ERROR",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 100
+    },
+    {
+      "id": "6426:10062",
+      "name": "STATE-LEARN-SEARCH-EMPTY",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1000,
+      "height": 100
+    },
+    {
+      "id": "6454:9291",
+      "name": "STATE-LEARN-SYSTEM-REPEAT",
+      "type": "frame",
+      "parentId": "6363:13312",
+      "width": 1190,
+      "height": 380
+    },
+    {
+      "id": "6363:13356",
+      "name": "SCR-LEARN-004 · Урок",
+      "type": "frame",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 2502
+    },
+    {
+      "id": "6363:13719",
+      "name": "SCR-LEARN-009 · Список тем",
+      "type": "frame",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 1540
+    },
+    {
+      "id": "6363:13888",
+      "name": "SCR-LEARN-012 · Завершение курса",
+      "type": "frame",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 1020
+    },
+    {
+      "id": "7645:24673",
+      "name": "STATE-LEARN-MATERIAL-MENU",
+      "type": "instance",
+      "parentId": "6363:13947",
+      "width": 400,
+      "height": 230
+    },
+    {
+      "id": "7645:24680",
+      "name": "MOD-MATERIAL-REPORT-001",
+      "type": "instance",
+      "parentId": "6363:13947",
+      "width": 660,
+      "height": 310
+    },
+    {
+      "id": "7645:24230",
+      "name": "OVR-LEARN-COURSE-MENU",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7645:24248",
+      "name": "OVR-LEARN-PROJECT-DRAFT-SAVED",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7645:24012",
+      "name": "OVR-LEARN-LESSON-PANEL",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7645:24100",
+      "name": "OVR-LEARN-CHECKPOINT",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7645:24158",
+      "name": "OVR-LEARN-PROJECT",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7645:24206",
+      "name": "OVR-LEARN-LOCKED",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7645:24323",
+      "name": "MOD-LEARN-TOPIC-SEARCH",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 640,
+      "height": 670
+    },
+    {
+      "id": "7645:24392",
+      "name": "MOD-LEARN-TOPIC-COMPLETE-WARNING",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 520,
+      "height": 238
+    },
+    {
+      "id": "7645:24435",
+      "name": "OVERLAY-LEARN-LOCKED-CHECKPOINT-2",
+      "type": "instance",
+      "parentId": "6363:13044",
+      "width": 420,
+      "height": 230
+    },
+    {
+      "id": "5773:29806",
+      "name": "SCR-LEGAL-001 · Условия использования",
+      "type": "frame",
+      "parentId": "6304:13859",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "5773:29859",
+      "name": "SCR-LEGAL-002 · Политика обработки данных",
+      "type": "frame",
+      "parentId": "6304:13859",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "6665:14919",
+      "name": "SCR-BILLING-001 · Тарифы",
+      "type": "frame",
+      "parentId": "6665:14890",
+      "width": 1440,
+      "height": 1160
+    },
+    {
+      "id": "6665:15010",
+      "name": "SCR-BILLING-002 · Оформление подписки",
+      "type": "frame",
+      "parentId": "6665:14890",
+      "width": 1440,
+      "height": 1080
+    },
+    {
+      "id": "6665:15101",
+      "name": "SCR-BILLING-003 · Подписка подключена",
+      "type": "frame",
+      "parentId": "6665:14890",
+      "width": 1440,
+      "height": 1076
+    },
+    {
+      "id": "6665:15192",
+      "name": "SCR-BILLING-004 · Оплата не прошла",
+      "type": "frame",
+      "parentId": "6665:14890",
+      "width": 1440,
+      "height": 1050
+    },
+    {
+      "id": "6665:15283",
+      "name": "SCR-BILLING-005 · Управление подпиской",
+      "type": "frame",
+      "parentId": "6665:14890",
+      "width": 1440,
+      "height": 1130
+    },
+    {
+      "id": "6665:15374",
+      "name": "SCR-BILLING-006 · Отмена подписки",
+      "type": "frame",
+      "parentId": "6665:14890",
+      "width": 1440,
+      "height": 1050
+    },
+    {
+      "id": "6677:17623",
+      "name": "MOD-BILLING-CARD-001 · Сменить карту",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 900,
+      "height": 590
+    },
+    {
+      "id": "6680:17620",
+      "name": "STATE-BILLING-PROCESSING",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 1180,
+      "height": 230
+    },
+    {
+      "id": "6680:17645",
+      "name": "STATE-BILLING-CARD-EXPIRED",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 1180,
+      "height": 230
+    },
+    {
+      "id": "6680:17670",
+      "name": "STATE-BILLING-RENEWAL-FAILED",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 1180,
+      "height": 230
+    },
+    {
+      "id": "6680:17695",
+      "name": "STATE-BILLING-GRACE-PERIOD",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 1180,
+      "height": 230
+    },
+    {
+      "id": "6681:17620",
+      "name": "STATE-BILLING-CANCELLED",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 1180,
+      "height": 230
+    },
+    {
+      "id": "6681:17645",
+      "name": "STATE-BILLING-RESUMED",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 1180,
+      "height": 230
+    },
+    {
+      "id": "6681:17670",
+      "name": "STATE-AI-OPERATION-TOO-EXPENSIVE",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 1180,
+      "height": 230
+    },
+    {
+      "id": "6681:17695",
+      "name": "STATE-AI-LIMIT-REFRESHED",
+      "type": "frame",
+      "parentId": "6677:17620",
+      "width": 1180,
+      "height": 230
+    },
+    {
+      "id": "6716:17782",
+      "name": "SCR-BILLING-007 · Подписка отменена",
+      "type": "frame",
+      "parentId": "6665:14890",
+      "width": 1440,
+      "height": 1130
+    },
+    {
+      "id": "7364:42679",
+      "name": "CMP-MOL-ROUTE-BLOCK / Universal",
+      "type": "frame",
+      "parentId": "7364:42678",
+      "width": 1352,
+      "height": 538
+    },
+    {
+      "id": "7364:42834",
+      "name": "CMP-MOL-ROUTE-DROP-TARGET / State=Active",
+      "type": "symbol",
+      "parentId": "7364:42678",
+      "width": 420,
+      "height": 92
+    },
+    {
+      "id": "7364:42836",
+      "name": "CMP-MOL-ROUTE-ADD-MENU",
+      "type": "symbol",
+      "parentId": "7364:42678",
+      "width": 300,
+      "height": 250
+    },
+    {
+      "id": "7364:42848",
+      "name": "CMP-MOL-ROUTE-BLOCK / Status",
+      "type": "frame",
+      "parentId": "7364:42678",
+      "width": 1352,
+      "height": 436
+    },
+    {
+      "id": "7364:42969",
+      "name": "CMP-MOL-ROUTE-BLOCK / Interaction",
+      "type": "frame",
+      "parentId": "7364:42678",
+      "width": 658,
+      "height": 372
+    },
+    {
+      "id": "7364:43030",
+      "name": "CMP-MOL-ROUTE-NODE / Compact",
+      "type": "frame",
+      "parentId": "7364:42678",
+      "width": 820,
+      "height": 160
+    },
+    {
+      "id": "7364:43066",
+      "name": "CMP-MOL-ROUTE-MODULE-CARD",
+      "type": "frame",
+      "parentId": "7364:42678",
+      "width": 810,
+      "height": 226
+    },
+    {
+      "id": "7364:43098",
+      "name": "CMP-MOL-ROUTE-PROGRESS",
+      "type": "frame",
+      "parentId": "7364:42678",
+      "width": 820,
+      "height": 230
+    },
+    {
+      "id": "7364:43118",
+      "name": "CMP-MOL-ROUTE-TOPIC-COLLAPSE",
+      "type": "frame",
+      "parentId": "7364:42678",
+      "width": 390,
+      "height": 240
+    },
+    {
+      "id": "2425:264",
+      "name": "CMP-ATOM-BUTTON",
+      "type": "frame",
+      "parentId": "6877:17642",
+      "width": 640,
+      "height": 894
+    },
+    {
+      "id": "5974:13536",
+      "name": "CMP-ATOM-TEXT-LINK",
+      "type": "frame",
+      "parentId": "6877:17642",
+      "width": 620,
+      "height": 130
+    },
+    {
+      "id": "6792:18273",
+      "name": "CMP-ATOM-ICON-BUTTON",
+      "type": "frame",
+      "parentId": "6877:17642",
+      "width": 356,
+      "height": 248
+    },
+    {
+      "id": "2024:8882",
+      "name": "CMP-ATOM-CHECKBOX",
+      "type": "frame",
+      "parentId": "6877:17643",
+      "width": 544,
+      "height": 68
+    },
+    {
+      "id": "2089:8259",
+      "name": "CMP-ATOM-RADIO",
+      "type": "frame",
+      "parentId": "6877:17643",
+      "width": 212,
+      "height": 116
+    },
+    {
+      "id": "5974:13524",
+      "name": "CMP-ATOM-TOGGLE",
+      "type": "frame",
+      "parentId": "6877:17643",
+      "width": 184,
+      "height": 24
+    },
+    {
+      "id": "5974:13505",
+      "name": "CMP-ATOM-CHIP",
+      "type": "frame",
+      "parentId": "6877:17643",
+      "width": 720,
+      "height": 328
+    },
+    {
+      "id": "59:3850",
+      "name": "CMP-ATOM-INPUT",
+      "type": "frame",
+      "parentId": "6877:17644",
+      "width": 2088,
+      "height": 220
+    },
+    {
+      "id": "5974:13549",
+      "name": "CMP-ATOM-SELECT-TRIGGER",
+      "type": "frame",
+      "parentId": "6877:17644",
+      "width": 888,
+      "height": 44
+    },
+    {
+      "id": "6928:14982",
+      "name": "CMP-ATOM-SELECT-DROPDOWN",
+      "type": "frame",
+      "parentId": "6877:17644",
+      "width": 1244,
+      "height": 568
+    },
+    {
+      "id": "6742:17877",
+      "name": "CMP-ATOM-SELECT-OPTION",
+      "type": "frame",
+      "parentId": "6877:17644",
+      "width": 1820,
+      "height": 287
+    },
+    {
+      "id": "6955:14978",
+      "name": "CMP-ATOM-TEXTAREA",
+      "type": "frame",
+      "parentId": "6877:17644",
+      "width": 3000,
+      "height": 180
+    },
+    {
+      "id": "6279:12314",
+      "name": "CMP-ATOM-NUMBER-BADGE",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 260,
+      "height": 84
+    },
+    {
+      "id": "5430:25174",
+      "name": "CMP-ATOM-LEARNING-STATUS-BADGE",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 590,
+      "height": 108
+    },
+    {
+      "id": "6526:17",
+      "name": "CMP-ATOM-SOURCE-VERIFICATION-BADGE",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 724,
+      "height": 30
+    },
+    {
+      "id": "6296:13104",
+      "name": "CMP-ATOM-PROGRESS-BAR",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 2290,
+      "height": 386
+    },
+    {
+      "id": "6296:13071",
+      "name": "CMP-ATOM-SPINNER",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 560,
+      "height": 120
+    },
+    {
+      "id": "6795:18285",
+      "name": "CMP-ATOM-DEADLINE-BADGE",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 338,
+      "height": 82
+    },
+    {
+      "id": "6850:18639",
+      "name": "CMP-ATOM-ICON-BADGE",
+      "type": "symbol",
+      "parentId": "6877:17645",
+      "width": 44,
+      "height": 44
+    },
+    {
+      "id": "6426:9908",
+      "name": "CMP-ATOM-LEARN-USER-STATUS",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 470,
+      "height": 62
+    },
+    {
+      "id": "6289:12534",
+      "name": "CMP-ATOM-GLASS-DIGIT",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 920,
+      "height": 455
+    },
+    {
+      "id": "6958:14984",
+      "name": "CMP-ATOM-BADGE",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 920,
+      "height": 160
+    },
+    {
+      "id": "6959:14972",
+      "name": "CMP-ATOM-STATUS-DOT",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 280,
+      "height": 50
+    },
+    {
+      "id": "7489:17987",
+      "name": "CMP-ATOM-STATUS-ILLUSTRATION",
+      "type": "frame",
+      "parentId": "6877:17645",
+      "width": 87,
+      "height": 88
+    },
+    {
+      "id": "5517:12053",
+      "name": "CMP-ATOM-TAB-ITEM",
+      "type": "frame",
+      "parentId": "6877:17646",
+      "width": 610,
+      "height": 150
+    },
+    {
+      "id": "6830:18575",
+      "name": "CMP-ATOM-NAV-ACTIVE-MARKER",
+      "type": "symbol",
+      "parentId": "6877:17646",
+      "width": 4,
+      "height": 28
+    },
+    {
+      "id": "7603:20416",
+      "name": "CMP-ATOM-SIDEBAR-GLASS-ICON",
+      "type": "frame",
+      "parentId": "6877:17646",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "6881:15547",
+      "name": "CMP-ATOM-SURFACE",
+      "type": "frame",
+      "parentId": "6877:17647",
+      "width": 1480,
+      "height": 260
+    },
+    {
+      "id": "6964:14975",
+      "name": "CMP-ATOM-DIVIDER",
+      "type": "frame",
+      "parentId": "6877:17647",
+      "width": 430,
+      "height": 130
+    },
+    {
+      "id": "6964:14979",
+      "name": "CMP-ATOM-SKELETON",
+      "type": "frame",
+      "parentId": "6877:17647",
+      "width": 750,
+      "height": 130
+    },
+    {
+      "id": "6490:9447",
+      "name": "CMP-ATOM-TUTOR-MENTOR-AVATAR",
+      "type": "symbol",
+      "parentId": "6877:17648",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "6120:116",
+      "name": "CMP-ATOM-ROUTE-MARKER",
+      "type": "frame",
+      "parentId": "6877:17648",
+      "width": 242,
+      "height": 110
+    },
+    {
+      "id": "6346:10476",
+      "name": "CMP-ATOM-3D-SEMANTIC-ICON",
+      "type": "frame",
+      "parentId": "6877:17648",
+      "width": 944,
+      "height": 726
+    },
+    {
+      "id": "6301:13037",
+      "name": "CMP-ATOM-GLASS-UI-ICON",
+      "type": "frame",
+      "parentId": "6877:17648",
+      "width": 496,
+      "height": 96
+    },
+    {
+      "id": "6963:14999",
+      "name": "CMP-ATOM-AVATAR",
+      "type": "frame",
+      "parentId": "6877:17648",
+      "width": 440,
+      "height": 250
+    },
+    {
+      "id": "2276:10404",
+      "name": "CMP-MOL-FIELD / Плавающий лейбл",
+      "type": "frame",
+      "parentId": "7013:15259",
+      "width": 1992,
+      "height": 448
+    },
+    {
+      "id": "5975:13509",
+      "name": "CMP-MOL-CHECKBOX-ROW",
+      "type": "frame",
+      "parentId": "7013:15259",
+      "width": 890,
+      "height": 46
+    },
+    {
+      "id": "5975:13531",
+      "name": "CMP-MOL-CHOICE-CARD",
+      "type": "frame",
+      "parentId": "7013:15259",
+      "width": 890,
+      "height": 76
+    },
+    {
+      "id": "5975:13662",
+      "name": "CMP-MOL-OPTION-TILE",
+      "type": "frame",
+      "parentId": "7013:15259",
+      "width": 620,
+      "height": 464
+    },
+    {
+      "id": "6755:17905",
+      "name": "CMP-MOL-DROPDOWN-MENU",
+      "type": "frame",
+      "parentId": "7013:15259",
+      "width": 1252,
+      "height": 162
+    },
+    {
+      "id": "5494:12037",
+      "name": "CMP-MOL-RISK-OPTION",
+      "type": "symbol",
+      "parentId": "7013:15259",
+      "width": 332,
+      "height": 72
+    },
+    {
+      "id": "7482:17949",
+      "name": "CMP-MOL-PROMPT-LINK",
+      "type": "symbol",
+      "parentId": "7013:15259",
+      "width": 560,
+      "height": 24
+    },
+    {
+      "id": "7485:17962",
+      "name": "CMP-MOL-CONSENT-ROW",
+      "type": "symbol",
+      "parentId": "7013:15259",
+      "width": 560,
+      "height": 44
+    },
+    {
+      "id": "7486:17974",
+      "name": "CMP-MOL-FEATURE-CHIP",
+      "type": "symbol",
+      "parentId": "7013:15259",
+      "width": 172,
+      "height": 52
+    },
+    {
+      "id": "5570:32913",
+      "name": "CMP-MOL-GLOBAL-SEARCH",
+      "type": "frame",
+      "parentId": "7013:15260",
+      "width": 520,
+      "height": 172
+    },
+    {
+      "id": "5570:32914",
+      "name": "CMP-MOL-ACCOUNT-CHIP",
+      "type": "symbol",
+      "parentId": "7013:15260",
+      "width": 178,
+      "height": 48
+    },
+    {
+      "id": "6426:9992",
+      "name": "CMP-MOL-LEARN-SEARCH-SCOPE",
+      "type": "frame",
+      "parentId": "7013:15260",
+      "width": 191,
+      "height": 30
+    },
+    {
+      "id": "6425:10006",
+      "name": "CMP-MOL-LEARN-STATUS-FILTER",
+      "type": "frame",
+      "parentId": "7013:15260",
+      "width": 418,
+      "height": 275
+    },
+    {
+      "id": "7054:16021",
+      "name": "CMP-MOL-AUTH-BRAND-CHIP",
+      "type": "symbol",
+      "parentId": "7013:15260",
+      "width": 448,
+      "height": 56
+    },
+    {
+      "id": "7603:20581",
+      "name": "CMP-MOL-SIDEBAR-NAV-ITEM",
+      "type": "frame",
+      "parentId": "7013:15260",
+      "width": 176,
+      "height": 76
+    },
+    {
+      "id": "5567:32879",
+      "name": "CMP-MOL-KNOWLEDGE-QUESTION-ROW",
+      "type": "frame",
+      "parentId": "7013:15261",
+      "width": 726,
+      "height": 218
+    },
+    {
+      "id": "6564:12296",
+      "name": "CMP-MOL-KNOWLEDGE-NAV",
+      "type": "frame",
+      "parentId": "7013:15261",
+      "width": 1192,
+      "height": 44
+    },
+    {
+      "id": "5573:32949",
+      "name": "CMP-MOL-KNOWLEDGE-SOURCE-ROW",
+      "type": "frame",
+      "parentId": "7013:15261",
+      "width": 352,
+      "height": 214
+    },
+    {
+      "id": "6527:35",
+      "name": "CMP-MOL-KNOWLEDGE-SELF-STATE",
+      "type": "symbol",
+      "parentId": "7013:15261",
+      "width": 412,
+      "height": 36
+    },
+    {
+      "id": "5240:17027",
+      "name": "CMP-MOL-KNOWLEDGE-SOURCE-SEARCH",
+      "type": "symbol",
+      "parentId": "7013:15261",
+      "width": 774,
+      "height": 46
+    },
+    {
+      "id": "7045:15817",
+      "name": "CMP-MOL-KNOWLEDGE-NAV-ITEM",
+      "type": "frame",
+      "parentId": "7013:15261",
+      "width": 608,
+      "height": 84
+    },
+    {
+      "id": "7053:16004",
+      "name": "CMP-MOL-KNOWLEDGE-FILTERS",
+      "type": "symbol",
+      "parentId": "7013:15261",
+      "width": 294,
+      "height": 32
+    },
+    {
+      "id": "7065:16077",
+      "name": "CMP-MOL-KNOWLEDGE-STATUS-ACTIONS",
+      "type": "frame",
+      "parentId": "7013:15261",
+      "width": 1716,
+      "height": 86
+    },
+    {
+      "id": "7068:16073",
+      "name": "CMP-MOL-KNOWLEDGE-INFO-BLOCK",
+      "type": "symbol",
+      "parentId": "7013:15261",
+      "width": 808,
+      "height": 82
+    },
+    {
+      "id": "6421:10385",
+      "name": "CMP-MOL-LEARN-LEARNING-STATUS",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 945,
+      "height": 275
+    },
+    {
+      "id": "6117:12103",
+      "name": "CMP-MOL-ROUTE-BLOCK / Status",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 1352,
+      "height": 436
+    },
+    {
+      "id": "6152:11614",
+      "name": "CMP-MOL-ROUTE-NODE / Compact",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 820,
+      "height": 194
+    },
+    {
+      "id": "6117:11876",
+      "name": "CMP-MOL-ROUTE-BLOCK / Universal",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 1352,
+      "height": 538
+    },
+    {
+      "id": "5495:12082",
+      "name": "CMP-MOL-CHECKPOINT-ROW",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 542,
+      "height": 202
+    },
+    {
+      "id": "6798:18338",
+      "name": "CMP-MOL-ARCHIVE-COURSE-CARD",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 572.54638671875,
+      "height": 321.9327087402344
+    },
+    {
+      "id": "7113:19147",
+      "name": "CMP-MOL-LEARN-LESSON-HERO",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 780,
+      "height": 252
+    },
+    {
+      "id": "7115:16648",
+      "name": "CMP-MOL-LEARN-LESSON-ANCHOR-NAV",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 1644,
+      "height": 262
+    },
+    {
+      "id": "7117:19167",
+      "name": "CMP-MOL-LEARN-LESSON-ABOUT",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 780,
+      "height": 300
+    },
+    {
+      "id": "7119:19199",
+      "name": "CMP-MOL-LEARN-LESSON-MATERIALS",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 780,
+      "height": 370
+    },
+    {
+      "id": "7123:19237",
+      "name": "CMP-MOL-LEARN-LESSON-PRACTICE",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 780,
+      "height": 330
+    },
+    {
+      "id": "7125:19243",
+      "name": "CMP-MOL-LEARN-LESSON-QUESTIONS",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 780,
+      "height": 220
+    },
+    {
+      "id": "7126:19257",
+      "name": "CMP-MOL-LEARN-LESSON-AI",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 780,
+      "height": 250
+    },
+    {
+      "id": "7128:19263",
+      "name": "CMP-MOL-LEARN-LESSON-KNOWLEDGE-BASE",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 780,
+      "height": 180
+    },
+    {
+      "id": "7144:19304",
+      "name": "CMP-MOL-LEARN-ROADMAP-COMPLETION-PREVIEW",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 540,
+      "height": 160
+    },
+    {
+      "id": "7148:16822",
+      "name": "CMP-MOL-LEARN-BACK-BAR",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 1192,
+      "height": 44
+    },
+    {
+      "id": "7320:17770",
+      "name": "CMP-MOL-LEARN-STATUS-MENU",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 1010,
+      "height": 166
+    },
+    {
+      "id": "7643:23910",
+      "name": "CMP-MOL-LEARN-OVERLAY-DISMISS",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7643:23912",
+      "name": "CMP-MOL-LEARN-OVERLAY-CLOSE",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "7643:23966",
+      "name": "CMP-MOL-LEARN-OVERLAY-ACTION",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 294,
+      "height": 38
+    },
+    {
+      "id": "7643:23992",
+      "name": "CMP-MOL-LEARN-SEARCH-RESULT",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 592,
+      "height": 430
+    },
+    {
+      "id": "7645:24672",
+      "name": "CMP-MOL-LEARN-MATERIAL-MENU",
+      "type": "symbol",
+      "parentId": "7013:15262",
+      "width": 400,
+      "height": 230
+    },
+    {
+      "id": "7652:24463",
+      "name": "CMP-MOL-LEARN-CONTROL-PROGRAM",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 728,
+      "height": 118
+    },
+    {
+      "id": "7652:24513",
+      "name": "CMP-MOL-LEARN-CONTROL-COMPLETION-PREVIEW",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 170,
+      "height": 30
+    },
+    {
+      "id": "7652:24531",
+      "name": "CMP-MOL-LEARN-CONTROL-MODULE-ROADMAP",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 440,
+      "height": 92
+    },
+    {
+      "id": "7652:24552",
+      "name": "CMP-MOL-LEARN-CONTROL-SIDE-RAIL",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 180,
+      "height": 14
+    },
+    {
+      "id": "7652:24684",
+      "name": "CMP-MOL-LEARN-CONTROL-MATERIALS",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 740,
+      "height": 52
+    },
+    {
+      "id": "7652:24810",
+      "name": "CMP-MOL-LEARN-CONTROL-LESSON",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 132,
+      "height": 36
+    },
+    {
+      "id": "7652:24954",
+      "name": "CMP-MOL-LEARN-CONTROL-STATUS-FILTER",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 93,
+      "height": 32
+    },
+    {
+      "id": "7652:25014",
+      "name": "CMP-MOL-LEARN-CONTROL-COMPLETION",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 230,
+      "height": 46
+    },
+    {
+      "id": "7652:25114",
+      "name": "CMP-MOL-LEARN-CONTROL-SEARCH-SCOPE",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 64,
+      "height": 30
+    },
+    {
+      "id": "7652:25161",
+      "name": "CMP-MOL-LEARN-CONTROL-COURSE-MENU",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 228,
+      "height": 36
+    },
+    {
+      "id": "7652:25195",
+      "name": "CMP-MOL-LEARN-CONTROL-OVERLAY",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 210,
+      "height": 34
+    },
+    {
+      "id": "7655:24810",
+      "name": "CMP-MOL-LEARN-CONTROL-LESSON-PANEL-CANONICAL",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 344,
+      "height": 58
+    },
+    {
+      "id": "7655:25174",
+      "name": "CMP-MOL-LEARN-CONTROL-MODULE-HEADER-CANONICAL",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 1192,
+      "height": 44
+    },
+    {
+      "id": "7657:24889",
+      "name": "CMP-MOL-LEARN-HEADER-ACTION",
+      "type": "frame",
+      "parentId": "7013:15262",
+      "width": 180,
+      "height": 44
+    },
+    {
+      "id": "6633:14123",
+      "name": "CMP-MOL-CALLOUT",
+      "type": "frame",
+      "parentId": "7013:15263",
+      "width": 3112,
+      "height": 208
+    },
+    {
+      "id": "6289:12599",
+      "name": "CMP-MOL-ERROR-CODE",
+      "type": "frame",
+      "parentId": "7013:15263",
+      "width": 4060,
+      "height": 700
+    },
+    {
+      "id": "6303:13004",
+      "name": "CMP-MOL-ERROR-SUPPORT-DATA",
+      "type": "symbol",
+      "parentId": "7013:15263",
+      "width": 610,
+      "height": 99
+    },
+    {
+      "id": "6303:13013",
+      "name": "CMP-MOL-RETRY-AFTER",
+      "type": "symbol",
+      "parentId": "7013:15263",
+      "width": 410,
+      "height": 92
+    },
+    {
+      "id": "6305:13106",
+      "name": "CMP-MOL-NOTIFICATION",
+      "type": "frame",
+      "parentId": "7013:15263",
+      "width": 474,
+      "height": 104
+    },
+    {
+      "id": "6305:13009",
+      "name": "CMP-MOL-CONTEXTUAL-STATE",
+      "type": "frame",
+      "parentId": "7013:15263",
+      "width": 900,
+      "height": 199
+    },
+    {
+      "id": "6304:13896",
+      "name": "CMP-MOL-LOADING-STATE / Brand",
+      "type": "frame",
+      "parentId": "7013:15263",
+      "width": 560,
+      "height": 181
+    },
+    {
+      "id": "6305:12994",
+      "name": "CMP-MOL-SECTION-RETRY",
+      "type": "symbol",
+      "parentId": "7013:15263",
+      "width": 900,
+      "height": 199
+    },
+    {
+      "id": "7038:15677",
+      "name": "CMP-MOL-RECOMMENDATION-ITEM",
+      "type": "symbol",
+      "parentId": "7013:15263",
+      "width": 464,
+      "height": 66
+    },
+    {
+      "id": "7058:16044",
+      "name": "CMP-MOL-NOTE",
+      "type": "frame",
+      "parentId": "7013:15263",
+      "width": 1938,
+      "height": 152
+    },
+    {
+      "id": "7490:17993",
+      "name": "CMP-MOL-STATUS-PANEL",
+      "type": "frame",
+      "parentId": "7013:15263",
+      "width": 560,
+      "height": 152
+    },
+    {
+      "id": "7492:17996",
+      "name": "CMP-MOL-INLINE-NOTICE",
+      "type": "symbol",
+      "parentId": "7013:15263",
+      "width": 508,
+      "height": 45
+    },
+    {
+      "id": "6599:13973",
+      "name": "CMP-MOL-PROJECT-ATTACHMENT-ITEM",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 1448,
+      "height": 462
+    },
+    {
+      "id": "6834:18582",
+      "name": "CMP-MOL-PLAN-GENERATION-PHASE",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 2228.7998046875,
+      "height": 144.1999969482422
+    },
+    {
+      "id": "6836:18615",
+      "name": "CMP-MOL-PLAN-RESULT-ITEM",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 344.3999938964844,
+      "height": 31.5
+    },
+    {
+      "id": "6599:13903",
+      "name": "CMP-MOL-PROJECT-UPLOAD-ZONE",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 1448,
+      "height": 352
+    },
+    {
+      "id": "6844:18640",
+      "name": "CMP-MOL-PLAN-DIFF-ROW",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 2224,
+      "height": 120
+    },
+    {
+      "id": "6312:13429",
+      "name": "CMP-MOL-PROJECT-AUTOSAVE-STATUS",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 780,
+      "height": 42
+    },
+    {
+      "id": "6852:18655",
+      "name": "CMP-MOL-PLAN-GAP-WARNING",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 664,
+      "height": 86
+    },
+    {
+      "id": "6359:502",
+      "name": "CMP-MOL-PLAN-VERSION-BAR",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 1120,
+      "height": 78
+    },
+    {
+      "id": "7075:16103",
+      "name": "CMP-MOL-PROJECT-SUBMIT-SUMMARY",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 444,
+      "height": 1212
+    },
+    {
+      "id": "7099:16577",
+      "name": "CMP-MOL-PROJECT-CRITERIA-LIST",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 1484,
+      "height": 206
+    },
+    {
+      "id": "7099:16581",
+      "name": "CMP-MOL-PROJECT-REVISION-DIFF",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 700,
+      "height": 132
+    },
+    {
+      "id": "7194:19608",
+      "name": "CMP-MOL-PLAN-REVIEW-TOPIC",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 1480,
+      "height": 123
+    },
+    {
+      "id": "7201:17052",
+      "name": "CMP-MOL-PLAN-APPROVAL-METRIC",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 233,
+      "height": 104
+    },
+    {
+      "id": "7204:17095",
+      "name": "CMP-MOL-PLAN-REVIEW-PROPOSAL-IMPACT",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 300,
+      "height": 144
+    },
+    {
+      "id": "7212:17113",
+      "name": "CMP-MOL-PLAN-REVIEW-BLOCKING-GAP-ALERT",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 1120,
+      "height": 64
+    },
+    {
+      "id": "7214:17116",
+      "name": "CMP-MOL-PLAN-REVIEW-AI-INTENT",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 300,
+      "height": 104
+    },
+    {
+      "id": "7215:17119",
+      "name": "CMP-MOL-PLAN-REVIEW-COMPOSER",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 300,
+      "height": 120
+    },
+    {
+      "id": "7216:17129",
+      "name": "CMP-MOL-PLAN-REVIEW-SAVE-LATER",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 300,
+      "height": 116
+    },
+    {
+      "id": "7619:21569",
+      "name": "CMP-MOL-PLAN-APPROVAL-ROW",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 664,
+      "height": 52
+    },
+    {
+      "id": "7619:21573",
+      "name": "CMP-MOL-PLAN-SOURCE-CRITERION",
+      "type": "symbol",
+      "parentId": "7013:15264",
+      "width": 612,
+      "height": 30
+    },
+    {
+      "id": "7619:21585",
+      "name": "CMP-MOL-MATERIAL-REPORT-REASON",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 612,
+      "height": 34
+    },
+    {
+      "id": "7627:22228",
+      "name": "CMP-MOL-PLAN-EDIT-APPROVED-ACTION",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 220,
+      "height": 48
+    },
+    {
+      "id": "7628:22239",
+      "name": "CMP-MOL-PLAN-EDIT-HEADER-ACTION",
+      "type": "frame",
+      "parentId": "7013:15264",
+      "width": 180,
+      "height": 44
+    },
+    {
+      "id": "6497:9916",
+      "name": "CMP-MOL-EXAM-EVALUATION-CRITERION",
+      "type": "frame",
+      "parentId": "7013:15265",
+      "width": 912,
+      "height": 40
+    },
+    {
+      "id": "6486:29",
+      "name": "CMP-MOL-TUTOR-LAUNCHER",
+      "type": "symbol",
+      "parentId": "7013:15265",
+      "width": 139,
+      "height": 42
+    },
+    {
+      "id": "6481:9383",
+      "name": "CMP-MOL-TUTOR-THREAD-ITEM",
+      "type": "frame",
+      "parentId": "7013:15265",
+      "width": 804,
+      "height": 74
+    },
+    {
+      "id": "6481:9384",
+      "name": "CMP-MOL-TUTOR-SOURCE-ROW",
+      "type": "symbol",
+      "parentId": "7013:15265",
+      "width": 320,
+      "height": 58
+    },
+    {
+      "id": "5221:16878",
+      "name": "CMP-MOL-DIPLOMA-CARD / Запись диплома",
+      "type": "frame",
+      "parentId": "7013:15265",
+      "width": 2896,
+      "height": 210
+    },
+    {
+      "id": "6512:2",
+      "name": "CMP-MOL-DIPLOMA-ARCHIVE-CARD",
+      "type": "symbol",
+      "parentId": "7013:15265",
+      "width": 340,
+      "height": 378
+    },
+    {
+      "id": "7027:15386",
+      "name": "CMP-MOL-MENTOR-CARD",
+      "type": "frame",
+      "parentId": "7013:15265",
+      "width": 1436,
+      "height": 283
+    },
+    {
+      "id": "7062:16057",
+      "name": "CMP-MOL-ATTACH-OPTION",
+      "type": "symbol",
+      "parentId": "7013:15265",
+      "width": 328,
+      "height": 54
+    },
+    {
+      "id": "7156:19434",
+      "name": "CMP-MOL-TUTOR-CONTEXT-BAR",
+      "type": "symbol",
+      "parentId": "7013:15265",
+      "width": 1192,
+      "height": 54
+    },
+    {
+      "id": "7176:16999",
+      "name": "CMP-MOL-TUTOR-PRACTICE-RESULT-CARD",
+      "type": "frame",
+      "parentId": "7013:15265",
+      "width": 832,
+      "height": 190
+    },
+    {
+      "id": "7178:17011",
+      "name": "CMP-MOL-TUTOR-DRAWER-SECTION-CARD",
+      "type": "frame",
+      "parentId": "7013:15265",
+      "width": 1520,
+      "height": 102
+    },
+    {
+      "id": "7181:17013",
+      "name": "CMP-MOL-TUTOR-PLAN-PROPOSAL-IMPACT",
+      "type": "symbol",
+      "parentId": "7013:15265",
+      "width": 916,
+      "height": 230
+    },
+    {
+      "id": "7183:17014",
+      "name": "CMP-MOL-TUTOR-PLAN-PROPOSAL-NOTICE",
+      "type": "symbol",
+      "parentId": "7013:15265",
+      "width": 916,
+      "height": 58
+    },
+    {
+      "id": "7185:17016",
+      "name": "CMP-MOL-TUTOR-ATTACHMENT-CHIP",
+      "type": "symbol",
+      "parentId": "7013:15265",
+      "width": 170,
+      "height": 40
+    },
+    {
+      "id": "6820:18443",
+      "name": "CMP-MOL-SETTINGS-TOGGLE-ROW",
+      "type": "symbol",
+      "parentId": "7013:15266",
+      "width": 848,
+      "height": 42
+    },
+    {
+      "id": "6686:17636",
+      "name": "CMP-MOL-AI-USAGE-METER",
+      "type": "frame",
+      "parentId": "7013:15266",
+      "width": 1400,
+      "height": 268
+    },
+    {
+      "id": "6785:18244",
+      "name": "CMP-MOL-METRIC-TILE",
+      "type": "frame",
+      "parentId": "7013:15266",
+      "width": 884,
+      "height": 138
+    },
+    {
+      "id": "6812:18363",
+      "name": "CMP-MOL-SETTINGS-DATA-CATEGORIES",
+      "type": "symbol",
+      "parentId": "7013:15266",
+      "width": 432,
+      "height": 330
+    },
+    {
+      "id": "6812:18409",
+      "name": "CMP-MOL-SETTINGS-EXPORT-PORTABILITY",
+      "type": "symbol",
+      "parentId": "7013:15266",
+      "width": 432,
+      "height": 350
+    },
+    {
+      "id": "6281:12429",
+      "name": "CMP-MOL-APPEARANCE-PREVIEW",
+      "type": "frame",
+      "parentId": "7013:15266",
+      "width": 1000,
+      "height": 368
+    },
+    {
+      "id": "6817:18436",
+      "name": "CMP-MOL-BILLING-NOTIFICATION-PREFERENCES",
+      "type": "symbol",
+      "parentId": "7013:15266",
+      "width": 892,
+      "height": 300
+    },
+    {
+      "id": "6688:17635",
+      "name": "CMP-MOL-PAYWALL",
+      "type": "frame",
+      "parentId": "7013:15266",
+      "width": 1508,
+      "height": 292
+    },
+    {
+      "id": "7227:17263",
+      "name": "CMP-MOL-BILLING-PRICING-CARD",
+      "type": "frame",
+      "parentId": "7013:15266",
+      "width": 872,
+      "height": 500
+    },
+    {
+      "id": "7247:17517",
+      "name": "CMP-MOL-BILLING-NOTICE",
+      "type": "frame",
+      "parentId": "7013:15266",
+      "width": 2416,
+      "height": 230
+    },
+    {
+      "id": "7249:17527",
+      "name": "CMP-MOL-BILLING-AI-CREDITS",
+      "type": "frame",
+      "parentId": "7013:15266",
+      "width": 1504,
+      "height": 246
+    },
+    {
+      "id": "7256:17548",
+      "name": "CMP-MOL-BILLING-HISTORY-ROW",
+      "type": "frame",
+      "parentId": "7013:15266",
+      "width": 1720,
+      "height": 64
+    },
+    {
+      "id": "7539:18376",
+      "name": "CMP-MOL-ONBOARDING-STEP-PROGRESS",
+      "type": "frame",
+      "parentId": "7539:18312",
+      "width": 320,
+      "height": 24
+    },
+    {
+      "id": "7539:18444",
+      "name": "CMP-MOL-ONBOARDING-FLOW-ITEM",
+      "type": "symbol",
+      "parentId": "7539:18312",
+      "width": 560,
+      "height": 56
+    },
+    {
+      "id": "7544:18451",
+      "name": "CMP-MOL-AVATAR-UPLOAD",
+      "type": "frame",
+      "parentId": "7539:18312",
+      "width": 560,
+      "height": 98
+    },
+    {
+      "id": "7545:18436",
+      "name": "CMP-MOL-SUMMARY-ITEM",
+      "type": "symbol",
+      "parentId": "7539:18312",
+      "width": 560,
+      "height": 54
+    },
+    {
+      "id": "7569:19427",
+      "name": "CMP-MOL-MENTOR-OPTION",
+      "type": "frame",
+      "parentId": "7539:18312",
+      "width": 371,
+      "height": 464
+    },
+    {
+      "id": "7587:19536",
+      "name": "CMP-MOL-COURSE-PROGRESS-CARD",
+      "type": "frame",
+      "parentId": "7587:19437",
+      "width": 21621.2734375,
+      "height": 48963.93359375
+    },
+    {
+      "id": "7587:19726",
+      "name": "CMP-MOL-COURSE-FILTERS",
+      "type": "frame",
+      "parentId": "7587:19437",
+      "width": 350,
+      "height": 38
+    },
+    {
+      "id": "7589:19600",
+      "name": "CMP-MOL-NEXT-ACTION-CARD",
+      "type": "symbol",
+      "parentId": "7587:19437",
+      "width": 794,
+      "height": 145
+    },
+    {
+      "id": "7589:19837",
+      "name": "CMP-MOL-ARCHIVE-FILTERS",
+      "type": "frame",
+      "parentId": "7587:19437",
+      "width": 356,
+      "height": 38
+    },
+    {
+      "id": "7589:19855",
+      "name": "CMP-MOL-ARCHIVE-NOTICE",
+      "type": "symbol",
+      "parentId": "7587:19437",
+      "width": 1096,
+      "height": 106
+    },
+    {
+      "id": "7591:19738",
+      "name": "CMP-MOL-ADD-COURSE-CARD",
+      "type": "symbol",
+      "parentId": "7587:19437",
+      "width": 242.5393524169922,
+      "height": 282.02252197265625
+    },
+    {
+      "id": "7678:35219",
+      "name": "CMP-MOL-SETTINGS-CONTROL",
+      "type": "frame",
+      "parentId": "7678:35199",
+      "width": 207,
+      "height": 44
+    },
+    {
+      "id": "7678:35274",
+      "name": "CMP-MOL-PLAN-CREATE-CONTROL",
+      "type": "frame",
+      "parentId": "7678:35220",
+      "width": 257.25,
+      "height": 48
+    },
+    {
+      "id": "7678:35304",
+      "name": "CMP-MOL-DIPLOMA-CONTROL",
+      "type": "frame",
+      "parentId": "7678:35275",
+      "width": 120,
+      "height": 16
+    },
+    {
+      "id": "7678:35345",
+      "name": "CMP-MOL-PROJECT-CONTROL",
+      "type": "frame",
+      "parentId": "7678:35305",
+      "width": 270,
+      "height": 48
+    },
+    {
+      "id": "7691:36243",
+      "name": "CMP-MOL-PROJECT-HELP-BILLING-ACTION",
+      "type": "symbol",
+      "parentId": "7678:35305",
+      "width": 520,
+      "height": 24
+    },
+    {
+      "id": "7678:35881",
+      "name": "CMP-MOL-KNOWLEDGE-CONTROL",
+      "type": "frame",
+      "parentId": "7678:35346",
+      "width": 586,
+      "height": 150
+    },
+    {
+      "id": "7687:35564",
+      "name": "CMP-MOL-SETTINGS-NAV-ITEM / Canonical",
+      "type": "frame",
+      "parentId": "7687:35494",
+      "width": 204,
+      "height": 46
+    },
+    {
+      "id": "7687:35656",
+      "name": "CMP-MOL-SETTINGS-EXPORT-ACTION / Canonical",
+      "type": "frame",
+      "parentId": "7687:35494",
+      "width": 190,
+      "height": 44
+    },
+    {
+      "id": "7687:35813",
+      "name": "CMP-MOL-EXAM-QUESTION-ACTION / Canonical",
+      "type": "frame",
+      "parentId": "7687:35494",
+      "width": 180,
+      "height": 16
+    },
+    {
+      "id": "7687:35938",
+      "name": "CMP-MOL-PROJECT-ATTEMPT-ACTION / Canonical",
+      "type": "frame",
+      "parentId": "7687:35494",
+      "width": 700,
+      "height": 52
+    },
+    {
+      "id": "7687:36100",
+      "name": "CMP-MOL-PROJECT-NEXT-ACTION / Canonical",
+      "type": "frame",
+      "parentId": "7687:35494",
+      "width": 340,
+      "height": 90
+    },
+    {
+      "id": "7687:36163",
+      "name": "CMP-MOL-KNOWLEDGE-QUESTION-ACTION / Canonical",
+      "type": "frame",
+      "parentId": "7687:35494",
+      "width": 294,
+      "height": 40
+    },
+    {
+      "id": "7687:36236",
+      "name": "CMP-MOL-KNOWLEDGE-SEARCH-ACTION / Canonical",
+      "type": "frame",
+      "parentId": "7687:35494",
+      "width": 294,
+      "height": 40
+    },
+    {
+      "id": "7688:36086",
+      "name": "CMP-MOL-PLAN-CREATE-HEADER-ACTION",
+      "type": "frame",
+      "parentId": "7688:36043",
+      "width": 368,
+      "height": 48
+    },
+    {
+      "id": "7688:36168",
+      "name": "CMP-MOL-PROJECT-HEADER-ACTION",
+      "type": "frame",
+      "parentId": "7688:36043",
+      "width": 368,
+      "height": 48
+    },
+    {
+      "id": "7688:36348",
+      "name": "CMP-MOL-KNOWLEDGE-HEADER-ACTION",
+      "type": "frame",
+      "parentId": "7688:36043",
+      "width": 368,
+      "height": 48
+    },
+    {
+      "id": "7691:36233",
+      "name": "CMP-MOL-OVERLAY-CLOSE",
+      "type": "symbol",
+      "parentId": "7691:36230",
+      "width": 33,
+      "height": 32
+    },
+    {
+      "id": "7130:19294",
+      "name": "CMP-ORG-LEARN-LESSON-SIDE-RAIL",
+      "type": "symbol",
+      "parentId": "7289:17566",
+      "width": 392,
+      "height": 920
+    },
+    {
+      "id": "7142:19299",
+      "name": "CMP-ORG-LEARN-ROADMAP-HERO",
+      "type": "symbol",
+      "parentId": "7289:17566",
+      "width": 728,
+      "height": 220
+    },
+    {
+      "id": "7146:19334",
+      "name": "CMP-ORG-LEARN-MODULE-ROADMAP",
+      "type": "symbol",
+      "parentId": "7289:17566",
+      "width": 780,
+      "height": 1390
+    },
+    {
+      "id": "7082:16173",
+      "name": "CMP-ORG-PROJECT-RESULT",
+      "type": "frame",
+      "parentId": "7289:17567",
+      "width": 1644,
+      "height": 1992
+    },
+    {
+      "id": "7086:16231",
+      "name": "CMP-ORG-PROJECT-NEXT-STEP",
+      "type": "frame",
+      "parentId": "7289:17567",
+      "width": 2108,
+      "height": 747
+    },
+    {
+      "id": "7090:16387",
+      "name": "CMP-ORG-PROJECT-SUBMISSION",
+      "type": "frame",
+      "parentId": "7289:17567",
+      "width": 1644,
+      "height": 1340
+    },
+    {
+      "id": "7092:16525",
+      "name": "CMP-ORG-PROJECT-CHECKING",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 1192,
+      "height": 580
+    },
+    {
+      "id": "7094:16566",
+      "name": "CMP-ORG-PROJECT-ASSIGNMENT-MAIN",
+      "type": "frame",
+      "parentId": "7289:17567",
+      "width": 1644,
+      "height": 646
+    },
+    {
+      "id": "7094:16590",
+      "name": "CMP-ORG-PROJECT-ASSIGNMENT-ASIDE",
+      "type": "frame",
+      "parentId": "7289:17567",
+      "width": 860,
+      "height": 646
+    },
+    {
+      "id": "7203:17070",
+      "name": "CMP-ORG-PLAN-REVIEW-APPROVED-SUMMARY",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 811,
+      "height": 643
+    },
+    {
+      "id": "7217:17141",
+      "name": "CMP-ORG-PLAN-REVIEW-AI-PANEL",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 336,
+      "height": 790
+    },
+    {
+      "id": "7219:17180",
+      "name": "CMP-ORG-PLAN-REVIEW-PROGRAM",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 760,
+      "height": 844
+    },
+    {
+      "id": "7221:17231",
+      "name": "CMP-ORG-PLAN-REVIEW-APPROVED-VISUAL",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 359,
+      "height": 641
+    },
+    {
+      "id": "7619:21601",
+      "name": "CMP-ORG-PLAN-DIFF-MODAL",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 760,
+      "height": 573
+    },
+    {
+      "id": "7619:21821",
+      "name": "CMP-ORG-PLAN-APPROVAL-MODAL",
+      "type": "frame",
+      "parentId": "7289:17567",
+      "width": 795,
+      "height": 1649
+    },
+    {
+      "id": "7619:21989",
+      "name": "CMP-ORG-PLAN-SOURCE-REPLACE-MODAL",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 660,
+      "height": 430
+    },
+    {
+      "id": "7619:22023",
+      "name": "CMP-ORG-PLAN-PROPOSAL-GENERATING-MODAL",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 560,
+      "height": 193
+    },
+    {
+      "id": "7619:22093",
+      "name": "CMP-ORG-MATERIAL-REPORT-MODAL",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 660,
+      "height": 310
+    },
+    {
+      "id": "7620:21996",
+      "name": "CMP-ORG-PLAN-EDIT-REVIEW-CONTENT",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 1192,
+      "height": 1038
+    },
+    {
+      "id": "7620:22164",
+      "name": "CMP-ORG-PLAN-EDIT-APPROVED-CONTENT",
+      "type": "symbol",
+      "parentId": "7289:17567",
+      "width": 1184,
+      "height": 643
+    },
+    {
+      "id": "7160:19445",
+      "name": "CMP-ORG-TUTOR-THREADS-PANEL",
+      "type": "symbol",
+      "parentId": "7289:17568",
+      "width": 236,
+      "height": 736
+    },
+    {
+      "id": "7162:19502",
+      "name": "CMP-ORG-TUTOR-CHAT-WORKSPACE",
+      "type": "symbol",
+      "parentId": "7289:17568",
+      "width": 620,
+      "height": 748
+    },
+    {
+      "id": "7164:19534",
+      "name": "CMP-ORG-TUTOR-UTILITY-PANEL",
+      "type": "symbol",
+      "parentId": "7289:17568",
+      "width": 304,
+      "height": 454
+    },
+    {
+      "id": "7229:17301",
+      "name": "CMP-ORG-BILLING-RESULT",
+      "type": "frame",
+      "parentId": "7289:17569",
+      "width": 1224,
+      "height": 540
+    },
+    {
+      "id": "7233:17361",
+      "name": "CMP-ORG-BILLING-CURRENT-PLAN",
+      "type": "frame",
+      "parentId": "7289:17569",
+      "width": 2696,
+      "height": 220
+    },
+    {
+      "id": "7238:17432",
+      "name": "CMP-ORG-BILLING-PAYMENT-METHOD",
+      "type": "frame",
+      "parentId": "7289:17569",
+      "width": 986,
+      "height": 590
+    },
+    {
+      "id": "7245:17488",
+      "name": "CMP-ORG-BILLING-CANCEL-MODAL",
+      "type": "symbol",
+      "parentId": "7289:17569",
+      "width": 580,
+      "height": 520
+    },
+    {
+      "id": "7251:17535",
+      "name": "CMP-ORG-BILLING-ORDER-SUMMARY",
+      "type": "symbol",
+      "parentId": "7289:17569",
+      "width": 330,
+      "height": 590
+    },
+    {
+      "id": "7258:17554",
+      "name": "CMP-ORG-BILLING-PAYMENT-HISTORY",
+      "type": "symbol",
+      "parentId": "7289:17569",
+      "width": 872,
+      "height": 300
+    },
+    {
+      "id": "7495:18009",
+      "name": "CMP-ORG-AUTH-SIGN-UP-FORM",
+      "type": "symbol",
+      "parentId": "7495:17998",
+      "width": 640,
+      "height": 608
+    },
+    {
+      "id": "7495:18063",
+      "name": "CMP-ORG-AUTH-LOGIN-FORM",
+      "type": "symbol",
+      "parentId": "7495:17998",
+      "width": 640,
+      "height": 470
+    },
+    {
+      "id": "7495:18098",
+      "name": "CMP-ORG-AUTH-RESTORE-FORM",
+      "type": "symbol",
+      "parentId": "7495:17998",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "id": "7495:18124",
+      "name": "CMP-ORG-AUTH-NEW-PASSWORD-FORM",
+      "type": "symbol",
+      "parentId": "7495:17998",
+      "width": 640,
+      "height": 464
+    },
+    {
+      "id": "7495:18157",
+      "name": "CMP-ORG-AUTH-RESTORE-SENT-MODAL",
+      "type": "symbol",
+      "parentId": "7495:17998",
+      "width": 520,
+      "height": 210
+    },
+    {
+      "id": "7495:18186",
+      "name": "CMP-ORG-AUTH-STATUS-FORM",
+      "type": "frame",
+      "parentId": "7495:17998",
+      "width": 640,
+      "height": 482
+    },
+    {
+      "id": "7546:18495",
+      "name": "CMP-ORG-ONBOARDING-PROFILE",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 642,
+      "height": 968
+    },
+    {
+      "id": "7546:18731",
+      "name": "CMP-ORG-ONBOARDING-INTRO",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 724
+    },
+    {
+      "id": "7546:18851",
+      "name": "CMP-ORG-ONBOARDING-COURSES",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 724
+    },
+    {
+      "id": "7546:19025",
+      "name": "CMP-ORG-ONBOARDING-SCHEDULE",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 724
+    },
+    {
+      "id": "7546:19323",
+      "name": "CMP-ORG-ONBOARDING-MENTOR",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 1750
+    },
+    {
+      "id": "7546:19521",
+      "name": "CMP-ORG-ONBOARDING-ANALYTICS",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 724
+    },
+    {
+      "id": "7546:19702",
+      "name": "CMP-ORG-ONBOARDING-KNOWLEDGE",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 724
+    },
+    {
+      "id": "7546:19893",
+      "name": "CMP-ORG-ONBOARDING-EXAMS",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 724
+    },
+    {
+      "id": "7546:20069",
+      "name": "CMP-ORG-ONBOARDING-DIPLOMA",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 724
+    },
+    {
+      "id": "7546:20182",
+      "name": "CMP-ORG-ONBOARDING-COMPLETE",
+      "type": "symbol",
+      "parentId": "7546:18458",
+      "width": 660,
+      "height": 719
+    },
+    {
+      "id": "7589:19707",
+      "name": "CMP-ORG-COURSES-DEADLINE-CALENDAR",
+      "type": "symbol",
+      "parentId": "7589:19581",
+      "width": 338,
+      "height": 917
+    },
+    {
+      "id": "7592:19990",
+      "name": "CMP-ORG-COURSES-DASHBOARD",
+      "type": "symbol",
+      "parentId": "7589:19581",
+      "width": 1142,
+      "height": 917
+    },
+    {
+      "id": "7592:20341",
+      "name": "CMP-ORG-COURSES-ARCHIVE",
+      "type": "symbol",
+      "parentId": "7589:19581",
+      "width": 1142,
+      "height": 569
+    },
+    {
+      "id": "7592:20445",
+      "name": "CMP-ORG-COURSES-EMPTY",
+      "type": "symbol",
+      "parentId": "7589:19581",
+      "width": 1142,
+      "height": 700
+    },
+    {
+      "id": "7640:22749",
+      "name": "CMP-ORG-LEARN-PROGRAM-CONTENT",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 1192,
+      "height": 4802
+    },
+    {
+      "id": "7640:23274",
+      "name": "CMP-ORG-LEARN-STATS-CONTENT",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 1192,
+      "height": 1092
+    },
+    {
+      "id": "7640:23481",
+      "name": "CMP-ORG-LEARN-MODULE-CONTENT",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 1192,
+      "height": 1650
+    },
+    {
+      "id": "7640:23702",
+      "name": "CMP-ORG-LEARN-LESSON-CONTENT",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 1192,
+      "height": 2322
+    },
+    {
+      "id": "7640:24075",
+      "name": "CMP-ORG-LEARN-TOPICS-CONTENT",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 1192,
+      "height": 1360
+    },
+    {
+      "id": "7640:24293",
+      "name": "CMP-ORG-LEARN-COMPLETION-CONTENT",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 1192,
+      "height": 840
+    },
+    {
+      "id": "7645:24011",
+      "name": "CMP-ORG-LEARN-OVERLAY",
+      "type": "frame",
+      "parentId": "7640:22255",
+      "width": 5880,
+      "height": 900
+    },
+    {
+      "id": "7645:24229",
+      "name": "CMP-ORG-LEARN-COURSE-MENU-OVERLAY",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7645:24247",
+      "name": "CMP-ORG-LEARN-DRAFT-SAVED-TOAST",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7645:24322",
+      "name": "CMP-ORG-LEARN-TOPIC-SEARCH-MODAL",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 640,
+      "height": 670
+    },
+    {
+      "id": "7645:24391",
+      "name": "CMP-ORG-LEARN-TOPIC-COMPLETE-WARNING",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 520,
+      "height": 238
+    },
+    {
+      "id": "7645:24434",
+      "name": "CMP-ORG-LEARN-LOCKED-CHECKPOINT",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 420,
+      "height": 230
+    },
+    {
+      "id": "7645:24470",
+      "name": "CMP-ORG-LEARN-CHECKPOINT-PANEL",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 952,
+      "height": 500
+    },
+    {
+      "id": "7645:24537",
+      "name": "CMP-ORG-LEARN-PROJECT-PANEL",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 952,
+      "height": 500
+    },
+    {
+      "id": "7645:24629",
+      "name": "CMP-ORG-LEARN-MATERIAL-ADD-DIALOG",
+      "type": "symbol",
+      "parentId": "7640:22255",
+      "width": 500,
+      "height": 330
+    },
+    {
+      "id": "7654:24610",
+      "name": "CMP-ORG-LEARN-LESSON-PANEL / Canonical",
+      "type": "frame",
+      "parentId": "7640:22255",
+      "width": 392,
+      "height": 760
+    },
+    {
+      "id": "7654:24762",
+      "name": "CMP-ORG-LEARN-MODULE-HEADER / Canonical",
+      "type": "frame",
+      "parentId": "7640:22255",
+      "width": 2424,
+      "height": 240
+    },
+    {
+      "id": "7673:25680",
+      "name": "CMP-ORG-SETTINGS-CONTENT-001",
+      "type": "symbol",
+      "parentId": "7673:24884",
+      "width": 932,
+      "height": 1200
+    },
+    {
+      "id": "7673:25994",
+      "name": "CMP-ORG-SETTINGS-CONTENT-002",
+      "type": "symbol",
+      "parentId": "7673:24884",
+      "width": 932,
+      "height": 1460
+    },
+    {
+      "id": "7673:26355",
+      "name": "CMP-ORG-SETTINGS-CONTENT-003",
+      "type": "symbol",
+      "parentId": "7673:24884",
+      "width": 932,
+      "height": 1900
+    },
+    {
+      "id": "7673:26650",
+      "name": "CMP-ORG-SETTINGS-CONTENT-004",
+      "type": "symbol",
+      "parentId": "7673:24884",
+      "width": 932,
+      "height": 1780
+    },
+    {
+      "id": "7673:27162",
+      "name": "CMP-ORG-SETTINGS-CONTENT-005",
+      "type": "symbol",
+      "parentId": "7673:24884",
+      "width": 932,
+      "height": 1760
+    },
+    {
+      "id": "7673:27492",
+      "name": "CMP-ORG-SETTINGS-CONTENT-006",
+      "type": "symbol",
+      "parentId": "7673:24884",
+      "width": 932,
+      "height": 1430
+    },
+    {
+      "id": "7673:27763",
+      "name": "CMP-ORG-SETTINGS-CONTENT-007",
+      "type": "symbol",
+      "parentId": "7673:24884",
+      "width": 932,
+      "height": 1530
+    },
+    {
+      "id": "7673:28068",
+      "name": "CMP-ORG-SETTINGS-CONTENT-008",
+      "type": "symbol",
+      "parentId": "7673:24884",
+      "width": 932,
+      "height": 1530
+    },
+    {
+      "id": "7673:28804",
+      "name": "CMP-ORG-PLAN-CREATE-CONTENT-001",
+      "type": "symbol",
+      "parentId": "7673:28342",
+      "width": 1185,
+      "height": 603.0803833007812
+    },
+    {
+      "id": "7673:28956",
+      "name": "CMP-ORG-PLAN-CREATE-CONTENT-002",
+      "type": "symbol",
+      "parentId": "7673:28342",
+      "width": 1192,
+      "height": 706
+    },
+    {
+      "id": "7673:29102",
+      "name": "CMP-ORG-PLAN-CREATE-CONTENT-003",
+      "type": "symbol",
+      "parentId": "7673:28342",
+      "width": 1192,
+      "height": 657
+    },
+    {
+      "id": "7673:29242",
+      "name": "CMP-ORG-PLAN-CREATE-CONTENT-004",
+      "type": "symbol",
+      "parentId": "7673:28342",
+      "width": 1192,
+      "height": 640
+    },
+    {
+      "id": "7673:29384",
+      "name": "CMP-ORG-PLAN-CREATE-CONTENT-005",
+      "type": "symbol",
+      "parentId": "7673:28342",
+      "width": 1192,
+      "height": 861
+    },
+    {
+      "id": "7673:30272",
+      "name": "CMP-ORG-BILLING-CONTENT-001",
+      "type": "symbol",
+      "parentId": "7673:29575",
+      "width": 932,
+      "height": 950
+    },
+    {
+      "id": "7673:30422",
+      "name": "CMP-ORG-BILLING-CONTENT-002",
+      "type": "symbol",
+      "parentId": "7673:29575",
+      "width": 932,
+      "height": 870
+    },
+    {
+      "id": "7673:30590",
+      "name": "CMP-ORG-BILLING-CONTENT-003",
+      "type": "symbol",
+      "parentId": "7673:29575",
+      "width": 932,
+      "height": 866
+    },
+    {
+      "id": "7673:30730",
+      "name": "CMP-ORG-BILLING-CONTENT-004",
+      "type": "symbol",
+      "parentId": "7673:29575",
+      "width": 932,
+      "height": 840
+    },
+    {
+      "id": "7673:30862",
+      "name": "CMP-ORG-BILLING-CONTENT-005",
+      "type": "symbol",
+      "parentId": "7673:29575",
+      "width": 932,
+      "height": 920
+    },
+    {
+      "id": "7673:31030",
+      "name": "CMP-ORG-BILLING-CONTENT-006",
+      "type": "symbol",
+      "parentId": "7673:29575",
+      "width": 932,
+      "height": 840
+    },
+    {
+      "id": "7673:31169",
+      "name": "CMP-ORG-BILLING-CONTENT-007",
+      "type": "symbol",
+      "parentId": "7673:29575",
+      "width": 932,
+      "height": 920
+    },
+    {
+      "id": "7674:29666",
+      "name": "CMP-ORG-EXAM-CONTENT-001",
+      "type": "symbol",
+      "parentId": "7674:29267",
+      "width": 1179.3690185546875,
+      "height": 623
+    },
+    {
+      "id": "7674:29794",
+      "name": "CMP-ORG-EXAM-CONTENT-002",
+      "type": "symbol",
+      "parentId": "7674:29267",
+      "width": 1192.0384521484375,
+      "height": 652.3529663085938
+    },
+    {
+      "id": "7674:29963",
+      "name": "CMP-ORG-EXAM-CONTENT-003",
+      "type": "symbol",
+      "parentId": "7674:29267",
+      "width": 1192,
+      "height": 602
+    },
+    {
+      "id": "7674:30088",
+      "name": "CMP-ORG-EXAM-CONTENT-004",
+      "type": "symbol",
+      "parentId": "7674:29267",
+      "width": 1186,
+      "height": 607.1976928710938
+    },
+    {
+      "id": "7674:30227",
+      "name": "CMP-ORG-EXAM-CONTENT-005",
+      "type": "symbol",
+      "parentId": "7674:29267",
+      "width": 1193.246337890625,
+      "height": 727
+    },
+    {
+      "id": "7674:30692",
+      "name": "CMP-ORG-DIPLOMA-CONTENT-001",
+      "type": "symbol",
+      "parentId": "7674:30376",
+      "width": 1080,
+      "height": 400
+    },
+    {
+      "id": "7674:30811",
+      "name": "CMP-ORG-DIPLOMA-CONTENT-002",
+      "type": "symbol",
+      "parentId": "7674:30376",
+      "width": 1160,
+      "height": 340
+    },
+    {
+      "id": "7674:30935",
+      "name": "CMP-ORG-DIPLOMA-CONTENT-003",
+      "type": "symbol",
+      "parentId": "7674:30376",
+      "width": 1120,
+      "height": 475
+    },
+    {
+      "id": "7674:31052",
+      "name": "CMP-ORG-DIPLOMA-CONTENT-004",
+      "type": "symbol",
+      "parentId": "7674:30376",
+      "width": 1192,
+      "height": 840
+    },
+    {
+      "id": "7674:31860",
+      "name": "CMP-ORG-PROJECT-CONTENT-000",
+      "type": "symbol",
+      "parentId": "7674:31224",
+      "width": 1192,
+      "height": 596
+    },
+    {
+      "id": "7674:31964",
+      "name": "CMP-ORG-PROJECT-CONTENT-001",
+      "type": "symbol",
+      "parentId": "7674:31224",
+      "width": 1192,
+      "height": 596
+    },
+    {
+      "id": "7674:32066",
+      "name": "CMP-ORG-PROJECT-CONTENT-002",
+      "type": "symbol",
+      "parentId": "7674:31224",
+      "width": 1180,
+      "height": 628
+    },
+    {
+      "id": "7674:32202",
+      "name": "CMP-ORG-PROJECT-CONTENT-003",
+      "type": "symbol",
+      "parentId": "7674:31224",
+      "width": 1192,
+      "height": 640
+    },
+    {
+      "id": "7674:32322",
+      "name": "CMP-ORG-PROJECT-CONTENT-004",
+      "type": "symbol",
+      "parentId": "7674:31224",
+      "width": 1192,
+      "height": 769
+    },
+    {
+      "id": "7674:32464",
+      "name": "CMP-ORG-PROJECT-CONTENT-005",
+      "type": "symbol",
+      "parentId": "7674:31224",
+      "width": 1192,
+      "height": 668
+    },
+    {
+      "id": "7674:32599",
+      "name": "CMP-ORG-PROJECT-CONTENT-006",
+      "type": "symbol",
+      "parentId": "7674:31224",
+      "width": 1192,
+      "height": 726
+    },
+    {
+      "id": "7674:32728",
+      "name": "CMP-ORG-PROJECT-CONTENT-007",
+      "type": "symbol",
+      "parentId": "7674:31224",
+      "width": 1192,
+      "height": 668
+    },
+    {
+      "id": "7675:33874",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-001",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 580
+    },
+    {
+      "id": "7675:34086",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-002",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 736
+    },
+    {
+      "id": "7675:34290",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-003",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 856
+    },
+    {
+      "id": "7675:34476",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-005",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 802
+    },
+    {
+      "id": "7675:34681",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-006",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 706
+    },
+    {
+      "id": "7675:34875",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-007",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 736
+    },
+    {
+      "id": "7675:35059",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-008",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 896
+    },
+    {
+      "id": "7675:35247",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-009",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 896
+    },
+    {
+      "id": "7675:35431",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-003A",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 876
+    },
+    {
+      "id": "7675:35613",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-004",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 876
+    },
+    {
+      "id": "7675:35794",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-004C",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 1108
+    },
+    {
+      "id": "7675:35977",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-004A",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 876
+    },
+    {
+      "id": "7675:36161",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-004B",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 616
+    },
+    {
+      "id": "7675:36305",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-008A",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 896
+    },
+    {
+      "id": "7675:36493",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-GLOBAL-001",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 704
+    },
+    {
+      "id": "7675:36675",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-GLOBAL-002",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 592
+    },
+    {
+      "id": "7675:36854",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-GLOBAL-003",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 718
+    },
+    {
+      "id": "7675:37018",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-GLOBAL-004",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 748
+    },
+    {
+      "id": "7675:37189",
+      "name": "CMP-ORG-KNOWLEDGE-CONTENT-GLOBAL-005",
+      "type": "symbol",
+      "parentId": "7675:31440",
+      "width": 1192,
+      "height": 818
+    },
+    {
+      "id": "7676:35047",
+      "name": "CMP-ORG-TUTOR-PAGE-CONTENT",
+      "type": "symbol",
+      "parentId": "7676:35045",
+      "width": 1192,
+      "height": 826
+    },
+    {
+      "id": "7687:35495",
+      "name": "CMP-ORG-SETTINGS-NAVIGATION / Canonical",
+      "type": "symbol",
+      "parentId": "7687:35493",
+      "width": 240,
+      "height": 1180
+    },
+    {
+      "id": "7687:35565",
+      "name": "CMP-MOL-SETTINGS-EXPORT-PORTABILITY / Canonical",
+      "type": "symbol",
+      "parentId": "7687:35493",
+      "width": 432,
+      "height": 350
+    },
+    {
+      "id": "7687:35657",
+      "name": "CMP-ORG-EXAM-QUESTION / Canonical",
+      "type": "frame",
+      "parentId": "7687:35493",
+      "width": 1540,
+      "height": 1060
+    },
+    {
+      "id": "7687:35814",
+      "name": "CMP-ORG-PROJECT-RESULT / Canonical",
+      "type": "frame",
+      "parentId": "7687:35493",
+      "width": 1644,
+      "height": 1992
+    },
+    {
+      "id": "7687:35939",
+      "name": "CMP-ORG-PROJECT-NEXT-STEP / Canonical",
+      "type": "frame",
+      "parentId": "7687:35493",
+      "width": 2108,
+      "height": 747
+    },
+    {
+      "id": "7687:36101",
+      "name": "CMP-ORG-KNOWLEDGE-QUESTION-OUTLINE / Canonical",
+      "type": "symbol",
+      "parentId": "7687:35493",
+      "width": 350,
+      "height": 680
+    },
+    {
+      "id": "7687:36164",
+      "name": "CMP-ORG-KNOWLEDGE-SEARCH-OUTLINE / Canonical",
+      "type": "symbol",
+      "parentId": "7687:35493",
+      "width": 350,
+      "height": 680
+    },
+    {
+      "id": "7499:18266",
+      "name": "CMP-TPL-AUTH-PAGE",
+      "type": "symbol",
+      "parentId": "7364:43246",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7547:19349",
+      "name": "CMP-TPL-ONBOARDING-PAGE",
+      "type": "frame",
+      "parentId": "7547:19336",
+      "width": 1440,
+      "height": 1880
+    },
+    {
+      "id": "7593:20310",
+      "name": "CMP-TPL-COURSES-PAGE",
+      "type": "frame",
+      "parentId": "7593:20096",
+      "width": 1440,
+      "height": 1107
+    },
+    {
+      "id": "7620:22372",
+      "name": "CMP-TPL-PLAN-EDIT-PAGE",
+      "type": "frame",
+      "parentId": "7620:22209",
+      "width": 1440,
+      "height": 1228
+    },
+    {
+      "id": "7640:22747",
+      "name": "CMP-TPL-LEARN-PAGE",
+      "type": "frame",
+      "parentId": "7640:22256",
+      "width": 1440,
+      "height": 4990
+    },
+    {
+      "id": "7673:25678",
+      "name": "CMP-TPL-SETTINGS-PAGE",
+      "type": "frame",
+      "parentId": "7673:24885",
+      "width": 1440,
+      "height": 2092
+    },
+    {
+      "id": "7673:28802",
+      "name": "CMP-TPL-PLAN-CREATE-PAGE",
+      "type": "frame",
+      "parentId": "7673:28343",
+      "width": 1440,
+      "height": 1153
+    },
+    {
+      "id": "7673:30270",
+      "name": "CMP-TPL-BILLING-PAGE",
+      "type": "frame",
+      "parentId": "7673:29576",
+      "width": 1440,
+      "height": 1160
+    },
+    {
+      "id": "7674:29664",
+      "name": "CMP-TPL-EXAM-PAGE",
+      "type": "frame",
+      "parentId": "7674:29268",
+      "width": 1440,
+      "height": 920
+    },
+    {
+      "id": "7674:30690",
+      "name": "CMP-TPL-DIPLOMA-PAGE",
+      "type": "frame",
+      "parentId": "7674:30377",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "7674:31858",
+      "name": "CMP-TPL-PROJECT-PAGE",
+      "type": "frame",
+      "parentId": "7674:31225",
+      "width": 1440,
+      "height": 973
+    },
+    {
+      "id": "7675:33872",
+      "name": "CMP-TPL-KNOWLEDGE-PAGE",
+      "type": "frame",
+      "parentId": "7675:31441",
+      "width": 1440,
+      "height": 1332
+    },
+    {
+      "id": "6874:17638",
+      "name": "Typography / Role map",
+      "type": "frame",
+      "parentId": "6872:21164",
+      "width": 1590,
+      "height": 678
+    },
+    {
+      "id": "6876:17638",
+      "name": "Q-ICON / Tintable",
+      "type": "symbol",
+      "parentId": "6872:21165",
+      "width": 24,
+      "height": 24
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export { ExamQuestion } from './ExamQuestion';

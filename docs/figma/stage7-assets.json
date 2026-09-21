@@ -1,0 +1,16 @@
+[
+  {
+    "path": "frontend/src/assets/mentors/lira-tutor.png",
+    "nodeId": "5368:21912",
+    "source": "https://www.figma.com/api/mcp/asset/e9028d48-e5d5-4881-a5e5-9eefdda28232.png",
+    "bytes": 7818,
+    "sha256": "954e6bf8c8664887d60067ac19a0f7b48b4ea6b6d2249daa32ba8ab745134914"
+  },
+  {
+    "path": "frontend/src/assets/screens/plan-mentor.png",
+    "nodeId": "5368:21912",
+    "source": "https://www.figma.com/api/mcp/asset/05516029-da39-455e-b9e0-cda1f384c460.png",
+    "bytes": 1968564,
+    "sha256": "7875653f82fcbfa2d8f209ab85c4eef4eff0c69d8b85943b6aa626f07a78d88f"
+  }
+]

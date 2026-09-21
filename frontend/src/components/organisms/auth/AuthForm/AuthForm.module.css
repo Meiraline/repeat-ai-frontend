@@ -1,0 +1,20 @@
+.form {
+  display: grid;
+  gap: 16px;
+  min-inline-size: 0;
+}
+.form h1 {
+  font: 700 1.75rem/2.25rem var(--font-heading);
+  margin: 0;
+}
+.description {
+  font: var(--type-body);
+  color: var(--color-muted);
+  margin: 0 0 8px;
+}
+.error {
+  color: var(--color-error-text);
+  font: var(--type-body);
+  margin: 0;
+  overflow-wrap: anywhere;
+}

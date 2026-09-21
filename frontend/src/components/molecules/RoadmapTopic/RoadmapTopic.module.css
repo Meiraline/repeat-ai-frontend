@@ -1,0 +1,28 @@
+.topic {
+  display: flex;
+  gap: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-control);
+  padding: var(--space-4);
+  background: var(--color-surface);
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+}
+.topic[data-selected='true'] {
+  border-color: var(--color-primary);
+}
+.topic > div {
+  min-inline-size: 0;
+  flex: 1;
+}
+.topic h3 {
+  font: var(--type-strong);
+  margin: 0;
+}
+.topic p {
+  color: var(--color-muted);
+  font: var(--type-body-small);
+}
+.topic button {
+  margin-top: var(--space-4);
+}

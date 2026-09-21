@@ -1,0 +1,21 @@
+.bar {
+  appearance: none;
+  display: block;
+  inline-size: 100%;
+  block-size: 10px;
+  border: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--color-border);
+}
+.bar::-webkit-progress-bar {
+  background: var(--color-border);
+}
+.bar::-webkit-progress-value {
+  background: linear-gradient(90deg, #10b8ff, #2563ff, #975bff);
+  border-radius: 8px;
+}
+.bar::-moz-progress-bar {
+  background: linear-gradient(90deg, #10b8ff, #2563ff, #975bff);
+  border-radius: 8px;
+}

@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  gap: var(--space-1);
+  margin-inline-start: -0.75rem;
+}
+.text {
+  min-inline-size: 0;
+  margin: 0;
+  color: var(--color-muted);
+  font: var(--type-caption);
+  overflow-wrap: anywhere;
+}
+.text label {
+  cursor: pointer;
+}
+.error {
+  margin: var(--space-1-5) 0 0;
+  color: var(--color-error-text);
+  font: var(--type-caption);
+  overflow-wrap: anywhere;
+}

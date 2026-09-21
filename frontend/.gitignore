@@ -1,0 +1,15 @@
+node_modules/
+build/
+.react-router/
+storybook-static/
+playwright-report/
+test-results/
+coverage/
+.env
+.env.local
+.env.*.local
+*.log
+
+# The backend's root ignore treats every lib/ as a Python artifact.
+!src/**/lib/
+!src/**/lib/**

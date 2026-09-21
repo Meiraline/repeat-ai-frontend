@@ -1,0 +1,30 @@
+import { index, layout, route, type RouteConfig } from '@react-router/dev/routes';
+
+export default [
+  index('../pages/landing/LandingPage.tsx'),
+  route('auth/:mode', '../pages/auth/AuthPage.tsx'),
+  route('legal/:document', '../pages/legal/LegalPage.tsx'),
+  layout('./router/ProtectedLayout.tsx', [
+    route('app', '../pages/courses/CoursesPage.tsx'),
+    route('app/courses', '../pages/courses/CoursesAlias.tsx'),
+    route('app/plans/new', '../pages/plan-create/PlanCreatePage.tsx'),
+    route('app/plans/:id', '../pages/plan-create/PlanExistingPage.tsx'),
+    route('app/plans/:id/review', '../pages/plan-review/PlanReviewPage.tsx'),
+    route('app/tracks/:id', '../pages/learn/LearnPage.tsx'),
+    route('app/tracks/:id/topics/:topic', '../pages/learn/LessonRoute.tsx'),
+    route('app/tracks/:id/knowledge', '../pages/knowledge/KnowledgePage.tsx'),
+    route('app/knowledge', '../pages/knowledge/KnowledgeIndex.tsx'),
+    route('app/tutor', '../pages/tutor/TutorIndex.tsx'),
+    route('app/tracks/:id/tutor', '../pages/tutor/TutorPage.tsx'),
+    route('app/tracks/:id/exam/:topic', '../pages/exam/ExamPage.tsx'),
+    route('app/tracks/:id/project', '../pages/project/ProjectPage.tsx'),
+    route('app/tracks/:id/diploma', '../pages/diploma/DiplomaPage.tsx'),
+    route('app/diplomas', '../pages/diploma/DiplomaIndex.tsx'),
+    route('app/settings', '../pages/settings/SettingsPage.tsx'),
+    route('app/billing', '../pages/billing/BillingPage.tsx'),
+    route('app/billing/checkout', '../pages/billing/BillingCheckout.tsx'),
+    route('app/billing/return', '../pages/billing/BillingReturn.tsx'),
+    route('onboarding', '../pages/onboarding/OnboardingPage.tsx'),
+  ]),
+  route('*', '../pages/not-found/NotFoundPage.tsx'),
+] satisfies RouteConfig;

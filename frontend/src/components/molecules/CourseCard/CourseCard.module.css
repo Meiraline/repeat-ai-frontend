@@ -1,0 +1,39 @@
+.card {
+  border: 1px solid var(--color-disabled);
+  border-top: 4px solid var(--color-primary-border);
+  border-radius: 6px;
+  background: linear-gradient(148deg, #f8fafb, #e6edff);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+}
+.card h3 {
+  font: 800 1.125rem/1.5rem var(--font-body);
+  margin: 0;
+}
+.card p {
+  margin: 0;
+  font: var(--type-body);
+}
+.card small {
+  font: var(--type-caption);
+  color: var(--color-muted);
+}
+.badge {
+  background: #fff3d6;
+  color: #805400;
+  border: 1px solid #f2b84b;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font: var(--type-caption);
+  align-self: start;
+}
+.next {
+  background: var(--color-background);
+  border-radius: 6px;
+  padding: 12px;
+  flex: 1;
+}

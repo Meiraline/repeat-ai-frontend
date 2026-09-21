@@ -1,0 +1,30 @@
+[
+  {
+    "path": "frontend/src/assets/screens/plan-mentor.png",
+    "nodeId": "5361:21732",
+    "source": "https://www.figma.com/api/mcp/asset/dd7f94b5-8c91-42c7-be65-23862970e560.png",
+    "bytes": 1968564,
+    "sha256": "7875653f82fcbfa2d8f209ab85c4eef4eff0c69d8b85943b6aa626f07a78d88f"
+  },
+  {
+    "path": "frontend/src/assets/screens/plan-intro.png",
+    "nodeId": "5361:21892",
+    "source": "https://www.figma.com/api/mcp/asset/131fd4aa-4df9-4773-95de-0b86dc27247e.png",
+    "bytes": 1991594,
+    "sha256": "2efd3f803f1cb79b473bfe8e81372fa79b062a9a74efb996b0df06510bbebf33"
+  },
+  {
+    "path": "frontend/src/assets/screens/review-badge.png",
+    "nodeId": "7619:21629",
+    "source": "https://www.figma.com/api/mcp/asset/073797be-2828-48f9-8887-b3b86e6a2134.png",
+    "bytes": 739131,
+    "sha256": "6c3dd58f1aa4f8f6cff1ecec0551392683a76a4da087618532e046e8daabf701"
+  },
+  {
+    "path": "frontend/src/assets/screens/review-warning.png",
+    "nodeId": "5361:21732",
+    "source": "https://www.figma.com/api/mcp/asset/1ed6851f-9541-47e7-be62-8bffbeb0a2f5.png",
+    "bytes": 8401,
+    "sha256": "5a4139c0b0e8e7f1de678febbbbf725f86d7ce49249fb135c014a51ed8e5c3b7"
+  }
+]

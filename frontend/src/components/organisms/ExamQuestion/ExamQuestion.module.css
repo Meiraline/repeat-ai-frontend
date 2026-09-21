@@ -1,0 +1,60 @@
+.question {
+  min-inline-size: 0;
+  border: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+  overflow-wrap: anywhere;
+}
+.question legend {
+  padding: 0;
+  margin-bottom: var(--space-6);
+  font-weight: 700;
+}
+.question legend small,
+.question legend span {
+  display: block;
+  margin-bottom: var(--space-2);
+}
+.question legend small {
+  color: var(--color-primary);
+  font-size: 0.875rem;
+}
+.question label {
+  display: grid;
+  gap: var(--space-2);
+}
+.question .option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  min-block-size: 52px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-panel);
+  padding: var(--space-4);
+}
+.option:has(input:checked) {
+  background: var(--color-primary-soft);
+  border-color: var(--color-primary);
+}
+.option input {
+  inline-size: 20px;
+  block-size: 20px;
+  flex: 0 0 20px;
+  accent-color: var(--color-primary);
+}
+.question textarea,
+.question input[type='text'] {
+  min-inline-size: 0;
+  inline-size: 100%;
+  padding: var(--space-4);
+  border: 1px solid var(--color-primary-border);
+  border-radius: var(--radius-control);
+  font: inherit;
+  font-size: 1rem;
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+.question textarea {
+  resize: vertical;
+}

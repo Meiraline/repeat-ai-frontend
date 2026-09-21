@@ -1,0 +1,115 @@
+.root {
+  container-type: inline-size;
+  inline-size: 100%;
+  min-inline-size: 0;
+  display: flex;
+  flex-direction: column;
+}
+.leading {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+.label {
+  align-self: flex-start;
+  position: relative;
+  z-index: 1;
+  max-inline-size: calc(100% - 1.5rem);
+  margin-inline-start: 0.75rem;
+  margin-block-end: -0.5rem;
+  padding-inline: var(--space-1-5);
+  background: var(--color-surface);
+  border-radius: 0.25rem;
+  color: var(--color-text);
+  font: var(--type-label);
+  overflow-wrap: anywhere;
+}
+.control {
+  display: flex;
+  gap: var(--space-2-5);
+  align-items: center;
+  padding-inline: var(--space-4) var(--space-3-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-panel);
+  background: var(--color-surface);
+  transition:
+    border-color var(--motion-control),
+    box-shadow var(--motion-control);
+}
+.medium {
+  min-block-size: var(--input-medium);
+}
+.large {
+  min-block-size: var(--input-large);
+}
+.input {
+  inline-size: 100%;
+  min-inline-size: 0;
+  flex: 1;
+  padding: var(--space-3-5) 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-text);
+  font: var(--type-body-large);
+}
+.input::placeholder {
+  color: var(--color-muted);
+  opacity: 1;
+}
+.input:focus-visible {
+  outline: none;
+}
+@media (hover: hover) {
+  .root:not(.disabled):hover .control {
+    border-color: var(--color-primary-border);
+  }
+}
+.root:focus-within .control {
+  border-color: var(--color-primary);
+  box-shadow:
+    inset 0 0 0 1px var(--color-primary),
+    var(--shadow-focus);
+}
+.root:focus-within .label {
+  color: var(--color-primary);
+}
+.root.invalid .control {
+  border-color: var(--color-error);
+}
+.root.invalid .label {
+  color: var(--color-error-text);
+}
+.root.invalid:focus-within .control {
+  box-shadow:
+    inset 0 0 0 1px var(--color-error),
+    var(--shadow-focus);
+}
+.disabled .control {
+  background: var(--color-background);
+}
+.disabled .label,
+.disabled .input,
+.disabled .input::placeholder {
+  color: var(--color-disabled);
+}
+.disabled .input {
+  cursor: not-allowed;
+}
+@container (max-width: 18rem) {
+  .leading {
+    display: none;
+  }
+  .control {
+    padding-inline: 0.5rem;
+    gap: 0.25rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .control {
+    transition: none;
+  }
+}
+@media (forced-colors: active) {
+  .root:focus-within .control {
+    outline: 2px solid Highlight;
+  }
+}

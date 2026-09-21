@@ -1,0 +1,53 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 44px;
+  font: var(--type-strong);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.caption {
+  font: var(--type-small, 400 0.8125rem/1.125rem var(--font-body));
+  color: var(--color-muted);
+  margin: 0;
+}
+.caption a {
+  font-weight: 800;
+}
+.status {
+  display: grid;
+  gap: 16px;
+  overflow-wrap: anywhere;
+}
+.status h1 {
+  font: 700 1.75rem/2.25rem var(--font-heading);
+  margin: 0;
+}
+.status p {
+  font: var(--type-body);
+  color: var(--color-muted);
+  margin: 0;
+}
+.status .error {
+  color: var(--color-error-text);
+}
+.statusBox {
+  padding: 32px 16px;
+  display: grid;
+  justify-items: center;
+  border-radius: 16px;
+  background: var(--color-primary-soft);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.success {
+  background: #e7f7f1;
+}
+.warning {
+  background: #fff4d6;
+}

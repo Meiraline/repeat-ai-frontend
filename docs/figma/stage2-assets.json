@@ -1,0 +1,63 @@
+{
+  "fileKey": "hvF90E8EGKFYvS1FxAgSvQ",
+  "exportedAt": "2026-09-20",
+  "assets": [
+    {
+      "file": "frontend/src/assets/icons/mail.png",
+      "nodeId": "5649:23668",
+      "format": "PNG",
+      "scale": 2,
+      "width": 114,
+      "height": 103,
+      "bytes": 9835,
+      "sha256": "263517759f972b72a58ad0bdfe04e9875b89c71efdac854df87307c4c6b3ce91"
+    },
+    {
+      "file": "frontend/src/assets/icons/lock.png",
+      "nodeId": "5649:23669",
+      "format": "PNG",
+      "scale": 2,
+      "width": 114,
+      "height": 103,
+      "bytes": 11331,
+      "sha256": "8d74cbcd8cc155c6b3a62edb6987d450f60d9b83f1feb06df4efe4b99d2a0860"
+    },
+    {
+      "file": "frontend/src/assets/icons/eye.png",
+      "nodeId": "5649:23670",
+      "format": "PNG",
+      "scale": 2,
+      "width": 114,
+      "height": 103,
+      "bytes": 12297,
+      "sha256": "94f96212432c91fc030884941ea8ee0b9db2fa583f04b0f3d3935ae7e36cb968"
+    },
+    {
+      "file": "frontend/src/assets/icons/check.png",
+      "nodeId": "6317:6",
+      "format": "PNG",
+      "scale": 2,
+      "width": 28,
+      "height": 28,
+      "bytes": 937,
+      "sha256": "8134a2a8f78eb008c9354b8c32eaf9c434b237a7a45b6affdedb5f8cdc00f1ad"
+    },
+    {
+      "file": "frontend/src/assets/icons/chevron-down.png",
+      "nodeId": "6876:17638",
+      "format": "PNG",
+      "scale": 2,
+      "width": 48,
+      "height": 48,
+      "bytes": 1454,
+      "sha256": "9ca9888b25dbe929c0a8446c46011d83d66d061e2e5cadf1f1db33c686e81e8e"
+    },
+    {
+      "file": "frontend/src/assets/icons/spinner.svg",
+      "nodeId": "6296:13039",
+      "format": "SVG",
+      "bytes": 1888,
+      "sha256": "e6505253ee70ba912926035f789ce29e07426fd43e9c8311aa111d026aa39390"
+    }
+  ]
+}

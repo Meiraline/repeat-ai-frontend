@@ -1,0 +1,29 @@
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  border-radius: 0.125rem;
+}
+.medium {
+  font: var(--type-strong);
+}
+.small {
+  font: var(--type-label);
+}
+.caption {
+  font: var(--type-caption);
+}
+.standalone {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+}
+@media (hover: hover) {
+  .link:hover {
+    text-decoration: underline;
+  }
+}
+.link:active {
+  color: var(--color-primary-pressed);
+  text-decoration: underline;
+}

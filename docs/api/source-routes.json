@@ -1,0 +1,325 @@
+{
+  "repository": "154ajax-collab/EGE",
+  "branch": "repeat-center",
+  "commit": "12bfd8579e65799117187445bd8fca508af0c43b",
+  "capturedAt": "2026-09-20",
+  "kind": "static route declarations; NOT an OpenAPI document or runtime verification",
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/api/v1/me/deletion-requests",
+      "operationId": "API-ACCOUNT-DELETE",
+      "statusCode": 202,
+      "source": "src/api/v1/account.py",
+      "line": 16
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/me/deletion-requests/{request_id}/cancel",
+      "operationId": "API-ACCOUNT-DELETE-CANCEL",
+      "statusCode": 200,
+      "source": "src/api/v1/account.py",
+      "line": 41
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/register",
+      "operationId": "API-AUTH-REGISTER",
+      "statusCode": 201,
+      "source": "src/api/v1/auth.py",
+      "line": 47
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/login",
+      "operationId": "API-AUTH-LOGIN",
+      "statusCode": 200,
+      "source": "src/api/v1/auth.py",
+      "line": 83
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/password/restore-requests",
+      "operationId": "API-AUTH-RESTORE",
+      "statusCode": 202,
+      "source": "src/api/v1/auth.py",
+      "line": 126
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/password/resets",
+      "operationId": "API-AUTH-RESET",
+      "statusCode": 200,
+      "source": "src/api/v1/auth.py",
+      "line": 151
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/email/verifications",
+      "operationId": "API-AUTH-VERIFY",
+      "statusCode": 200,
+      "source": "src/api/v1/auth.py",
+      "line": 168
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/logout",
+      "operationId": "API-AUTH-LOGOUT",
+      "statusCode": 204,
+      "source": "src/api/v1/auth.py",
+      "line": 215
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/tracks/{track_id}/certificate-generation-jobs",
+      "operationId": "API-DIPLOMA-GENERATE",
+      "statusCode": 202,
+      "source": "src/api/v1/certificates.py",
+      "line": 21
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/certificates/{cert_id}",
+      "operationId": "API-DIPLOMA-STATUS",
+      "statusCode": 200,
+      "source": "src/api/v1/certificates.py",
+      "line": 49
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/certificates/{cert_id}/download-links",
+      "operationId": "API-DIPLOMA-DOWNLOAD",
+      "statusCode": 200,
+      "source": "src/api/v1/certificates.py",
+      "line": 75
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/certificates",
+      "operationId": "API-CERTIFICATES-LIST",
+      "statusCode": 200,
+      "source": "src/api/v1/certificates.py",
+      "line": 92
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/dashboard",
+      "operationId": "API-DASHBOARD",
+      "statusCode": 200,
+      "source": "src/api/v1/dashboard.py",
+      "line": 13
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/exams/{exam_id}",
+      "operationId": "API-EXAM-INTRO",
+      "statusCode": 200,
+      "source": "src/api/v1/exams.py",
+      "line": 21
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/exams/{exam_id}/attempts",
+      "operationId": "API-EXAM-START",
+      "statusCode": 200,
+      "source": "src/api/v1/exams.py",
+      "line": 35
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/exam-attempts/{attempt_id}/answers/{question_id}",
+      "operationId": "API-EXAM-ANSWER",
+      "statusCode": 200,
+      "source": "src/api/v1/exams.py",
+      "line": 54
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/exam-attempts/{attempt_id}/submit",
+      "operationId": "API-EXAM-SUBMIT",
+      "statusCode": 202,
+      "source": "src/api/v1/exams.py",
+      "line": 75
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/exam-attempts/{attempt_id}",
+      "operationId": "API-EXAM-RESULT",
+      "statusCode": 200,
+      "source": "src/api/v1/exams.py",
+      "line": 95
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/tracks/{track_id}",
+      "operationId": "API-TRACK",
+      "statusCode": 200,
+      "source": "src/api/v1/learning.py",
+      "line": 17
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/tracks/{track_id}/topics/{topic_id}",
+      "operationId": "API-TOPIC",
+      "statusCode": 200,
+      "source": "src/api/v1/learning.py",
+      "line": 33
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/materials/{material_id}/open-events",
+      "operationId": "API-MATERIAL-OPEN",
+      "statusCode": 204,
+      "source": "src/api/v1/learning.py",
+      "line": 52
+    },
+    {
+      "method": "PUT",
+      "path": "/api/v1/materials/{material_id}/completion",
+      "operationId": "API-PROGRESS",
+      "statusCode": 200,
+      "source": "src/api/v1/learning.py",
+      "line": 68
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/tracks/{track_id}/stats",
+      "operationId": "API-STATS",
+      "statusCode": 200,
+      "source": "src/api/v1/learning.py",
+      "line": 88
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/plan-interviews",
+      "operationId": "API-PLAN-INTERVIEW-CREATE",
+      "statusCode": 201,
+      "source": "src/api/v1/plans.py",
+      "line": 57
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/plan-interviews/{interview_id}",
+      "operationId": "API-PLAN-INTERVIEW-GET",
+      "statusCode": 200,
+      "source": "src/api/v1/plans.py",
+      "line": 71
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/plan-interviews/{interview_id}/brief",
+      "operationId": "API-PLAN-BRIEF",
+      "statusCode": 200,
+      "source": "src/api/v1/plans.py",
+      "line": 88
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/deadline-evaluations",
+      "operationId": "API-DEADLINE-EVALUATE",
+      "statusCode": 200,
+      "source": "src/api/v1/plans.py",
+      "line": 114
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/plan-interviews/{interview_id}/generation-jobs",
+      "operationId": "API-PLAN-GENERATE",
+      "statusCode": 202,
+      "source": "src/api/v1/plans.py",
+      "line": 133
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/plans/{plan_id}/approve",
+      "operationId": "API-PLAN-APPROVE",
+      "statusCode": 201,
+      "source": "src/api/v1/plans.py",
+      "line": 164
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/me/profile",
+      "operationId": "API-PROFILE-GET",
+      "statusCode": 200,
+      "source": "src/api/v1/profile.py",
+      "line": 29
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/me/profile",
+      "operationId": "API-PROFILE",
+      "statusCode": 200,
+      "source": "src/api/v1/profile.py",
+      "line": 43
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chat-threads",
+      "operationId": "API-CHAT-CREATE",
+      "statusCode": 201,
+      "source": "src/api/v1/tutor.py",
+      "line": 22
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/chat-threads/{thread_id}/context",
+      "operationId": "API-CHAT-CONTEXT",
+      "statusCode": 200,
+      "source": "src/api/v1/tutor.py",
+      "line": 37
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chat-threads/{thread_id}/messages",
+      "operationId": "API-CHAT-SEND",
+      "statusCode": 202,
+      "source": "src/api/v1/tutor.py",
+      "line": 59
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/chat-threads/{thread_id}/messages",
+      "operationId": "API-CHAT-HISTORY",
+      "statusCode": 200,
+      "source": "src/api/v1/tutor.py",
+      "line": 80
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chat-threads/{thread_id}/actions/summarize",
+      "operationId": "API-TUTOR-SUMMARIZE",
+      "statusCode": 200,
+      "source": "src/api/v1/tutor.py",
+      "line": 95
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chat-threads/{thread_id}/actions/practice",
+      "operationId": "API-TUTOR-PRACTICE",
+      "statusCode": 200,
+      "source": "src/api/v1/tutor.py",
+      "line": 113
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chat-messages/{message_id}/feedback",
+      "operationId": "API-TUTOR-FEEDBACK",
+      "statusCode": 204,
+      "source": "src/api/v1/tutor.py",
+      "line": 132
+    }
+  ],
+  "syntaxErrors": [
+    {
+      "source": "src/api/v1/auth.py",
+      "line": 152,
+      "message": "unexpected indent"
+    },
+    {
+      "source": "src/services/auth_service.py",
+      "line": 187,
+      "message": "unexpected indent"
+    }
+  ]
+}

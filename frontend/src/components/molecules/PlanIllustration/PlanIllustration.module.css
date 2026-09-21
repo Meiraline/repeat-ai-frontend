@@ -1,0 +1,62 @@
+.panel {
+  text-align: center;
+  padding: 24px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  border-radius: 12px;
+}
+.panel h2 {
+  font: 700 1.125rem/1.5rem var(--font-body);
+}
+.panel p {
+  font: var(--type-body);
+  color: var(--color-muted);
+}
+.image {
+  inline-size: 100%;
+  aspect-ratio: 1;
+  position: relative;
+  overflow: hidden;
+}
+.image img {
+  position: absolute;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+  inset: 0;
+  max-inline-size: none;
+}
+.intro img {
+  inline-size: 300%;
+  block-size: 200%;
+  left: -97.92%;
+  top: 2.08%;
+  object-fit: fill;
+}
+.risk img {
+  inline-size: 300%;
+  block-size: 200%;
+  left: 2.08%;
+  top: 2.08%;
+  object-fit: fill;
+}
+.summary img {
+  inline-size: 283.57%;
+  block-size: 202.55%;
+  left: -142.5%;
+  top: -95.85%;
+  object-fit: fill;
+}
+.generation img {
+  inline-size: 310.64%;
+  block-size: 227.67%;
+  left: -206.96%;
+  top: -13.02%;
+  object-fit: fill;
+}
+@media (max-width: 47.99rem) {
+  .image {
+    max-inline-size: 180px;
+    margin: auto;
+  }
+}

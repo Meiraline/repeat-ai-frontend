@@ -1,0 +1,43 @@
+{
+  "capturedAt": "2026-09-20",
+  "sourceNodeIds": [
+    "7495:18063",
+    "2425:264"
+  ],
+  "scope": "Auth form and button only; resolved values, not all collection modes",
+  "values": {
+    "var(--repeat-color-navy-900-ice-025)": "#0b2558",
+    "Typography/Heading/Form": "Font(family: \"Space Grotesk\", style: Bold, size: 30, weight: 700, lineHeight: 38, letterSpacing: 0)",
+    "var(--repeat-color-slate-600-slate-250)": "#60739a",
+    "Typography/Body/Default": "Font(family: \"Inter\", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0)",
+    "var(--repeat-metric-stroke-default)": "1",
+    "Typography/Body/Large": "Font(family: \"Inter\", style: Regular, size: 16, weight: 400, lineHeight: 24, letterSpacing: 0)",
+    "Typography/Label/Small": "Font(family: \"Inter\", style: Semi Bold, size: 12, weight: 600, lineHeight: 16, letterSpacing: 0)",
+    "var(--repeat-metric-space-06)": "6",
+    "var(--repeat-metric-radius-04)": "4",
+    "var(--repeat-color-white-000-navy-800)": "#ffffff",
+    "var(--repeat-metric-space-10)": "10",
+    "var(--repeat-metric-space-16)": "16",
+    "var(--repeat-metric-space-14)": "14",
+    "var(--repeat-metric-radius-16)": "16",
+    "var(--repeat-color-bluegray-100-navy-650)": "#dde7fa",
+    "var(--repeat-metric-space-08)": "8",
+    "var(--repeat-color-blue-500-blue-300)": "#2563ff",
+    "var(--repeat-color-white-000-white-000)": "#ffffff",
+    "Typography/Action/Primary": "Font(family: \"Inter\", style: Black, size: 16, weight: 900, lineHeight: 20, letterSpacing: 0)",
+    "var(--repeat-metric-radius-default)": "8",
+    "Typography/Body/Small": "Font(family: \"Inter\", style: Regular, size: 13, weight: 400, lineHeight: 18, letterSpacing: 0)",
+    "Typography/Label/Strong": "Font(family: \"Inter\", style: Extra Bold, size: 14, weight: 800, lineHeight: 20, letterSpacing: 0)",
+    "var(--repeat-metric-space-04)": "4",
+    "var(--repeat-metric-space-40)": "40",
+    "--wf-control-s": "44",
+    "var(--repeat-color-blue-450)": "#1677ff",
+    "var(--repeat-color-blue-300-blue-200)": "#8eb2ff",
+    "--wf-control-m": "48",
+    "var(--repeat-color-purple-500)": "#7540e5",
+    "var(--repeat-color-purple-200)": "#c6b3f4",
+    "var(--repeat-color-rose-500-rose-300)": "#e96882",
+    "var(--repeat-color-bluegray-025-navy-950)": "#f8faff",
+    "Typography/Meta/Caption": "Font(family: \"Inter\", style: Regular, size: 10, weight: 400, lineHeight: 14, letterSpacing: 0)"
+  }
+}

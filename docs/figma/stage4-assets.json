@@ -1,0 +1,184 @@
+[
+  {
+    "node": "5292:15869",
+    "file": "frontend/src/assets/screens/courses-empty.png",
+    "bytes": 1274666,
+    "sha256": "869462555b6e475004f2b0e910c093c14c2b3d029ae2c53e269aad98b065684a"
+  },
+  {
+    "node": "5355:20457",
+    "file": "frontend/src/assets/screens/plan-intro.png",
+    "bytes": 1991594,
+    "sha256": "2efd3f803f1cb79b473bfe8e81372fa79b062a9a74efb996b0df06510bbebf33"
+  },
+  {
+    "node": "5355:20796",
+    "file": "frontend/src/assets/screens/plan-mentor.png",
+    "bytes": 1968564,
+    "sha256": "7875653f82fcbfa2d8f209ab85c4eef4eff0c69d8b85943b6aa626f07a78d88f"
+  },
+  {
+    "node": "5355:21151",
+    "file": "frontend/src/assets/screens/plan-intro.png",
+    "bytes": 1991594,
+    "sha256": "2efd3f803f1cb79b473bfe8e81372fa79b062a9a74efb996b0df06510bbebf33"
+  },
+  {
+    "node": "5355:21481",
+    "file": "frontend/src/assets/screens/plan-intro.png",
+    "bytes": 1991594,
+    "sha256": "2efd3f803f1cb79b473bfe8e81372fa79b062a9a74efb996b0df06510bbebf33"
+  },
+  {
+    "node": "5355:21842",
+    "file": "frontend/src/assets/screens/plan-intro.png",
+    "bytes": 1991594,
+    "sha256": "2efd3f803f1cb79b473bfe8e81372fa79b062a9a74efb996b0df06510bbebf33"
+  },
+  {
+    "node": "5292:15469",
+    "file": "frontend/src/assets/screens/courses-next.png",
+    "bytes": 30722,
+    "sha256": "60f1d8eb891c149af2c8dfccc481983ccbd238d0581013f4fd292dd0b5310414"
+  },
+  {
+    "node": "5292:15469",
+    "file": "frontend/src/assets/screens/metric-deadline.png",
+    "bytes": 897025,
+    "sha256": "d1c5a9bb3fcc682fbc4370ccf4393b886cb1f03a8af00f59fd1a9603772fae82"
+  },
+  {
+    "node": "5292:15469",
+    "file": "frontend/src/assets/screens/metric-tracks.png",
+    "bytes": 604433,
+    "sha256": "6430b67fa748a5afc596fd6335c81e24d37a2964a8a97cf75bca68e85fc3c5a3"
+  },
+  {
+    "node": "5292:15469",
+    "file": "frontend/src/assets/screens/metric-attention.png",
+    "bytes": 774247,
+    "sha256": "2a879128ce30e173310aed5bdd29e970e67bf47ebbd1b062b54a20f862a92f74"
+  },
+  {
+    "node": "7603:20393",
+    "file": "frontend/src/assets/icons/route.png",
+    "scale": 2,
+    "width": 20,
+    "height": 20,
+    "bytes": 1974,
+    "sha256": "019204c5be3839f20b8d473600576af67f5f771f7e28d2028ffdd64a6a4292a8"
+  },
+  {
+    "node": "7603:20396",
+    "file": "frontend/src/assets/icons/book.png",
+    "scale": 2,
+    "width": 20,
+    "height": 18.05128288269043,
+    "bytes": 1973,
+    "sha256": "553dda7188efce51bdeb33c95bcb882900b12d65573667621bafbc913754fed1"
+  },
+  {
+    "node": "7603:20405",
+    "file": "frontend/src/assets/icons/archive.png",
+    "scale": 2,
+    "width": 19.382022857666016,
+    "height": 20,
+    "bytes": 2405,
+    "sha256": "1d43a6fff5c0dc19e925e2e27c00241581f3ccb0cd6bbb9be779e3365adfa2f8"
+  },
+  {
+    "node": "7603:20408",
+    "file": "frontend/src/assets/icons/settings.png",
+    "scale": 2,
+    "width": 19.382022857666016,
+    "height": 20,
+    "bytes": 2681,
+    "sha256": "853bdf53384657c9eb6668390da7e84eab78ba64b952c7f1d14d3ebf7f8ef8fa"
+  },
+  {
+    "node": "7603:20411",
+    "file": "frontend/src/assets/icons/privacy.png",
+    "scale": 2,
+    "width": 19.382022857666016,
+    "height": 20,
+    "bytes": 2569,
+    "sha256": "88f59423157db1ba1cf527927589a0df5fb9852567a3b5ecc8bad44f5eb6e545"
+  },
+  {
+    "node": "7603:20414",
+    "file": "frontend/src/assets/icons/logout.png",
+    "scale": 2,
+    "width": 19.382022857666016,
+    "height": 20,
+    "bytes": 2368,
+    "sha256": "b19896c38ab06e09bc343099598566db4242f8356bda09707830f7e5db708e8c"
+  },
+  {
+    "node": "I7673:29385;6835:18582;6833:18580",
+    "file": "frontend/src/assets/icons/phase1.png",
+    "scale": 1,
+    "width": 57.119998931884766,
+    "height": 67.83000183105469,
+    "bytes": 9206,
+    "sha256": "dcd802ec2a773c3efde89b2dc8324023179ee1b07da8c5951deb16f12ff201ca"
+  },
+  {
+    "node": "I7673:29385;6835:18600;6833:18598",
+    "file": "frontend/src/assets/icons/phase3.png",
+    "scale": 1,
+    "width": 57.119998931884766,
+    "height": 67.83000183105469,
+    "bytes": 9778,
+    "sha256": "1fba5f4fdd089cb90c191224bb7ef4b30ee8793141ff47e0780675df0cc38752"
+  },
+  {
+    "node": "I7673:29385;6835:18618;6833:18598",
+    "file": "frontend/src/assets/icons/phase5.png",
+    "scale": 1,
+    "width": 57.119998931884766,
+    "height": 67.83000183105469,
+    "bytes": 8422,
+    "sha256": "c18977e0219c2298f3ddc84fc810713ac219a42d7b2c23ebe79a3962383a4991"
+  },
+  {
+    "node": "5649:23663",
+    "file": "frontend/src/assets/icons/plus.png",
+    "scale": 1,
+    "width": 57,
+    "height": 51.29999923706055,
+    "bytes": 2570,
+    "sha256": "2de442aac9469cd6972a85bc2d71da5fcd3ef4a2d5a5299e79511b8b6ccc7d50"
+  },
+  {
+    "node": "7603:20399",
+    "file": "frontend/src/assets/icons/tutor.png",
+    "scale": 1,
+    "width": 19.104476928710938,
+    "height": 20,
+    "bytes": 957,
+    "sha256": "10e4b3a4d91bcd9a6369fbf352e5fd9b708818e37eab6a4af453b0b585d36979"
+  },
+  {
+    "node": "7603:20402",
+    "file": "frontend/src/assets/icons/analytics.png",
+    "scale": 1,
+    "width": 19.104476928710938,
+    "height": 20,
+    "bytes": 895,
+    "sha256": "0259a257e30e8b76bdbdaf29a3de76bc9501623c9774d64b58e6eae0307c8eea"
+  },
+  {
+    "scale": 1,
+    "node": "I7673:29385;6835:18591;6833:18589",
+    "file": "frontend/src/assets/icons/phase2.png",
+    "bytes": 8589,
+    "sha256": "7577602dbbcc1745b839f470530f8c1913e76ed1e93a747cb6d1679d1114fbb2"
+  },
+  {
+    "scale": 1,
+    "node": "I7673:29385;6835:18609;6833:18598",
+    "file": "frontend/src/assets/icons/phase4.png",
+    "bytes": 9215,
+    "sha256": "aa1dac31c4694babcb771a369ee9045d11c7af6302b4f252baa87c80dd7cab3c"
+  }
+]

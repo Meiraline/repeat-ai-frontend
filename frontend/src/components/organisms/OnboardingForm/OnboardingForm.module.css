@@ -1,0 +1,52 @@
+.form {
+  display: grid;
+  gap: 20px;
+}
+.form h1 {
+  font: 800 1.75rem/2.25rem var(--font-body);
+  margin: 0;
+}
+.description {
+  font: var(--type-body);
+  color: var(--color-muted);
+  margin: 0;
+}
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font: var(--type-label);
+  color: var(--color-muted);
+}
+.progress progress {
+  max-inline-size: 55%;
+  block-size: 8px;
+  accent-color: var(--color-primary);
+}
+.hint {
+  font: var(--type-caption);
+  color: var(--color-muted);
+  margin: 8px 0 0;
+}
+.error {
+  color: var(--color-error-text);
+  margin: 0;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+}
+.flow {
+  margin: 0;
+  padding-inline-start: 28px;
+  display: grid;
+  gap: 8px;
+}
+.flow li {
+  padding: 12px;
+  background: var(--color-background);
+  border-radius: 8px;
+  font-weight: 700;
+}

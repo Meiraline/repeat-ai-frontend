@@ -1,0 +1,231 @@
+[
+  {
+    "file": "frontend/src/assets/screens/login.png",
+    "screenNode": "5673:81",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1450054,
+    "sha256": "ae7998580313e7110547c303439911d6ba91bf30d8b8cb3ef9db9f4a26639b1b"
+  },
+  {
+    "file": "frontend/src/assets/screens/register.png",
+    "screenNode": "5591:264094",
+    "width": 1056,
+    "height": 840,
+    "bytes": 423505,
+    "sha256": "b2b415c2d78aaba5b9967e35d81e69dff936c89a37d19ca3ae80f662864d7c82"
+  },
+  {
+    "file": "frontend/src/assets/screens/restore.png",
+    "screenNode": "5673:151",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1365857,
+    "sha256": "dc28970532d213015b455b8d1ee3b32f52c244d2be4b3a3e87f22d5668f04761"
+  },
+  {
+    "file": "frontend/src/assets/screens/reset.png",
+    "screenNode": "5673:224",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1384090,
+    "sha256": "e81e168390174aefbfd56593cf5fb413314c71402f609e754dad5baef47a57ae"
+  },
+  {
+    "file": "frontend/src/assets/screens/verify.png",
+    "screenNode": "5673:6",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1495139,
+    "sha256": "7a85b9cb262a191d07bb6a08123095d4876f7d9fbcab8681103bf6cbe161a8c5"
+  },
+  {
+    "file": "frontend/src/assets/screens/reset-done.png",
+    "screenNode": "5673:297",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1286749,
+    "sha256": "d3fd78b2e5a18a8d85f556b40dc302f7450c97eed12e9605b05e08b2b228864c"
+  },
+  {
+    "file": "frontend/src/assets/screens/verified.png",
+    "screenNode": "5673:372",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1274666,
+    "sha256": "869462555b6e475004f2b0e910c093c14c2b3d029ae2c53e269aad98b065684a"
+  },
+  {
+    "file": "frontend/src/assets/screens/invalid.png",
+    "screenNode": "5673:447",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1075964,
+    "sha256": "5f3b5b6d66be2d0cf56303db676c9bd0725d4df6724ca60704536dfab4302bd3"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-intro.png",
+    "screenNode": "5776:30139",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2011454,
+    "sha256": "a247c670460477c7756d205e3b1743c59778e473371589b23e48007c995e38ec"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-courses.png",
+    "screenNode": "5776:29834",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1350525,
+    "sha256": "70ae043c5316efb4cb0b1c9e81fc22e59a96de71d20216a15110ba431a5597db"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-schedule.png",
+    "screenNode": "5776:29935",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1769038,
+    "sha256": "911622da7c9505c78d89f7d19b60898e87c221deb52ecc875aedb4a234fc8b25"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-mentor.png",
+    "screenNode": "5776:30036",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2124191,
+    "sha256": "6e101b4a395aa82fa0e417dbfb10a436ba200503a6e78fd7cc869c9da7cbf0de"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-analytics.png",
+    "screenNode": "5776:30183",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1861148,
+    "sha256": "721d62aac75bd51faf90316a49fc29c1e8dea74a0e806120a65983cc770866e8"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-knowledge.png",
+    "screenNode": "5810:30069",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2237215,
+    "sha256": "de2d848cc1693246d16ffc5b409bc7ed0ab434c29509ffbeb9d74ba98cceae84"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-exams.png",
+    "screenNode": "5810:30119",
+    "width": 1480,
+    "height": 1400,
+    "bytes": 1718048,
+    "sha256": "c8b7351fc73c7bb17de9b635e41b8b8cd2209c92d10507018d83bbf92adc2516"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-diploma.png",
+    "screenNode": "5810:30169",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1833751,
+    "sha256": "e32fff051db15b7d5dd0df22b9b92afb87343f3108fbf64079cc8dfb8c3df6cf"
+  },
+  {
+    "file": "frontend/src/assets/screens/onboard-complete.png",
+    "screenNode": "5800:30115",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1881589,
+    "sha256": "3f1f7bbfd55db3d8b94b0a33b37e404d0ce5e4f323f8bc4fe04e5a3fa535762f"
+  },
+  {
+    "file": "frontend/src/assets/screens/logo.png",
+    "screenNode": "5673:81",
+    "width": 2172,
+    "height": 724,
+    "bytes": 595985,
+    "sha256": "1e1bce6ffda2cbf0fd97f3ef73fa7729b9a4f45d87b456a3fd10bcf2b4ae376e"
+  },
+  {
+    "file": "frontend/src/assets/screens/decor.png",
+    "screenNode": "5673:81",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1965660,
+    "sha256": "eaceeb269964b4553d578c8d90181ce1c15e269c23336fdaa6d6588a0fa683b3"
+  },
+  {
+    "file": "frontend/src/assets/screens/mentor-vector.png",
+    "screenNode": "5776:30036",
+    "width": 2244,
+    "height": 2804,
+    "bytes": 2366629,
+    "sha256": "17a0fa1a23163c072aab2c538e4765b55ee10db8e059b4d36c1ffe7554f17bec"
+  },
+  {
+    "file": "frontend/src/assets/screens/mentor-lira.png",
+    "screenNode": "5776:30036",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1725122,
+    "sha256": "5fcc19aa69845b22d270f7c6ccf0140069de1e45d8cfa3fd8fd0c7010a16ef8f"
+  },
+  {
+    "file": "frontend/src/assets/screens/mentor-cypher.png",
+    "screenNode": "5776:30036",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1792342,
+    "sha256": "a2c377b4269a4b92c7fa3f970e64125b0a3dfd54ed8474f006b88e42b344733a"
+  },
+  {
+    "file": "frontend/src/assets/screens/mentor-astra.png",
+    "screenNode": "5776:30036",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1772083,
+    "sha256": "6c43a217d8518f7bc5b7f89f3e30c513166b400a5d2f4de4ec970d540cc4683b"
+  },
+  {
+    "file": "frontend/src/assets/icons/user.png",
+    "nodeId": "5649:23667",
+    "scale": 2,
+    "width": 114,
+    "height": 103,
+    "bytes": 10718,
+    "sha256": "c8001779c959d7f8bb9824938f8cbc97a973d638ed4a7b4d9d4159bca9292890"
+  },
+  {
+    "file": "frontend/src/assets/icons/brain.png",
+    "nodeId": "5760:32452",
+    "scale": 2,
+    "width": 114,
+    "height": 103,
+    "bytes": 14853,
+    "sha256": "6d974a502f752ccb93e6c2d2ab1e7941992bc0122abfc28d0e952d8d6db49db5"
+  },
+  {
+    "file": "frontend/src/assets/icons/status-info.png",
+    "nodeId": "7489:17981",
+    "scale": 1,
+    "width": 74,
+    "height": 74,
+    "bytes": 6388,
+    "sha256": "1f00ef416532a1b71af1e8ac16668894acc8c936a3075328df8a15602b476896"
+  },
+  {
+    "file": "frontend/src/assets/icons/status-success.png",
+    "nodeId": "7489:17983",
+    "scale": 1,
+    "width": 87,
+    "height": 87,
+    "bytes": 11767,
+    "sha256": "29bf37e5739c6901a66955aae0b6e889c8f08fced6d4998d71fbd68a6f7a396b"
+  },
+  {
+    "file": "frontend/src/assets/icons/status-warning.png",
+    "nodeId": "7489:17985",
+    "scale": 1,
+    "width": 86,
+    "height": 88,
+    "bytes": 8993,
+    "sha256": "cdffebfdc34e3d53e883a97478a9903a9e7cab20bd57048e8fe65c5bb53783c8"
+  }
+]

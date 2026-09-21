@@ -1,0 +1,30 @@
+.icon {
+  display: inline-flex;
+  inline-size: var(--icon-size);
+  block-size: var(--icon-size);
+  flex: 0 0 var(--icon-size);
+  vertical-align: middle;
+}
+.icon img,
+.tint {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+.tint {
+  background: currentColor;
+  mask: var(--icon-source) center / contain no-repeat;
+}
+.spin {
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spin {
+    animation: none;
+  }
+}

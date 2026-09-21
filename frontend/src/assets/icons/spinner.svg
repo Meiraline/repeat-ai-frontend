@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="76" height="74.3374" viewBox="0 0 76 74.3374" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="CMP-ATOM-SPINNER">
+<circle id="Spinner / Track" cx="36" cy="36.8499" r="29" stroke="#DDE7FA" stroke-width="6"/>
+<g id="Spinner / Arc" filter="url(#filter0_d_0_37)">
+<path d="M36 8.10498C36 6.30727 37.4611 4.83278 39.2495 5.01531C45.1317 5.61568 50.7559 7.83739 55.4804 11.4626C61.069 15.7509 65.0864 21.7635 66.9096 28.5677C68.7328 35.372 68.2599 42.5877 65.5641 49.0958C63.2852 54.5976 59.5254 59.3337 54.7315 62.7948C53.2739 63.8471 51.2713 63.3007 50.3725 61.7438V61.7438C49.4736 60.1869 50.0229 58.2118 51.4526 57.122C55.0177 54.4044 57.8194 50.7815 59.5496 46.6045C61.6969 41.4204 62.0736 35.6727 60.6214 30.2527C59.1691 24.8327 55.9689 20.0433 51.5173 16.6274C47.9304 13.8752 43.6926 12.1385 39.2463 11.5676C37.4632 11.3386 36 9.90269 36 8.10498V8.10498Z" fill="url(#paint0_linear_0_37)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_37" x="28" y="0" width="48" height="74.3374" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3"/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.15 0 0 0 0 0.39 0 0 0 0 1 0 0 0 0.28 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_37"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_37" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_0_37" x1="4" y1="36.8499" x2="68" y2="36.8499" gradientUnits="userSpaceOnUse">
+<stop stop-color="#08A6FF"/>
+<stop offset="0.52" stop-color="#2663FF"/>
+<stop offset="1" stop-color="#8C5CFF"/>
+</linearGradient>
+</defs>
+</svg>
