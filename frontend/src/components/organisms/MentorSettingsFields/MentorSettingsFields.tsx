@@ -6,6 +6,9 @@ type Values = {
   persona: keyof typeof mentorCatalog;
   help: 'hint' | 'explanation' | 'solution';
   detail: 'short' | 'balanced' | 'detailed';
+  responseLanguage: 'course' | 'ru' | 'en';
+  strictness: 'gentle' | 'balanced' | 'strict';
+  exampleFrequency: 'less' | 'normal' | 'more';
   quickAnswers: boolean;
   useAnalogies: boolean;
   guideFirst: boolean;
@@ -161,6 +164,63 @@ export function MentorSettingsFields({
       </fieldset>
       <fieldset className={styles.initiative}>
         <legend>Расширенное поведение</legend>
+        <div className={styles.styleGrid}>
+          <div className={styles.options}>
+            <label htmlFor={`${id}-responseLanguage`}>Язык ответов</label>
+            <select
+              id={`${id}-responseLanguage`}
+              value={value.responseLanguage}
+              onChange={(event) =>
+                onChange({
+                  ...value,
+                  responseLanguage: event.target.value as Values['responseLanguage'],
+                })
+              }
+              aria-describedby={`${id}-language-note`}
+            >
+              <option value="course">Как в курсе</option>
+              <option value="ru">Русский</option>
+              <option value="en">Английский</option>
+            </select>
+          </div>
+          <div className={styles.options}>
+            <label htmlFor={`${id}-strictness`}>Требовательность</label>
+            <select
+              id={`${id}-strictness`}
+              value={value.strictness}
+              onChange={(event) =>
+                onChange({ ...value, strictness: event.target.value as Values['strictness'] })
+              }
+            >
+              <option value="gentle">Мягкая</option>
+              <option value="balanced">Сбалансированная</option>
+              <option value="strict">Высокая</option>
+            </select>
+          </div>
+          <div className={styles.options}>
+            <label htmlFor={`${id}-exampleFrequency`}>Частота примеров</label>
+            <select
+              id={`${id}-exampleFrequency`}
+              value={value.exampleFrequency}
+              onChange={(event) =>
+                onChange({
+                  ...value,
+                  exampleFrequency: event.target.value as Values['exampleFrequency'],
+                })
+              }
+            >
+              <option value="less">Реже</option>
+              <option value="normal">Обычно</option>
+              <option value="more">Чаще</option>
+            </select>
+          </div>
+        </div>
+        <p id={`${id}-language-note`}>
+          Язык применяется к демонстрационным примерам и подсказке требовательности, интерфейс
+          остаётся русским. «Как в курсе» пока использует русский: язык курса ещё не передаётся
+          сервером. Требовательность не меняет оценки. Частота примеров в демонстрации: ни одного,
+          один или два.
+        </p>
         <p>
           В демонстрации используются шаблонные сравнения и вопросы. Реальный AI пока не подключён.
         </p>

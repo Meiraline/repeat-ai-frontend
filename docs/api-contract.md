@@ -1,5 +1,7 @@
 # API: фактический снимок и открытые вопросы
 
+Параметры обучения: preview `preferences` дополнен `responseLanguage` (`course|ru|en`), `strictness` (`gentle|balanced|strict`), `exampleFrequency` (`less|normal|more`). Defaults: `course`, `balanced`, `normal`. Языка курса в DTO нет; fallback — русский. Применение в деморежиме ограничено отдельными учебными примерами и подсказкой. [Контракт и ограничения](stage9-teaching-preferences.md). Это не согласованный backend API.
+
 Расширенное поведение: `preferences` preview-чата дополнен boolean-полями `quickAnswers`, `useAnalogies`, `guideFirst`, `askClarifying` с default false. Снимок нормализуется перед сравнением повторного ключа; эффективные формат и подробность вычисляются отдельно и не изменяют снимок. [Приоритеты деморежима](stage9-advanced-mentor.md). Это предложение фронтенда, не согласованный контракт реального AI.
 
 Стиль наставника: `preferences` preview-чата дополнен `tone` (`professional|friendly|concise`), `warmth`, `enthusiasm`, `structure`, `emoji` (каждый `less|default|more`). Старые записи нормализуются к `professional` и `default`. Снимок входит в проверку повторного ключа. [Поведение и ограничения](stage9-communication-style.md).

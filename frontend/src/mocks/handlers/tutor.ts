@@ -11,6 +11,7 @@ import { mockAuthenticated, mockUnauthorized } from './auth';
 import { findLearning } from '../fixtures/learning-store';
 import { resolveMentorDemoBehavior, mentorDemoAdditions } from '../fixtures/mentor-behavior';
 import { applyMentorDemoStyle } from '../fixtures/mentor-style';
+import { mentorTeachingSamples } from '../fixtures/mentor-teaching';
 type RecordData = {
   threads: TutorThread[];
   creates: Record<string, { fingerprint: string; id: string }>;
@@ -217,6 +218,7 @@ export const tutorHandlers = [
         text: 'Практика (демонстрация): придумайте свой пример применения темы и опишите три шага решения.',
       });
     blocks.push(...mentorDemoAdditions(preferences));
+    blocks.push(...mentorTeachingSamples(preferences));
     const response = {
       id: answer?.id ?? crypto.randomUUID(),
       role: 'assistant' as const,

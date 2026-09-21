@@ -12,6 +12,9 @@ test('settings persist, affect new answers and preserve partial answer snapshots
 }, info) => {
   const id = await start(page);
   await page.goto('/app/settings#mentor');
+  await page.getByLabel('Язык ответов', { exact: true }).selectOption('en');
+  await page.getByLabel('Требовательность', { exact: true }).selectOption('strict');
+  await page.getByLabel('Частота примеров', { exact: true }).selectOption('more');
   for (const name of behaviorControls)
     await page.getByRole('checkbox', { name, exact: true }).check();
   await page.getByRole('radio', { name: 'Вектор', exact: true }).check();
@@ -24,6 +27,9 @@ test('settings persist, affect new answers and preserve partial answer snapshots
     await page.getByRole('checkbox', { name, exact: true }).check();
   await page.getByRole('button', { name: 'Сохранить настройки наставника', exact: true }).click();
   await page.reload();
+  await expect(page.getByLabel('Язык ответов', { exact: true })).toHaveValue('en');
+  await expect(page.getByLabel('Требовательность', { exact: true })).toHaveValue('strict');
+  await expect(page.getByLabel('Частота примеров', { exact: true })).toHaveValue('more');
   for (const name of behaviorControls)
     await expect(page.getByRole('checkbox', { name, exact: true })).toBeChecked();
   await expect(page.getByRole('radio', { name: 'Вектор', exact: true })).toBeChecked();
@@ -63,6 +69,9 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   await expect(page.getByRole('button', { name: 'Восстановить ответ' })).toBeVisible();
   const chat = page.url();
   await page.goto('/app/settings#mentor');
+  await page.getByLabel('Язык ответов', { exact: true }).selectOption('ru');
+  await page.getByLabel('Требовательность', { exact: true }).selectOption('gentle');
+  await page.getByLabel('Частота примеров', { exact: true }).selectOption('less');
   for (const name of behaviorControls)
     await page.getByRole('checkbox', { name, exact: true }).uncheck();
   await page.getByRole('radio', { name: 'Астра', exact: true }).check();
@@ -78,6 +87,8 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   await page.getByRole('button', { name: 'Восстановить ответ' }).click();
   const answers = page.getByRole('article', { name: 'Ответ репетитора' });
   await expect(answers.first()).toContainText('Вектор');
+  await expect(answers.first()).toContainText('Justify each step');
+  await expect(answers.first()).toContainText('Учебный пример 2 (демонстрация): To check a rule');
   await expect(answers.first()).toContainText('Демонстрация настроек · Подробно. Подсказка:');
   await expect(answers.first()).toContainText('Аналогия (демонстрация)');
   await expect(answers.first()).toContainText('Уточнение (демонстрация)');
@@ -96,6 +107,8 @@ test('settings persist, affect new answers and preserve partial answer snapshots
   await page.getByRole('button', { name: 'Отправить', exact: true }).click();
   await expect(answers).toHaveCount(2);
   await expect(answers.last()).toContainText('Астра');
+  await expect(answers.last()).toContainText('Попробуйте один небольшой шаг');
+  await expect(answers.last()).not.toContainText('Учебный пример');
   await expect(answers.last()).not.toContainText('Аналогия (демонстрация)');
   await expect(answers.last()).not.toContainText('Уточнение (демонстрация)');
   await expect(answers.last()).toContainText('Демонстрация настроек · Кратко. Подсказка:');
@@ -114,12 +127,18 @@ test('cancel, reset and storage failure do not falsely report success', async ({
   await page.getByLabel('Email', { exact: true }).fill('student@example.test');
   await page.getByLabel('Пароль', { exact: true }).fill('Repeat123');
   await page.getByRole('button', { name: 'Войти', exact: true }).click();
+  await page.getByLabel('Язык ответов', { exact: true }).selectOption('en');
   await page.getByRole('radio', { name: 'Вектор', exact: true }).check();
   await page.getByRole('button', { name: 'Отменить настройки наставника', exact: true }).click();
+  await expect(page.getByLabel('Язык ответов', { exact: true })).toHaveValue('course');
+  await page.getByLabel('Требовательность', { exact: true }).selectOption('strict');
+  await page.getByLabel('Частота примеров', { exact: true }).selectOption('more');
   await expect(page.getByRole('radio', { name: 'Лира', exact: true })).toBeChecked();
   await page.getByRole('radio', { name: 'Вектор', exact: true }).check();
   await page.getByRole('button', { name: 'Сохранить настройки наставника', exact: true }).click();
   await page.getByRole('button', { name: 'Сбросить наставника', exact: true }).click();
+  await expect(page.getByLabel('Требовательность', { exact: true })).toHaveValue('balanced');
+  await expect(page.getByLabel('Частота примеров', { exact: true })).toHaveValue('normal');
   await expect(page.getByRole('radio', { name: 'Лира', exact: true })).toBeChecked();
   await page.evaluate(() => {
     const original = Storage.prototype.setItem;
